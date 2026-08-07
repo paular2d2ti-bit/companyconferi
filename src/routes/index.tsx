@@ -1,7 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { SiteHeader } from "@/components/site-header";
 import { Hero } from "@/components/hero";
+import { PainSection } from "@/components/pain-section";
 import { IntroSection } from "@/components/intro-section";
+import { BenefitsSection } from "@/components/benefits-section";
+import { HowItWorksSection } from "@/components/how-it-works-section";
+import { FinalCtaSection } from "@/components/final-cta-section";
+import { Footer } from "@/components/footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,10 +32,17 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <main>
+    <div className="flex min-h-screen flex-col">
       <SiteHeader />
-      <Hero />
-      <IntroSection />
-    </main>
+      <main className="flex-grow">
+        <Hero />
+        <PainSection />
+        <IntroSection />
+        <BenefitsSection />
+        <HowItWorksSection />
+        <FinalCtaSection />
+      </main>
+      <Footer />
+    </div>
   );
 }

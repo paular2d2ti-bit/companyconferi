@@ -1,6 +1,6 @@
 export function IntroSection() {
   return (
-    <section id="solucoes" className="bg-background py-32 sm:py-44">
+    <section id="solucoes" className="bg-[#F5F7F8] py-32 sm:py-44">
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-16 lg:grid-cols-12 lg:gap-24">
           <div className="lg:col-span-5">
