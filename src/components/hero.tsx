@@ -46,9 +46,8 @@ export function Hero() {
               Conhecer a plataforma
             </a>
           </div>
-          </div>
         </div>
-
+        
         <div className="hidden lg:ml-auto lg:block">
           <div className="grid grid-cols-2 gap-4">
             {[
