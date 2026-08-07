@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
 
 const links = [
+  { label: "Problema", href: "#problema" },
   { label: "Soluções", href: "#solucoes" },
-  { label: "Para quem é", href: "#publico" },
-  { label: "Contato", href: "#contato" },
+  { label: "Benefícios", href: "#beneficios" },
+  { label: "Como funciona", href: "#como-funciona" },
 ];
 
 export function SiteHeader() {
@@ -39,12 +40,20 @@ export function SiteHeader() {
           ))}
         </nav>
 
-        <a
-          href="#contato"
-          className="bg-teal text-accent-foreground hover:bg-teal/90 rounded-full px-5 py-2.5 text-sm font-medium transition-colors"
-        >
-          Solicitar demonstração
-        </a>
+        <div className="flex items-center gap-4">
+          <a
+            href="#"
+            className="text-primary-foreground/70 hover:text-primary-foreground hidden text-sm font-medium transition-colors sm:block"
+          >
+            Acessar plataforma
+          </a>
+          <a
+            href="#contato"
+            className="bg-teal text-accent-foreground hover:bg-teal/90 rounded-full px-5 py-2.5 text-sm font-medium transition-colors"
+          >
+            Solicitar demonstração
+          </a>
+        </div>
       </div>
     </header>
   );
