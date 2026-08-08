@@ -92,8 +92,8 @@
   --input: oklch(0.92 0.008 250);
   --ring: oklch(0.66 0.106 185);
   --navy: oklch(0.23 0.078 264);
-  --navy-deep: oklch(0.18 0.06 264);
-  --teal: oklch(0.66 0.106 185);
+  --navy-deep: #031322;
+  --teal: #22E38A;
   --surface: oklch(0.975 0.003 250);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);

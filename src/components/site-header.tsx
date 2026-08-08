@@ -29,15 +29,7 @@ export function SiteHeader() {
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
-          {links.map((l) => (
-            <a
-              key={l.href}
-              href={l.href}
-              className="text-primary-foreground/70 hover:text-primary-foreground text-sm transition-colors"
-            >
-              {l.label}
-            </a>
-          ))}
+          {/* Menus removidos conforme solicitação: manter apenas logo e botão */}
         </nav>
 
         <div className="flex items-center gap-4">
