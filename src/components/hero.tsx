@@ -4,25 +4,10 @@ import heroCar from "@/assets/hero-car.jpg";
 export function Hero() {
   return (
     <div className="bg-[#031322] px-4 py-8 md:px-8 lg:px-12">
-      <section className="relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031322] min-h-[760px] lg:min-h-[820px] flex items-stretch">
-        {/* Background Image & Overlays */}
-        <div className="absolute inset-0 z-0">
-          <img
-            src={heroCar}
-            alt="Showroom automotivo premium"
-            className="absolute right-0 top-0 h-full w-full object-cover object-center lg:w-[65%] xl:w-[60%]"
-          />
-          {/* Horizontal Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#031322] via-[#031322]/92 via-38% to-[#031322]/20 to-70% lg:to-transparent lg:to-100%" />
-          {/* Vignette and Dark Overlay */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(3,19,34,0.4)_100%)]" />
-          <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#031322]/60 to-transparent" />
-        </div>
-
-        {/* Content Container */}
-        <div className="relative z-10 flex w-full flex-col lg:flex-row">
+      <section className="relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031322] min-h-[760px] lg:min-h-[820px]">
+        <div className="flex h-full min-h-[760px] lg:min-h-[820px] flex-col lg:grid lg:grid-cols-[48%_52%]">
           {/* Left Column (Text Content) */}
-          <div className="flex w-full flex-col justify-center px-8 py-20 lg:w-[45%] lg:pl-16 lg:pr-8">
+          <div className="relative z-10 flex w-full flex-col justify-center px-8 py-20 lg:px-16">
             <div className="max-w-[620px]">
               <span className="text-[#22E38A] text-sm md:text-base font-semibold uppercase tracking-wider">
                 LIDERANÇA EM TECNOLOGIA AUTOMOTIVA
@@ -72,39 +57,53 @@ export function Hero() {
             </div>
           </div>
 
-          {/* Right Column (Image space with floating cards) */}
-          <div className="relative hidden flex-1 lg:block">
-            {/* Floating Glassmorphism Cards */}
-            <div 
-              className="absolute right-12 top-24 w-64 rounded-[12px] border border-white/12 bg-[#030F1C]/78 p-6 shadow-2xl backdrop-blur-[10px]"
-              style={{ transition: 'transform 0.3s ease' }}
-            >
-              <div className="flex items-center justify-between mb-4">
-                <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40">Status do Veículo</span>
-                <span className="h-2 w-2 rounded-full bg-[#22E38A] shadow-[0_0_8px_#22E38A]" />
-              </div>
-              <div className="text-2xl font-bold text-[#22E38A]">Aprovado</div>
-              <div className="mt-2 text-xs text-white/60">Vistoria cautelar concluída</div>
+          {/* Right Column (Image and Floating Cards) */}
+          <div className="relative h-[500px] lg:h-auto overflow-hidden">
+            <div className="absolute inset-0 z-0">
+              <img
+                src={heroCar}
+                alt="Showroom automotivo premium"
+                className="h-full w-full object-cover object-center"
+              />
+              {/* Horizontal Gradient Overlay on the image itself */}
+              <div className="absolute inset-0 bg-gradient-to-r from-[#031322] via-[#031322]/92 via-38% to-[#031322]/20 to-70% lg:to-transparent lg:to-100%" />
+              {/* Vignette and Dark Overlay */}
+              <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_0%,rgba(3,19,34,0.4)_100%)]" />
+              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#031322]/60 to-transparent" />
             </div>
 
-            <div 
-              className="absolute right-32 bottom-32 w-72 rounded-[12px] border border-white/12 bg-[#030F1C]/78 p-6 shadow-2xl backdrop-blur-[10px]"
-            >
-              <div className="flex items-center gap-4 mb-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
-                  <ShieldCheck className="h-6 w-6" />
+            {/* Floating Glassmorphism Cards (desktop only for better control) */}
+            <div className="relative z-10 hidden h-full lg:block">
+              <div 
+                className="absolute right-12 top-24 w-64 rounded-[12px] border border-white/12 bg-[#030F1C]/78 p-6 shadow-2xl backdrop-blur-[10px]"
+              >
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40">Status do Veículo</span>
+                  <span className="h-2 w-2 rounded-full bg-[#22E38A] shadow-[0_0_8px_#22E38A]" />
                 </div>
-                <div>
-                  <div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40">Garantia</div>
-                  <div className="text-lg font-bold text-white">Certificado Gold</div>
+                <div className="text-2xl font-bold text-[#22E38A]">Aprovado</div>
+                <div className="mt-2 text-xs text-white/60">Vistoria cautelar concluída</div>
+              </div>
+
+              <div 
+                className="absolute right-32 bottom-32 w-72 rounded-[12px] border border-white/12 bg-[#030F1C]/78 p-6 shadow-2xl backdrop-blur-[10px]"
+              >
+                <div className="flex items-center gap-4 mb-3">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
+                    <ShieldCheck className="h-6 w-6" />
+                  </div>
+                  <div>
+                    <div className="text-[10px] font-semibold uppercase tracking-[0.2em] text-white/40">Garantia</div>
+                    <div className="text-lg font-bold text-white">Certificado Gold</div>
+                  </div>
                 </div>
-              </div>
-              <div className="h-1.5 w-full rounded-full bg-white/10">
-                <div className="h-full w-[98%] rounded-full bg-[#22E38A]" />
-              </div>
-              <div className="mt-2 flex justify-between text-[10px] text-white/60">
-                <span>Confiabilidade</span>
-                <span>98%</span>
+                <div className="h-1.5 w-full rounded-full bg-white/10">
+                  <div className="h-full w-[98%] rounded-full bg-[#22E38A]" />
+                </div>
+                <div className="mt-2 flex justify-between text-[10px] text-white/60">
+                  <span>Confiabilidade</span>
+                  <span>98%</span>
+                </div>
               </div>
             </div>
           </div>
