@@ -174,3 +174,16 @@
   backdrop-filter: blur(16px);
   border: 1px solid color-mix(in oklab, white 16%, transparent);
 }
+
+@utility animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
