@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
 const links = [
+  { label: "Problema", href: "#problema" },
   { label: "Soluções", href: "#solucoes" },
-  { label: "Como funciona", href: "#como-funciona" },
   { label: "Benefícios", href: "#beneficios" },
-  { label: "Sobre a Company", href: "#sobre" },
+  { label: "Como funciona", href: "#como-funciona" },
 ];
 
 export function SiteHeader() {
@@ -25,7 +25,7 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
         <a href="#" className="text-primary-foreground text-lg font-semibold tracking-tight">
-          Company Conferi
+          Conferi
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
@@ -51,7 +51,7 @@ export function SiteHeader() {
             href="#contato"
             className="bg-teal text-accent-foreground hover:bg-teal/90 rounded-full px-5 py-2.5 text-sm font-medium transition-colors"
           >
-            Falar com um especialista
+            Solicitar demonstração
           </a>
         </div>
       </div>

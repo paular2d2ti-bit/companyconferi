@@ -36,16 +36,13 @@ function Index() {
       <SiteHeader />
       <main className="flex-grow">
         <Hero />
-      </main>
-      {/* 
-        Temporarily hiding blocks until ready to proceed 
         <PainSection />
         <IntroSection />
         <BenefitsSection />
         <HowItWorksSection />
         <FinalCtaSection />
-        <Footer />
-      */}
+      </main>
+      <Footer />
     </div>
   );
 }
