@@ -15,7 +15,7 @@ export function BenefitsSection() {
   ];
 
   return (
-    <section id="beneficios" className="bg-white py-32 sm:py-44">
+    <section id="beneficios" className="bg-[#FFFFFF] py-32 sm:py-40">
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center">
           <p className="text-teal text-xs font-medium tracking-widest uppercase">Vantagens</p>
