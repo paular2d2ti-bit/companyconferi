@@ -1,6 +1,6 @@
 export function FinalCtaSection() {
   return (
-    <section id="contato" className="bg-navy relative overflow-hidden py-32 sm:py-44">
+    <section id="contato" className="bg-[#031426] relative overflow-hidden py-32 sm:py-40">
       <div className="from-navy-deep absolute inset-0 bg-gradient-to-b to-transparent opacity-50" />
       
       <div className="relative mx-auto max-w-4xl px-6 text-center">

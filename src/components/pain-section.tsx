@@ -1,6 +1,6 @@
 export function PainSection() {
   return (
-    <section id="problema" className="bg-white py-32 sm:py-44">
+    <section id="problema" className="bg-[#FFFFFF] py-32 sm:py-40">
       <div className="mx-auto max-w-6xl px-6">
         <div className="max-w-3xl">
           <p className="text-teal text-xs font-medium tracking-widest uppercase">O desafio</p>
