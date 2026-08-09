@@ -4,71 +4,74 @@ import heroCar from "@/assets/hero-car.jpg";
 export function Hero() {
   return (
     <div className="bg-white px-4 py-6 md:px-8 lg:px-12">
-      <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] grid grid-cols-1 md:grid-cols-[46%_54%] min-h-[580px] md:h-[620px] items-stretch w-full">
-        {/* COLUNA ESQUERDA — 46% */}
-        <div className="hero-left relative z-10 flex w-full flex-col justify-center px-8 py-12 md:py-16 lg:px-16 lg:pl-[64px] lg:pr-[40px]">
-          <div className="max-w-[580px]">
-            <span className="text-[#22E38A] text-sm font-semibold uppercase tracking-wider">
-              LIDERANÇA EM TECNOLOGIA AUTOMOTIVA
-            </span>
+      <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] grid grid-cols-1 md:grid-cols-[48%_52%] min-h-[520px] md:h-[580px] items-stretch w-full shadow-2xl">
+        {/* COLUNA ESQUERDA — 48% */}
+        <div className="hero-left relative z-10 flex w-full flex-col justify-center px-8 py-10 md:py-12 lg:px-16 lg:pl-[64px]">
+          <div className="max-w-[540px]">
+            <div className="inline-flex items-center gap-2 rounded-full bg-[#22E38A]/10 px-3 py-1 mb-6">
+              <div className="h-1.5 w-1.5 rounded-full bg-[#22E38A] animate-pulse" />
+              <span className="text-[#22E38A] text-[10px] font-bold uppercase tracking-[0.15em]">
+                Liderança em Tecnologia Automotiva
+              </span>
+            </div>
             
-            <h1 className="mt-6 text-4xl font-bold leading-[1.1] text-white md:text-5xl lg:text-[56px]">
+            <h1 className="text-4xl font-bold leading-[1.1] text-white md:text-5xl lg:text-[52px]">
               Acelere sua <span className="text-[#22E38A]">gestão</span> com inteligência de ponta.
             </h1>
             
-            <p className="mt-6 text-[17px] md:text-[19px] leading-relaxed text-[#C7D0D9]">
+            <p className="mt-6 text-base md:text-lg leading-relaxed text-[#C7D0D9]/90">
               A plataforma completa para agências e revendas que buscam máxima performance, 
-              segurança e controle absoluto sobre o estoque e operações.
+              segurança e controle absoluto sobre o estoque.
             </p>
             
-            <div className="mt-10 flex flex-col items-center gap-6 sm:flex-row">
-              <button className="h-[52px] w-full rounded-[10px] bg-[#22E38A] px-10 text-[15px] font-bold text-[#031426] transition-transform hover:scale-[1.02] active:scale-[0.98] sm:w-auto">
+            <div className="mt-8 flex flex-col items-center gap-6 sm:flex-row">
+              <button className="h-[52px] w-full rounded-[10px] bg-[#22E38A] px-10 text-[15px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] sm:w-auto shadow-lg shadow-[#22E38A]/20">
                 Agendar Demonstração
               </button>
               
               <div className="flex items-center gap-3">
                 <div className="flex -space-x-2">
                   {[1, 2, 3].map((i) => (
-                    <div key={i} className="h-7 w-7 rounded-full border-2 border-[#031426] bg-gray-600" />
+                    <div key={i} className="h-7 w-7 rounded-full border-2 border-[#031426] bg-gray-700 overflow-hidden shadow-inner" />
                   ))}
                 </div>
-                <span className="text-xs font-medium text-white/70">
+                <span className="text-xs font-medium text-white/50">
                   +500 agências confiam
                 </span>
               </div>
             </div>
 
-            {/* Metrics Grid */}
-            <div className="mt-12 grid grid-cols-2 gap-6 border-t border-white/10 pt-8 sm:grid-cols-4">
+            {/* Metrics Grid - More subtle */}
+            <div className="mt-10 grid grid-cols-2 gap-8 border-t border-white/5 pt-8 sm:grid-cols-4">
               {[
                 { icon: <BarChart3 className="w-4 h-4" />, label: "Vendas", value: "+24%" },
                 { icon: <ShieldCheck className="w-4 h-4" />, label: "Segurança", value: "100%" },
                 { icon: <Users className="w-4 h-4" />, label: "Clientes", value: "8.5k" },
                 { icon: <CheckCircle2 className="w-4 h-4" />, label: "Status", value: "Pro" },
               ].map((item, idx) => (
-                <div key={idx} className="flex flex-col gap-1">
-                  <div className="text-[#22E38A]">{item.icon}</div>
-                  <span className="text-xl font-bold text-white">{item.value}</span>
-                  <span className="text-[10px] font-medium uppercase tracking-wider text-[#C7D0D9]/60">{item.label}</span>
+                <div key={idx} className="flex flex-col gap-1.5">
+                  <div className="text-[#22E38A]/70">{item.icon}</div>
+                  <span className="text-xl font-bold text-white leading-none">{item.value}</span>
+                  <span className="text-[9px] font-bold uppercase tracking-widest text-white/30">{item.label}</span>
                 </div>
               ))}
             </div>
           </div>
         </div>
 
-        {/* COLUNA DIREITA — 54% */}
-        <div className="hero-right relative min-h-[400px] md:min-h-full overflow-hidden flex items-center justify-end">
-          <div className="relative w-full h-full md:w-[70%] lg:w-[70%]">
+        {/* COLUNA DIREITA — 52% */}
+        <div className="hero-right relative min-h-[350px] md:min-h-full overflow-hidden flex items-center justify-end bg-[#020d1a]">
+          <div className="relative w-full h-full md:w-[85%] lg:w-[85%] transform md:translate-x-4 lg:translate-x-8">
              <img
               src={heroCar}
               alt="Showroom automotivo premium"
-              className="h-full w-full object-cover object-[center_right]"
+              className="h-full w-full object-cover object-[center_right] opacity-70 grayscale-[0.2]"
             />
-            {/* Soft Horizontal Overlay as per spec */}
+            {/* Soft Gradient Mask for cleaner text integration */}
             <div 
               className="absolute inset-0 pointer-events-none" 
               style={{
-                background: 'linear-gradient(90deg, #031426 0%, rgba(3,20,38,.55) 25%, rgba(3,20,38,.08) 60%)'
+                background: 'linear-gradient(90deg, #031426 0%, rgba(3,20,38,.4) 20%, transparent 60%)'
               }}
             />
           </div>
