@@ -70,10 +70,10 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-transparent to-transparent opacity-40 md:opacity-20" />
 
           
-          {/* Floating Glassmorphism Cards - Subtle and small */}
+          {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
           <div className="absolute inset-0 z-10 hidden lg:block pointer-events-none">
             <div 
-              className="absolute right-[10%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[15%] top-24 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Status</span>
