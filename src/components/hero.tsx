@@ -1,5 +1,5 @@
 import { CheckCircle2, ShieldCheck, BarChart3, Users } from "lucide-react";
-import heroCar from "@/assets/hero-car-new.jpg";
+import heroCar from "@/assets/hero-car.jpg";
 
 export function Hero() {
   return (
@@ -60,19 +60,20 @@ export function Hero() {
         </div>
 
         {/* COLUNA DIREITA — 52% */}
-        <div className="hero-right relative min-h-[350px] md:min-h-full flex items-center justify-center p-6 md:p-12">
-          <div className="relative w-full max-w-[70%] aspect-[16/10] md:aspect-auto md:h-[70%] flex items-center justify-center">
-             <img
-              src={heroCar}
-              alt="Veículo premium"
-              className="max-h-full max-w-full object-contain"
-            />
-          </div>
+        <div className="hero-right relative overflow-hidden">
+          <img
+            src={heroCar}
+            alt="Veículo premium em showroom"
+            className="absolute inset-0 h-full w-full object-cover object-[center_right]"
+          />
+          {/* Subtle overlay for the integrated look */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-transparent to-transparent opacity-40 md:opacity-20" />
+
           
-          {/* Floating Glassmorphism Cards - Subtle and small */}
+          {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
           <div className="absolute inset-0 z-10 hidden lg:block pointer-events-none">
             <div 
-              className="absolute right-[10%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[15%] top-24 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Status</span>
@@ -83,7 +84,7 @@ export function Hero() {
             </div>
 
             <div 
-              className="absolute right-[5%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[10%] bottom-28 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center gap-3 mb-2">
                 <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
