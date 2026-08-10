@@ -1,5 +1,5 @@
 import { CheckCircle2, ShieldCheck, BarChart3, Users } from "lucide-react";
-import heroCar from "@/assets/hero-car.jpg";
+import heroCar from "@/assets/hero-car-new.jpg";
 
 export function Hero() {
   return (
@@ -64,10 +64,11 @@ export function Hero() {
           <img
             src={heroCar}
             alt="Veículo premium em showroom"
-            className="absolute inset-0 h-full w-full object-cover object-[center_right]"
+            className="absolute inset-0 h-full w-full object-cover object-[center_right] transition-opacity duration-700"
           />
-          {/* Subtle overlay for the integrated look */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-transparent to-transparent opacity-40 md:opacity-20" />
+          {/* Enhanced transition gradient for a smoother integrated look */}
+          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#031426] to-transparent z-10" />
+          <div className="absolute inset-0 bg-[#031426]/10" />
 
           
           {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
