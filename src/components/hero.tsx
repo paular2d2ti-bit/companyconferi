@@ -74,7 +74,7 @@ export function Hero() {
           {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
           <div className="absolute inset-0 z-20 hidden lg:block pointer-events-none">
             <div 
-              className="absolute right-[10%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[8%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Status</span>
@@ -85,7 +85,7 @@ export function Hero() {
             </div>
 
             <div 
-              className="absolute right-[5%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[12%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center gap-3 mb-2">
                 <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
