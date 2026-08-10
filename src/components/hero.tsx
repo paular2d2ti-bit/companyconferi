@@ -60,14 +60,15 @@ export function Hero() {
         </div>
 
         {/* COLUNA DIREITA — 52% */}
-        <div className="hero-right relative min-h-[350px] md:min-h-full flex items-center justify-center p-6 md:p-12">
-          <div className="relative w-full max-w-[70%] aspect-[16/10] md:aspect-auto md:h-[70%] flex items-center justify-center">
-             <img
-              src={heroCar}
-              alt="Veículo premium"
-              className="max-h-full max-w-full object-contain"
-            />
-          </div>
+        <div className="hero-right relative overflow-hidden">
+          <img
+            src={heroCar}
+            alt="Veículo premium em showroom"
+            className="absolute inset-0 h-full w-full object-cover object-[center_right]"
+          />
+          {/* Subtle overlay for the integrated look */}
+          <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-transparent to-transparent opacity-40 md:opacity-20" />
+
           
           {/* Floating Glassmorphism Cards - Subtle and small */}
           <div className="absolute inset-0 z-10 hidden lg:block pointer-events-none">
