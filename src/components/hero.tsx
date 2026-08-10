@@ -67,8 +67,8 @@ export function Hero() {
             className="absolute inset-0 h-full w-full object-cover object-[center_left] transition-opacity duration-700 scale-x-[-1]"
           />
           {/* Enhanced transition gradient for a smoother integrated look */}
-          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#031426] to-transparent z-10" />
-          <div className="absolute inset-0 bg-[#031426]/10" />
+          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />
+          <div className="absolute inset-0 bg-[#031426]/30" />
 
           
           {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
