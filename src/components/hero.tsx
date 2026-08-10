@@ -1,5 +1,5 @@
 import { CheckCircle2, ShieldCheck, BarChart3, Users } from "lucide-react";
-import heroCar from "@/assets/hero-car.jpg";
+import heroCar from "@/assets/hero-car-new.jpg";
 
 export function Hero() {
   return (
