@@ -67,7 +67,7 @@ export function Hero() {
             className="absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-700"
           />
           {/* Enhanced transition gradient for a smoother integrated look */}
-          <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/40 to-transparent z-10" />
+          <div className="absolute inset-y-0 left-0 w-3/5 bg-gradient-to-r from-[#031426] via-[#031426]/75 to-transparent z-10" />
           <div className="absolute inset-0 bg-[#031426]/10" />
 
           
