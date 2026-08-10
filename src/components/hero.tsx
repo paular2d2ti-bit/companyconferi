@@ -60,45 +60,38 @@ export function Hero() {
         </div>
 
         {/* COLUNA DIREITA — 52% */}
-        <div className="hero-right relative min-h-[350px] md:min-h-full overflow-hidden flex items-center justify-end bg-[#020d1a]">
-          <div className="relative w-full h-full md:w-[85%] lg:w-[85%] transform md:translate-x-4 lg:translate-x-8">
+        <div className="hero-right relative min-h-[350px] md:min-h-full flex items-center justify-center p-6 md:p-12">
+          <div className="relative w-full max-w-[70%] aspect-[16/10] md:aspect-auto md:h-[70%] flex items-center justify-center">
              <img
               src={heroCar}
-              alt="Showroom automotivo premium"
-              className="h-full w-full object-cover object-[center_right] opacity-70 grayscale-[0.2]"
-            />
-            {/* Soft Gradient Mask for cleaner text integration */}
-            <div 
-              className="absolute inset-0 pointer-events-none" 
-              style={{
-                background: 'linear-gradient(90deg, #031426 0%, rgba(3,20,38,.4) 20%, transparent 60%)'
-              }}
+              alt="Veículo premium"
+              className="max-h-full max-w-full object-contain"
             />
           </div>
           
           {/* Floating Glassmorphism Cards - Subtle and small */}
           <div className="absolute inset-0 z-10 hidden lg:block pointer-events-none">
             <div 
-              className="absolute right-[15%] top-20 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-5 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[10%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
-              <div className="flex items-center justify-between mb-3">
+              <div className="flex items-center justify-between mb-2">
                 <span className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Status</span>
                 <span className="h-1.5 w-1.5 rounded-full bg-[#22E38A]" />
               </div>
-              <div className="text-xl font-bold text-[#22E38A]">Aprovado</div>
+              <div className="text-lg font-bold text-[#22E38A]">Aprovado</div>
               <div className="mt-1 text-[10px] text-white/50">Vistoria cautelar 100%</div>
             </div>
 
             <div 
-              className="absolute right-[8%] bottom-24 w-60 rounded-[10px] border border-white/10 bg-[#031426]/60 p-5 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[5%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center gap-3 mb-2">
-                <div className="flex h-8 w-8 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
-                  <ShieldCheck className="h-4 w-4" />
+                <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
+                  <ShieldCheck className="h-3.5 w-3.5" />
                 </div>
                 <div>
                   <div className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Garantia</div>
-                  <div className="text-base font-bold text-white">Certificado Gold</div>
+                  <div className="text-sm font-bold text-white">Certificado Gold</div>
                 </div>
               </div>
               <div className="h-1 w-full rounded-full bg-white/10">
