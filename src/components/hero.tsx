@@ -4,7 +4,7 @@ import heroCar from "@/assets/hero-car-dealership-dark-v2.jpg";
 export function Hero() {
   return (
     <div className="bg-white px-4 py-6 md:px-8 lg:px-12">
-      <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] grid grid-cols-1 lg:grid-cols-[42%_58%] min-h-[600px] md:min-h-[680px] items-stretch w-full shadow-2xl">
+      <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] grid grid-cols-1 md:grid-cols-[48%_52%] min-h-[520px] md:h-[580px] items-stretch w-full shadow-2xl">
         {/* COLUNA ESQUERDA — 48% */}
         <div className="hero-left relative z-10 flex w-full flex-col justify-center px-8 py-10 md:py-12 lg:px-16 lg:pl-[64px]">
           <div className="max-w-[540px]">
@@ -60,15 +60,15 @@ export function Hero() {
         </div>
 
         {/* COLUNA DIREITA — 52% */}
-        <div className="hero-right relative overflow-hidden bg-[#031426]">
+        <div className="hero-right relative overflow-hidden bg-gradient-to-l from-[#031426] to-[#031426]/80">
           <img
             src={heroCar}
             alt="Veículo premium em showroom"
             className="absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-700"
           />
-          {/* Transition gradient - wider for a more natural fade between text and image */}
-          <div className="absolute inset-y-0 left-0 w-3/4 bg-gradient-to-r from-[#031426] via-[#031426]/80 to-transparent z-10" />
-
+          {/* Enhanced transition gradient for a smoother integrated look */}
+          <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/40 to-transparent z-10" />
+          <div className="absolute inset-0 bg-[#031426]/10" />
 
           
           {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
