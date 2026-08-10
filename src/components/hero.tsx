@@ -60,15 +60,15 @@ export function Hero() {
         </div>
 
         {/* COLUNA DIREITA — 52% */}
-        <div className="hero-right relative overflow-hidden bg-gradient-to-l from-[#031426] to-[#031426]/80">
+        <div className="hero-right relative overflow-hidden bg-[#031426]">
           <img
             src={heroCar}
             alt="Veículo premium em showroom"
             className="absolute inset-0 h-full w-full object-cover object-center transition-opacity duration-700"
           />
-          {/* Enhanced transition gradient for a smoother integrated look */}
-          <div className="absolute inset-y-0 left-0 w-3/5 bg-gradient-to-r from-[#031426] via-[#031426]/75 to-transparent z-10" />
-          <div className="absolute inset-0 bg-[#031426]/10" />
+          {/* Transition gradient - wider for a more natural fade between text and image */}
+          <div className="absolute inset-y-0 left-0 w-3/4 bg-gradient-to-r from-[#031426] via-[#031426]/80 to-transparent z-10" />
+
 
           
           {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
