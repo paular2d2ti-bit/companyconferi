@@ -64,7 +64,7 @@ export function Hero() {
           <img
             src={heroCar}
             alt="Veículo premium em showroom"
-            className="absolute inset-0 h-full w-full object-cover object-[center_right] transition-opacity duration-700"
+            className="absolute inset-0 h-full w-full object-cover object-right transition-opacity duration-700"
           />
           {/* Enhanced transition gradient for a smoother integrated look */}
           <div className="absolute inset-y-0 left-0 w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/40 to-transparent z-10" />
