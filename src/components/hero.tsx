@@ -84,7 +84,7 @@ export function Hero() {
             </div>
 
             <div 
-              className="absolute right-[5%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[10%] bottom-28 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center gap-3 mb-2">
                 <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
