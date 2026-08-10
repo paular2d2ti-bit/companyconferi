@@ -4,7 +4,7 @@ import heroCar from "@/assets/hero-car-dealership-dark-v2.jpg";
 export function Hero() {
   return (
     <div className="bg-white px-4 py-6 md:px-8 lg:px-12">
-      <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] grid grid-cols-1 md:grid-cols-[44%_56%] min-h-[600px] md:h-[640px] items-stretch w-full shadow-2xl">
+      <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] grid grid-cols-1 lg:grid-cols-[42%_58%] min-h-[600px] md:min-h-[680px] items-stretch w-full shadow-2xl">
         {/* COLUNA ESQUERDA — 48% */}
         <div className="hero-left relative z-10 flex w-full flex-col justify-center px-8 py-10 md:py-12 lg:px-16 lg:pl-[64px]">
           <div className="max-w-[540px]">
