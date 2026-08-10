@@ -1,5 +1,5 @@
 import { CheckCircle2, ShieldCheck, BarChart3, Users } from "lucide-react";
-import heroCar from "@/assets/hero-car-new.jpg";
+import heroCar from "@/assets/hero-car-dark.jpg";
 
 export function Hero() {
   return (
@@ -64,17 +64,17 @@ export function Hero() {
           <img
             src={heroCar}
             alt="Veículo premium em showroom"
-            className="absolute inset-0 h-full w-full object-cover object-[center_right] transition-opacity duration-700"
+            className="absolute inset-0 h-full w-full object-cover object-[center_left] transition-opacity duration-700 scale-x-[-1]"
           />
           {/* Enhanced transition gradient for a smoother integrated look */}
-          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#031426] to-transparent z-10" />
-          <div className="absolute inset-0 bg-[#031426]/10" />
+          <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />
+          <div className="absolute inset-0 bg-[#031426]/30" />
 
           
           {/* Floating Glassmorphism Cards - Positioned over the integrated image */}
-          <div className="absolute inset-0 z-10 hidden lg:block pointer-events-none">
+          <div className="absolute inset-0 z-20 hidden lg:block pointer-events-none">
             <div 
-              className="absolute right-[15%] top-24 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[10%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center justify-between mb-2">
                 <span className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Status</span>
@@ -85,7 +85,7 @@ export function Hero() {
             </div>
 
             <div 
-              className="absolute right-[10%] bottom-28 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
+              className="absolute right-[5%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
             >
               <div className="flex items-center gap-3 mb-2">
                 <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
