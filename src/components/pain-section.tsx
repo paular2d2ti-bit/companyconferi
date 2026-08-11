@@ -4,23 +4,23 @@ export function PainSection() {
   const steps = [
     {
       number: "01",
-      title: "COMPRA",
-      question: "Vale mesmo colocar dinheiro nesse carro?",
-      desc: "Tenha mais informação antes de decidir pela compra.",
+      title: "COMPRAR",
+      question: "Vale a pena colocar dinheiro nesse carro?",
+      desc: "Consulte antes de fechar a compra.",
       delay: "0s"
     },
     {
       number: "02",
-      title: "TROCA",
+      title: "AVALIAR",
       question: "Quanto esse veículo realmente vale no negócio?",
-      desc: "Consulte antes de definir o valor de entrada.",
+      desc: "Tenha mais informação para negociar a entrada.",
       delay: "0.2s"
     },
     {
       number: "03",
-      title: "ESTOQUE",
-      question: "Esse carro vai ser fácil de revender depois?",
-      desc: "Conheça melhor o histórico antes de ele entrar na loja.",
+      title: "REVENDER",
+      question: "O histórico pode pesar na hora de vender depois?",
+      desc: "Descubra antes de o carro entrar no estoque.",
       delay: "0.4s"
     }
   ];
@@ -32,17 +32,16 @@ export function PainSection() {
         <div className="max-w-4xl mx-auto text-center mb-28">
           <div className="inline-flex items-center gap-2 mb-8 animate-fade-in">
             <span className="text-[#00A99D] text-[13px] font-bold tracking-[0.2em] uppercase">
-              ANTES DE FECHAR O NEGÓCIO
+              ANTES DO CARRO ENTRAR NO ESTOQUE
             </span>
           </div>
           
           <h2 className="text-[#031426] text-[42px] leading-[1.05] font-bold sm:text-[64px] lg:text-[72px] tracking-[-0.04em] mb-10">
-            O problema não é descobrir.<br />
-            <span className="text-[#031426]/30">É descobrir depois.</span>
+            Mais informação para decidir se o negócio vale a pena.
           </h2>
           
           <p className="text-[#1D252D]/70 text-[20px] md:text-[22px] leading-relaxed max-w-3xl mx-auto font-medium">
-            Uma informação que chega tarde pode mudar o valor da compra, comprometer sua margem e transformar uma oportunidade em problema de estoque.
+            A Gold ajuda sua equipe a analisar melhor o veículo antes de comprar, aceitar uma troca ou definir uma negociação.
           </p>
         </div>
 
@@ -78,7 +77,7 @@ export function PainSection() {
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
           <div className="mb-14">
             <h3 className="text-[#031426] text-[36px] md:text-[48px] lg:text-[56px] font-bold tracking-tighter animate-fade-in">
-              A diferença está em <span className="text-[#00A99D]">descobrir antes.</span>
+              Você decide. A Gold dá <span className="text-[#00A99D]">mais informação para decidir melhor.</span>
             </h3>
           </div>
           
