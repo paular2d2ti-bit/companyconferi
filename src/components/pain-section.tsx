@@ -79,7 +79,7 @@ export function PainSection() {
           <div className="relative min-h-[500px] md:min-h-full overflow-hidden bg-[#F8F9FA] flex items-center py-24 pr-8 lg:pr-16">
             <div className="relative w-full h-[600px] md:h-[650px]">
               <img 
-                src="https://images.unsplash.com/photo-1590333746437-1845c0649987?q=80&w=2000&auto=format&fit=crop" 
+                src="https://images.unsplash.com/photo-1562426509-5044a121aa49?q=80&w=2000&auto=format&fit=crop" 
                 alt="Pátio de veículos seminovos com fileiras de carros" 
                 className="w-full h-full object-cover rounded-3xl shadow-2xl brightness-[0.95]"
                 loading="eager"
