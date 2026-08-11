@@ -1,5 +1,5 @@
 import { ArrowRight, Search, Gavel, DollarSign, FileText, Database, ShieldAlert, CheckCircle2, Info } from "lucide-react";
-import heroCar from "@/assets/hero-premium-suv.jpg";
+import heroCar from "@/assets/hero-new-suv.jpg";
 
 export function Hero() {
   const floatingCards = [
