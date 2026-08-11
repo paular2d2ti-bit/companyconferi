@@ -158,7 +158,7 @@ export function Hero() {
         </div>
 
         {/* Integrated Bottom CTA Bar */}
-        <div className="mx-auto border-t border-white/5 bg-[#010912] px-8 py-8 md:px-16 md:py-8">
+        <div className="relative z-20 mx-auto border-t border-white/5 bg-[#010912] px-8 py-8 md:px-16 md:py-10 mb-[-1px]">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div className="flex items-center gap-5">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-[12px] bg-[#22E38A]/10 text-[#22E38A] border border-[#22E38A]/20">
