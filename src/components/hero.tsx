@@ -57,7 +57,7 @@ export function Hero() {
           <img
             src={heroCar}
             alt="SUV seminovo em showroom"
-            className="absolute inset-0 h-full w-full object-cover object-center"
+            className="absolute inset-0 h-full w-full object-cover object-[70%_center]"
           />
           {/* Transition overlay */}
           <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />
