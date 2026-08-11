@@ -30,13 +30,13 @@ export function PainSection() {
   ];
 
   return (
-    <div className="bg-[#F8F9FA] px-4 md:px-8 lg:px-12 pt-0 pb-16">
+    <div className="bg-[#F8F9FA] px-4 md:px-8 lg:px-12 pt-0 pb-20">
       <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden bg-[#F8F9FA]">
         {/* Bloco Superior: Texto e Imagem Lado a Lado */}
         <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:min-h-[600px] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-start px-8 pt-32 pb-16 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
+          <div className="relative flex flex-col justify-start px-8 pt-48 pb-16 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
             <div className="max-w-[520px]">
               <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-5">O MEDO DE LEVAR PREJUÍZO FAZ PARTE DO JOGO</p>
               <h2 className="text-[#031426] text-[32px] leading-[1.1] font-bold sm:text-[40px] tracking-[-0.02em]">
@@ -49,7 +49,7 @@ export function PainSection() {
           </div>
 
           {/* Lado Direito: Imagem com Degradê */}
-          <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-[#F8F9FA] pt-24 md:pt-40">
+          <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-[#F8F9FA] pt-40 md:pt-60">
             <div className="relative w-full h-full md:h-[480px]">
               <img 
                 src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=2000&auto=format&fit=crop" 
