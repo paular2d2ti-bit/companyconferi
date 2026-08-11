@@ -30,13 +30,13 @@ export function PainSection() {
   ];
 
   return (
-    <div className="bg-white px-4 md:px-8 lg:px-12 pt-0 pb-12">
-      <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden bg-white">
+    <div className="bg-[#F8F9FA] px-4 md:px-8 lg:px-12 pt-0 pb-16">
+      <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden bg-[#F8F9FA]">
         {/* Bloco Superior: Texto e Imagem Lado a Lado */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:h-[520px] items-stretch">
+        <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:min-h-[600px] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-center px-8 pt-24 pb-16 md:px-12 lg:px-16 lg:pl-[80px] bg-white z-20">
+          <div className="relative flex flex-col justify-start px-8 pt-32 pb-16 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
             <div className="max-w-[520px]">
               <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-5">O MEDO DE LEVAR PREJUÍZO FAZ PARTE DO JOGO</p>
               <h2 className="text-[#031426] text-[32px] leading-[1.1] font-bold sm:text-[40px] tracking-[-0.02em]">
@@ -49,20 +49,23 @@ export function PainSection() {
           </div>
 
           {/* Lado Direito: Imagem com Degradê */}
-          <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-gray-50">
-            <img 
-              src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=2000&auto=format&fit=crop" 
-              alt="Profissionais analisando veículo em showroom" 
-              className="absolute inset-0 h-full w-full object-cover"
-              loading="eager"
-            />
-            {/* Degradê horizontal suave: branco sólido na esquerda → branco translúcido → imagem normal na direita */}
-            <div className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-white via-white/60 to-transparent z-10 hidden md:block" />
+          <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-[#F8F9FA] pt-24 md:pt-32">
+            <div className="relative w-full h-full md:h-[480px]">
+              <img 
+                src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=2000&auto=format&fit=crop" 
+                alt="Profissionais analisando veículo em showroom" 
+                className="absolute inset-0 h-full w-full object-cover"
+                loading="eager"
+              />
+              {/* Degradê horizontal e vertical suave integrado ao off-white */}
+              <div className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-[#F8F9FA] via-[#F8F9FA]/60 to-transparent z-10 hidden md:block" />
+              <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#F8F9FA] to-transparent z-10" />
+            </div>
           </div>
         </div>
 
         {/* Bloco Inferior: Benefícios em uma única linha */}
-        <div className="bg-white border-t border-gray-100 px-8 py-10 lg:px-16">
+        <div className="bg-white border-t border-gray-100/50 px-8 py-10 lg:px-16">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-x-12 items-start">
             {benefits.map((benefit, i) => (
               <div key={i} className="flex flex-col lg:flex-row items-center lg:items-start gap-4 text-center lg:text-left group">
