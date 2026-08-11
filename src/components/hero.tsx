@@ -11,17 +11,22 @@ export function Hero() {
             <div className="inline-flex items-center gap-2 rounded-full bg-[#22E38A]/10 px-3 py-1 mb-6">
               <div className="h-1.5 w-1.5 rounded-full bg-[#22E38A] animate-pulse" />
               <span className="text-[#22E38A] text-[10px] font-bold uppercase tracking-[0.15em]">
-                INTELIGÊNCIA VEICULAR PARA DECISÕES SEGURAS E LUCROS MAIORES
+                Liderança em Tecnologia Automotiva
               </span>
             </div>
             
             <h1 className="text-4xl font-bold leading-[1.1] text-white md:text-5xl lg:text-[52px]">
-              Com dados técnicos, financeiros e de mercado na sua mão, seu estoque gira mais rápido e sua margem aumenta.
+              Acelere sua <span className="text-[#22E38A]">gestão</span> com inteligência de ponta.
             </h1>
+            
+            <p className="mt-6 text-base md:text-lg leading-relaxed text-[#C7D0D9]/90">
+              A plataforma completa para agências e revendas que buscam máxima performance, 
+              segurança e controle absoluto sobre o estoque.
+            </p>
             
             <div className="mt-8 flex flex-col items-center gap-6 sm:flex-row">
               <button className="h-[52px] w-full rounded-[10px] bg-[#22E38A] px-10 text-[15px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] sm:w-auto shadow-lg shadow-[#22E38A]/20">
-                Comece grátis e domine o mercado
+                Agendar Demonstração
               </button>
               
               <div className="flex items-center gap-3">
@@ -31,21 +36,22 @@ export function Hero() {
                   ))}
                 </div>
                 <span className="text-xs font-medium text-white/50">
-                  3.597 lojas aproximadamente
+                  +500 agências confiam
                 </span>
               </div>
             </div>
 
-            {/* Metrics Grid */}
+            {/* Metrics Grid - More subtle */}
             <div className="mt-10 grid grid-cols-2 gap-8 border-t border-white/5 pt-8 sm:grid-cols-4">
               {[
-                { label: "de mercado automotivo", value: "+10 anos" },
-                { label: "usuários ativos", value: "+2,1 mil" },
-                { label: "atualizados", value: "Dados de 2019+" },
-                { label: "de dados consultados", value: "4,4 bi+" },
+                { icon: <BarChart3 className="w-4 h-4" />, label: "Vendas", value: "+24%" },
+                { icon: <ShieldCheck className="w-4 h-4" />, label: "Segurança", value: "100%" },
+                { icon: <Users className="w-4 h-4" />, label: "Clientes", value: "8.5k" },
+                { icon: <CheckCircle2 className="w-4 h-4" />, label: "Status", value: "Pro" },
               ].map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-1.5">
-                  <span className="text-xl font-bold text-white leading-tight">{item.value}</span>
+                  <div className="text-[#22E38A]/70">{item.icon}</div>
+                  <span className="text-xl font-bold text-white leading-none">{item.value}</span>
                   <span className="text-[9px] font-bold uppercase tracking-widest text-white/30">{item.label}</span>
                 </div>
               ))}
@@ -104,11 +110,11 @@ export function Hero() {
           <div className="flex items-center gap-4">
             <div className="h-1.5 w-1.5 rounded-full bg-[#22E38A]" />
             <p className="text-sm font-medium text-[#1D252D]">
-              Não deixe a concorrência sair na sua frente. <span className="hidden sm:inline text-[#1D252D]/40 ml-2">Tenha mais inteligência e agilidade na sua loja.</span>
+              Pronto para transformar sua revenda? <span className="hidden sm:inline text-[#1D252D]/40 ml-2">Junte-se a centenas de líderes do setor.</span>
             </p>
           </div>
           <button className="flex items-center gap-2 text-sm font-bold text-[#031426] transition-colors hover:text-[#22E38A]">
-            Quero testar agora 
+            FALAR COM ESPECIALISTA 
             <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
           </button>
         </div>
