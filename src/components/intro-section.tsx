@@ -62,11 +62,9 @@ export function IntroSection() {
               <img 
                 src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" 
                 alt="Interface do sistema Company Conferi com dashboard e relatórios veiculares" 
-                className="w-full h-auto object-contain rounded-xl shadow-2xl border border-gray-200"
+                className="w-full h-auto object-contain"
                 loading="eager"
               />
-              {/* Overlay suave para integrar melhor */}
-              <div className="absolute inset-0 pointer-events-none ring-1 ring-inset ring-black/10 rounded-xl"></div>
             </div>
           </div>
         </div>
