@@ -78,15 +78,15 @@ export function PainSection() {
           {/* Lado Direito: Imagem Comercial Ocupando Tudo */}
           <div className="relative min-h-[600px] md:min-h-full overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1590333746437-1845c0649987?q=80&w=2070&auto=format&fit=crop" 
-              alt="Estoque de vários veículos alinhados em pátio de loja" 
-              className="absolute inset-0 w-full h-full object-cover object-center brightness-[0.98]"
+              src="https://images.unsplash.com/photo-1562426509-5044a121aa49?q=80&w=2070&auto=format&fit=crop" 
+              alt="Vários carros seminovos alinhados em pátio de loja" 
+              className="absolute inset-0 w-full h-full object-cover object-center brightness-[0.95]"
               loading="eager"
             />
-            {/* Overlay sutil para integração visual - Reduzido para não esconder o estoque */}
-            <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-[#F8F9FA]/60 via-[#F8F9FA]/20 to-transparent z-10 hidden md:block" />
-            <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#F8F9FA]/60 to-transparent z-10" />
-            <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-[#F8F9FA]/60 to-transparent z-10" />
+            {/* Overlay sutil para integração visual */}
+            <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-[#F8F9FA]/80 to-transparent z-10 hidden md:block" />
+            <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#F8F9FA]/40 to-transparent z-10" />
+            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#F8F9FA]/40 to-transparent z-10" />
           </div>
         </div>
       </section>
