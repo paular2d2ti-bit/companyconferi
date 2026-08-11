@@ -14,7 +14,7 @@ export function Hero() {
               </span>
             </div>
             
-            <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[600px]">
+            <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[650px]">
               Inteligência veicular<br />
               para decisões seguras<br />
               e lucros maiores.
@@ -37,16 +37,16 @@ export function Hero() {
             </div>
 
             {/* Metrics Grid */}
-            <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:gap-x-2">
+            <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:gap-x-8">
               {[
                 { value: "+10 anos", label: "de mercado automotivo" },
                 { value: "+2,1 mil", label: "usuários ativos" },
                 { value: "Dados de 2019+", label: "atualizados" },
                 { value: "4,4 bi+", label: "de dados consultados" },
               ].map((item, idx) => (
-                <div key={idx} className="flex flex-col gap-1">
+                <div key={idx} className="flex flex-col gap-1 min-w-fit">
                   <span className="text-[18px] md:text-[20px] font-bold text-white leading-tight whitespace-nowrap">{item.value}</span>
-                  <span className="text-[10px] md:text-[12px] font-normal leading-tight text-white/40">{item.label}</span>
+                  <span className="text-[10px] md:text-[12px] font-normal leading-tight text-white/40 whitespace-nowrap">{item.label}</span>
                 </div>
               ))}
             </div>
