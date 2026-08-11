@@ -38,19 +38,20 @@ export function Hero() {
               </div>
 
               {/* Metrics Row */}
-              <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:gap-x-8">
+              <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:items-start md:grid-cols-[repeat(4,1fr)] lg:gap-x-[32px]">
                 {[
                   { value: "+10 anos", label: "de mercado automotivo" },
                   { value: "+2,1 mil", label: "usuários ativos" },
                   { value: "Dados de 2019+", label: "atualizados" },
                   { value: "4,4 bi+", label: "de dados consultados" },
                 ].map((item, idx) => (
-                  <div key={idx} className="flex flex-col gap-1 min-w-fit">
-                    <div className="flex items-baseline gap-1.5 flex-wrap">
-                      <span className="text-[18px] md:text-[20px] font-bold text-white leading-tight whitespace-nowrap">{item.value}</span>
-                      <span className="hidden sm:inline text-white/20">|</span>
-                    </div>
-                    <span className="text-[10px] md:text-[12px] font-normal leading-tight text-white/40 whitespace-nowrap">{item.label}</span>
+                  <div key={idx} className="flex flex-col items-start gap-1">
+                    <span className="text-[18px] font-bold text-white leading-tight">
+                      {item.value}
+                    </span>
+                    <span className="text-[12px] font-normal leading-[1.3] text-white/40">
+                      {item.label}
+                    </span>
                   </div>
                 ))}
               </div>
