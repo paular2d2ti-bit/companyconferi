@@ -10,13 +10,17 @@ export function Hero() {
           <div className="max-w-[540px]">
             <div className="inline-flex items-center gap-2 mb-6 max-w-[460px]">
               <span className="text-[#22E38A] text-[10px] md:text-[12px] font-semibold uppercase tracking-[0.08em] leading-[1.3]">
-                INTELIGÊNCIA VEICULAR PARA DECISÕES SEGURAS E LUCROS MAIORES
+                PARA LOJAS E AGÊNCIAS DE VEÍCULOS
               </span>
             </div>
             
             <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[540px]">
-              Com dados técnicos, financeiros e de mercado na sua mão, seu estoque gira mais rápido e sua margem aumenta.
+              Inteligência veicular para decisões seguras e lucros maiores.
             </h1>
+
+            <p className="mt-6 text-[14px] md:text-[16px] text-white/70 leading-[1.5] max-w-[480px]">
+              Com dados técnicos, financeiros e de mercado na sua mão, seu estoque gira mais rápido e sua margem aumenta.
+            </p>
             
             <div className="mt-8 flex flex-col items-center gap-6 sm:flex-row">
               <button className="h-[54px] w-full rounded-[10px] bg-[#22E38A] px-[28px] text-[14px] md:text-[15px] font-bold text-[#031426] leading-[1.2] transition-all hover:brightness-110 active:scale-[0.98] sm:w-auto shadow-lg shadow-[#22E38A]/20">
@@ -30,7 +34,7 @@ export function Hero() {
                   ))}
                 </div>
                 <span className="text-[12px] md:text-[13px] font-semibold text-white/50 leading-[1.3]">
-                  3.597 lojas aproximadamente
+                  + 3.597 lojas aproximadamente
                 </span>
               </div>
             </div>
@@ -38,13 +42,13 @@ export function Hero() {
             {/* Metrics Grid */}
             <div className="mt-10 grid grid-cols-2 gap-8 border-t border-white/5 pt-8 sm:grid-cols-4">
               {[
-                { label: <>+10 anos<br/>de mercado automotivo</>, value: "+10 anos" },
-                { label: <>+2,1 mil<br/>usuários ativos</>, value: "+2,1 mil" },
-                { label: <>Dados de 2019+<br/>atualizados</>, value: "Dados de 2019+" },
-                { label: <>4,4 bi+<br/>de dados consultados</>, value: "4,4 bi+" },
+                { value: "+10 anos", label: "de mercado automotivo" },
+                { value: "+2,1 mil", label: "usuários ativos" },
+                { value: "Dados de 2019+", label: "atualizados" },
+                { value: "4,4 bi+", label: "de dados consultados" },
               ].map((item, idx) => (
                 <div key={idx} className="flex flex-col gap-1.5">
-                  <span className="text-[18px] md:text-[20px] font-bold text-white leading-none">{item.value.split('\n')[0]}</span>
+                  <span className="text-[18px] md:text-[20px] font-bold text-white leading-none">{item.value}</span>
                   <span className="text-[10px] md:text-[12px] font-normal leading-[1.25] text-white/40">{item.label}</span>
                 </div>
               ))}
