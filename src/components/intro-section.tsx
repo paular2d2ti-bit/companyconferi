@@ -21,8 +21,8 @@ export function IntroSection() {
   ];
 
   return (
-    <div className="bg-white px-4 py-3 md:px-8 lg:px-12">
-      <section id="solucoes" className="mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#F5F7F8] border border-gray-100 shadow-sm">
+    <div className="bg-white px-4 pt-16 pb-3 md:px-8 lg:px-12 relative overflow-hidden">
+      <section id="solucoes" className="mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#F5F7F8] border border-gray-100 shadow-sm relative z-10">
         {/* Bloco Superior: Texto e Imagem Lado a Lado */}
         <div className="w-full grid grid-cols-1 md:grid-cols-[42%_58%] items-stretch">
           
