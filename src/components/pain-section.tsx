@@ -58,6 +58,7 @@ export function PainSection() {
             src="/src/assets/professionals-analyzing-car.jpg" 
             alt="Profissionais analisando veículo em showroom" 
             className="absolute inset-0 h-full w-full object-cover"
+            onError={(e) => (e.currentTarget.style.display = 'none')}
           />
         </div>
       </div>
@@ -65,11 +66,11 @@ export function PainSection() {
       {/* Bloco Inferior: Benefícios em uma única linha */}
       <div className="bg-white border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-6 py-12">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-4 items-start">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-x-8 items-start">
             {benefits.map((benefit, i) => (
               <div key={i} className="flex flex-col lg:flex-row items-center lg:items-start gap-4 text-center lg:text-left">
-                <div className="flex-shrink-0 p-2.5 rounded-lg bg-[#00A99D]/10">
-                  <benefit.icon className="w-5 h-5 text-[#00A99D]" />
+                <div className="flex-shrink-0 w-11 h-11 flex items-center justify-center rounded-[12px] bg-[#00A99D]/10">
+                  <benefit.icon className="w-[30px] h-[30px] text-[#00A99D]" />
                 </div>
                 <div>
                   <h3 className="text-[14px] font-bold text-[#031426] mb-1">{benefit.title}</h3>
