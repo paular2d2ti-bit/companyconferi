@@ -14,8 +14,10 @@ export function Hero() {
               </span>
             </div>
             
-            <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[540px]">
-              Inteligência veicular para decisões seguras e lucros maiores.
+            <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[600px]">
+              Inteligência veicular<br />
+              para decisões seguras<br />
+              e lucros maiores.
             </h1>
 
             <p className="mt-6 text-[14px] md:text-[16px] text-white/70 leading-[1.5] max-w-[480px]">
