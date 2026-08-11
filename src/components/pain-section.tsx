@@ -34,16 +34,16 @@ export function PainSection() {
 
   return (
     <div className="bg-[#F8F9FA] relative w-full overflow-hidden">
-      <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-32 pb-44 px-8 md:px-12 lg:px-24">
+      <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-20 pb-28 px-8 md:px-12 lg:px-24">
         {/* Selo e Headline Principal */}
-        <div className="max-w-4xl mx-auto text-center mb-28">
-          <div className="inline-flex items-center gap-2 mb-8 animate-fade-in">
+        <div className="max-w-4xl mx-auto text-center mb-16">
+          <div className="inline-flex items-center gap-2 mb-4 animate-fade-in">
             <span className="text-[#00A99D] text-[12px] font-bold tracking-[0.2em] uppercase">
               EM CADA ETAPA, UMA DECISÃO
             </span>
           </div>
           
-          <h2 className="text-[#031426] text-[40px] leading-[1.1] font-bold sm:text-[56px] lg:text-[68px] tracking-[-0.04em] mb-10">
+          <h2 className="text-[#031426] text-[40px] leading-[1.1] font-bold sm:text-[56px] lg:text-[68px] tracking-[-0.04em] mb-6">
             Da avaliação à entrada no estoque,<br className="hidden md:block" /> informação muda o negócio.
           </h2>
           
@@ -53,7 +53,7 @@ export function PainSection() {
         </div>
 
         {/* 4 Momentos - Composição Horizontal Tipográfica */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 lg:gap-12 mb-36 max-w-[1300px] mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-8 lg:gap-12 mb-20 max-w-[1300px] mx-auto">
           {steps.map((item, index) => (
             <div 
               key={index} 
@@ -61,15 +61,15 @@ export function PainSection() {
               style={{ animationDelay: item.delay }}
             >
               {/* Número Gigante como Recurso Gráfico */}
-              <span className="text-[70px] md:text-[90px] lg:text-[110px] font-black text-[#031426]/5 leading-none mb-4 tracking-tighter select-none group-hover:text-[#00A99D]/10 transition-colors duration-700">
+              <span className="text-[60px] md:text-[80px] lg:text-[100px] font-black text-[#031426]/5 leading-none mb-2 tracking-tighter select-none group-hover:text-[#00A99D]/10 transition-colors duration-700">
                 {item.number}
               </span>
               
-              <h3 className="text-[#031426] text-[24px] md:text-[28px] lg:text-[34px] font-black tracking-tighter mb-4 group-hover:text-[#00A99D] transition-colors duration-500 uppercase">
+              <h3 className="text-[#031426] text-[24px] md:text-[28px] lg:text-[32px] font-black tracking-tighter mb-2 group-hover:text-[#00A99D] transition-colors duration-500 uppercase">
                 {item.title}
               </h3>
               
-              <p className="text-[#031426] text-[17px] md:text-[19px] font-bold leading-tight mb-4 tracking-tight">
+              <p className="text-[#031426] text-[17px] md:text-[19px] font-bold leading-tight mb-3 tracking-tight">
                 {item.question}
               </p>
               
@@ -82,7 +82,7 @@ export function PainSection() {
 
         {/* Fechamento em destaque e CTA */}
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
-          <div className="mb-14">
+          <div className="mb-10">
             <h3 className="text-[#031426] text-[40px] md:text-[52px] lg:text-[62px] font-bold tracking-tighter animate-fade-in flex flex-col leading-[1.1]">
               <span>Mais informação antes.</span>
               <span className="text-[#00A99D]">Decisões melhores depois.</span>
