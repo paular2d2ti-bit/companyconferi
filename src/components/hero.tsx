@@ -5,9 +5,9 @@ export function Hero() {
   return (
     <div className="bg-white px-4 py-6 md:px-8 lg:px-12">
       <section className="hero relative mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#031426] shadow-2xl">
-        <div className="grid grid-cols-1 md:grid-cols-[46%_54%] items-stretch w-full min-h-[520px] md:h-[580px]">
+        <div className="grid grid-cols-1 md:grid-cols-[46%_54%] items-stretch w-full min-h-[560px] md:min-h-[640px]">
           {/* COLUNA ESQUERDA — 46% */}
-          <div className="hero-left relative z-10 flex w-full flex-col justify-center px-8 py-10 md:py-12 lg:px-16 lg:pl-[64px]">
+          <div className="hero-left relative z-10 flex w-full flex-col justify-center px-8 py-12 md:py-16 lg:px-16 lg:pl-[64px]">
             <div className="max-w-[540px]">
               <div className="inline-flex items-center gap-2 mb-6 max-w-[460px]">
                 <span className="text-[#22E38A] text-[10px] md:text-[12px] font-semibold uppercase tracking-[0.08em] leading-[1.3]">
@@ -158,7 +158,7 @@ export function Hero() {
         </div>
 
         {/* Integrated Bottom CTA Bar */}
-        <div className="mx-auto border-t border-white/5 bg-[#010912] px-8 py-8 md:px-16 md:py-8">
+        <div className="relative z-20 mx-auto border-t border-white/5 bg-[#010912] px-8 py-8 md:px-16 md:py-10 mb-[-1px]">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
             <div className="flex items-center gap-5">
               <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-[12px] bg-[#22E38A]/10 text-[#22E38A] border border-[#22E38A]/20">
