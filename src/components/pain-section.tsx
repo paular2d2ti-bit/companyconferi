@@ -58,6 +58,7 @@ export function PainSection() {
             src="/src/assets/professionals-analyzing-car.jpg" 
             alt="Profissionais analisando veículo em showroom" 
             className="absolute inset-0 h-full w-full object-cover"
+            onError={(e) => (e.currentTarget.style.display = 'none')}
           />
         </div>
       </div>
