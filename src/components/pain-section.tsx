@@ -30,19 +30,19 @@ export function PainSection() {
   ];
 
   return (
-    <div className="bg-white px-4 py-6 md:px-8 lg:px-12">
-      <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-white border border-gray-100 shadow-xl">
+    <div className="bg-white px-4 md:px-8 lg:px-12 pt-0 pb-12">
+      <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden bg-white">
         {/* Bloco Superior: Texto e Imagem Lado a Lado */}
-        <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:h-[480px] items-stretch">
+        <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:h-[520px] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-center px-8 py-16 md:px-12 lg:px-16 lg:pl-[64px] bg-white z-20">
+          <div className="relative flex flex-col justify-center px-8 pt-24 pb-16 md:px-12 lg:px-16 lg:pl-[80px] bg-white z-20">
             <div className="max-w-[520px]">
-              <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-4">O MEDO DE LEVAR PREJUÍZO FAZ PARTE DO JOGO</p>
-              <h2 className="text-[#031426] text-[30px] leading-[1.15] font-bold sm:text-[38px]">
+              <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-5">O MEDO DE LEVAR PREJUÍZO FAZ PARTE DO JOGO</p>
+              <h2 className="text-[#031426] text-[32px] leading-[1.1] font-bold sm:text-[40px] tracking-[-0.02em]">
                 Um carro pode parecer um ótimo negócio. Até aparecer o que ninguém verificou.
               </h2>
-              <p className="text-[#1D252D]/80 mt-6 text-[16px] leading-relaxed">
+              <p className="text-[#1D252D]/80 mt-8 text-[17px] leading-relaxed">
                 Informações ocultas, leilões, dívidas, sinistros e muito mais em segundos. Com tudo certo, sua análise fica completa e você negocia com confiança total.
               </p>
             </div>

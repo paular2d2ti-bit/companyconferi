@@ -91,8 +91,8 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Smooth Transition to next section */}
-      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white to-transparent z-30" />
+      {/* Smooth Transition to next section - subtle and short */}
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white/10 to-transparent z-30" />
     </section>
   );
 }
