@@ -49,7 +49,7 @@ export function PainSection() {
           </div>
 
           {/* Lado Direito: Imagem com Degradê */}
-          <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-[#F8F9FA] pt-24 md:pt-32">
+          <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-[#F8F9FA] pt-24 md:pt-40">
             <div className="relative w-full h-full md:h-[480px]">
               <img 
                 src="https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=2000&auto=format&fit=crop" 
@@ -59,7 +59,7 @@ export function PainSection() {
               />
               {/* Degradê horizontal e vertical suave integrado ao off-white */}
               <div className="absolute inset-y-0 left-0 w-2/3 bg-gradient-to-r from-[#F8F9FA] via-[#F8F9FA]/60 to-transparent z-10 hidden md:block" />
-              <div className="absolute inset-x-0 top-0 h-24 bg-gradient-to-b from-[#F8F9FA] to-transparent z-10" />
+              <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#F8F9FA] to-transparent z-10" />
             </div>
           </div>
         </div>
