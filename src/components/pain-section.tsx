@@ -20,12 +20,12 @@ export function PainSection() {
   ];
 
   return (
-    <div className="bg-[#F8F9FA] px-4 md:px-8 lg:px-12 pt-0 pb-20">
+    <div className="bg-[#F8F9FA] pt-0">
       <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden bg-[#F8F9FA]">
-        <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:min-h-[750px] items-stretch">
+        <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:min-h-[850px] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-start px-8 pt-24 pb-16 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
+          <div className="relative flex flex-col justify-center px-8 pt-24 pb-24 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
             <div className="max-w-[540px]">
               <div className="inline-flex items-center gap-2 mb-6">
                 <span className="text-[#00A99D] text-[12px] font-bold tracking-[0.1em] uppercase">
@@ -75,23 +75,22 @@ export function PainSection() {
             </div>
           </div>
 
-          {/* Lado Direito: Imagem Comercial */}
-          <div className="relative min-h-[500px] md:min-h-full overflow-hidden bg-[#F8F9FA] flex items-center py-24 pr-8 lg:pr-16">
-            <div className="relative w-full h-[600px] md:h-[650px]">
-              <img 
-                src="https://images.unsplash.com/photo-1562426509-5044a121aa49?q=80&w=2000&auto=format&fit=crop" 
-                alt="Pátio de veículos seminovos com fileiras de carros" 
-                className="w-full h-full object-cover rounded-3xl shadow-2xl brightness-[0.95]"
-                loading="eager"
-              />
-              {/* Overlay suave para integrar ao fundo e garantir que a imagem não domine */}
-              <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#F8F9FA] via-[#F8F9FA]/10 to-transparent z-10 hidden md:block" />
-              <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#F8F9FA] to-transparent z-10" />
-              <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#F8F9FA] to-transparent z-10" />
-            </div>
+          {/* Lado Direito: Imagem Comercial Ocupando Tudo */}
+          <div className="relative min-h-[600px] md:min-h-full overflow-hidden bg-gray-100">
+            <img 
+              src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070&auto=format&fit=crop" 
+              alt="Estoque de veículos seminovos em pátio comercial" 
+              className="absolute inset-0 w-full h-full object-cover brightness-[0.98]"
+              loading="eager"
+            />
+            {/* Overlay sutil para integração visual */}
+            <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-[#F8F9FA] via-[#F8F9FA]/20 to-transparent z-10 hidden md:block" />
+            <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#F8F9FA]/40 to-transparent z-10" />
+            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#F8F9FA]/40 to-transparent z-10" />
           </div>
         </div>
       </section>
     </div>
+
   );
 }
