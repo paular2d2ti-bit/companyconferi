@@ -78,10 +78,10 @@ export function PainSection() {
           {/* Lado Direito: Imagem Comercial Ocupando Tudo */}
           <div className="relative min-h-[600px] md:min-h-full overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1590333746437-1845c0649987?q=80&w=2070&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop" 
               alt="Estoque de veículos seminovos alinhados em pátio comercial" 
               className="absolute inset-0 w-full h-full object-cover object-center"
-              loading="lazy"
+              loading="eager"
             />
             {/* Overlay sutil para integração visual */}
             <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-[#F8F9FA]/80 to-transparent z-10 hidden md:block" />
