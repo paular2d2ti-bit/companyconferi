@@ -14,8 +14,10 @@ export function Hero() {
               </span>
             </div>
             
-            <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[540px]">
-              Inteligência veicular para decisões seguras e lucros maiores.
+            <h1 className="text-[30px] md:text-[38px] font-bold leading-[1.08] md:leading-[1.10] tracking-[-0.02em] text-white max-w-[600px]">
+              Inteligência veicular<br />
+              para decisões seguras<br />
+              e lucros maiores.
             </h1>
 
             <p className="mt-6 text-[14px] md:text-[16px] text-white/70 leading-[1.5] max-w-[480px]">
@@ -27,12 +29,7 @@ export function Hero() {
                 Comece grátis e domine o mercado
               </button>
               
-              <div className="flex items-center gap-3 max-w-[180px]">
-                <div className="flex -space-x-2">
-                  {[1, 2, 3].map((i) => (
-                    <div key={i} className="h-7 w-7 rounded-full border-2 border-[#031426] bg-gray-700 overflow-hidden shadow-inner" />
-                  ))}
-                </div>
+              <div className="flex items-center gap-3">
                 <span className="text-[12px] md:text-[13px] font-semibold text-white/50 leading-[1.3]">
                   + 3.597 lojas aproximadamente
                 </span>
@@ -40,16 +37,16 @@ export function Hero() {
             </div>
 
             {/* Metrics Grid */}
-            <div className="mt-10 grid grid-cols-2 gap-8 border-t border-white/5 pt-8 sm:grid-cols-4">
+            <div className="mt-10 grid grid-cols-2 gap-x-4 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:gap-x-2">
               {[
                 { value: "+10 anos", label: "de mercado automotivo" },
                 { value: "+2,1 mil", label: "usuários ativos" },
                 { value: "Dados de 2019+", label: "atualizados" },
                 { value: "4,4 bi+", label: "de dados consultados" },
               ].map((item, idx) => (
-                <div key={idx} className="flex flex-col gap-1.5">
-                  <span className="text-[18px] md:text-[20px] font-bold text-white leading-none">{item.value}</span>
-                  <span className="text-[10px] md:text-[12px] font-normal leading-[1.25] text-white/40">{item.label}</span>
+                <div key={idx} className="flex flex-col gap-1">
+                  <span className="text-[18px] md:text-[20px] font-bold text-white leading-tight whitespace-nowrap">{item.value}</span>
+                  <span className="text-[10px] md:text-[12px] font-normal leading-tight text-white/40">{item.label}</span>
                 </div>
               ))}
             </div>
