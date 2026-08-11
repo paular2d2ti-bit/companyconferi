@@ -29,12 +29,7 @@ export function Hero() {
                 Comece grátis e domine o mercado
               </button>
               
-              <div className="flex items-center gap-3 max-w-[180px]">
-                <div className="flex -space-x-2">
-                  {[1, 2, 3].map((i) => (
-                    <div key={i} className="h-7 w-7 rounded-full border-2 border-[#031426] bg-gray-700 overflow-hidden shadow-inner" />
-                  ))}
-                </div>
+              <div className="flex items-center gap-3">
                 <span className="text-[12px] md:text-[13px] font-semibold text-white/50 leading-[1.3]">
                   + 3.597 lojas aproximadamente
                 </span>
