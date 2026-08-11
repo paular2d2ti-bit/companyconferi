@@ -65,6 +65,17 @@
   --color-surface: var(--surface);
   --font-display: "Inter Tight", system-ui, sans-serif;
   --font-sans: "Inter", system-ui, sans-serif;
+  --animate-float: float 4s ease-in-out infinite;
+  --animate-float-slow: float-slow 6s ease-in-out infinite;
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  @keyframes float-slow {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-15px); }
+  }
 }
 
 
