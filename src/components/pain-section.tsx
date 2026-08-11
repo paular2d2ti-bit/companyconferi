@@ -4,28 +4,28 @@ export function PainSection() {
   const benefits = [
     {
       icon: Search,
-      title: "Busca Inteligente",
-      desc: "Localize veículos em segundos."
+      title: "Histórico de roubos e furtos atualizado",
+      desc: ""
     },
     {
       icon: History,
-      title: "Histórico Completo",
-      desc: "Dados reais de cada carro."
+      title: "Débitos e multas em tempo real",
+      desc: ""
     },
     {
       icon: BarChart2,
-      title: "Margem Real",
-      desc: "Lucratividade sob controle."
+      title: "Venda com mais segurança e agilidade",
+      desc: ""
     },
     {
       icon: ShieldCheck,
-      title: "Decisão Segura",
-      desc: "Menos risco na compra."
+      title: "Problemas estruturais e sinistros",
+      desc: ""
     },
     {
       icon: Database,
-      title: "Dados em Dia",
-      desc: "Informação 2019+ sempre online."
+      title: "Consulte com certeza informações que impactam a tomada de decisão",
+      desc: ""
     }
   ];
 
@@ -38,14 +38,12 @@ export function PainSection() {
           {/* Lado Esquerdo: Conteúdo Textual */}
           <div className="relative flex flex-col justify-center px-8 py-16 md:px-12 lg:px-16 lg:pl-[64px] bg-white z-20">
             <div className="max-w-[520px]">
-              <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-4">O DESAFIO</p>
+              <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-4">O MEDO DE LEVAR PREJUÍZO FAZ PARTE DO JOGO</p>
               <h2 className="text-[#031426] text-[30px] leading-[1.15] font-bold sm:text-[38px]">
-                Sua loja cresce, mas os problemas de gestão acompanham?
+                Um carro pode parecer um ótimo negócio. Até aparecer o que ninguém verificou.
               </h2>
               <p className="text-[#1D252D]/80 mt-6 text-[16px] leading-relaxed">
-                Muitas revendas perdem margem e oportunidades por falta de dados precisos. 
-                Estoque desatualizado, falta de histórico e processos manuais 
-                são o freio que impede sua empresa de acelerar.
+                Informações ocultas, leilões, dívidas, sinistros e muito mais em segundos. Com tudo certo, sua análise fica completa e você negocia com confiança total.
               </p>
             </div>
           </div>
@@ -73,7 +71,7 @@ export function PainSection() {
                 </div>
                 <div className="flex flex-col">
                   <h3 className="text-[14px] font-bold text-[#031426] mb-1">{benefit.title}</h3>
-                  <p className="text-[12px] text-[#1D252D]/70 leading-[1.3]">{benefit.desc}</p>
+                  {benefit.desc && <p className="text-[12px] text-[#1D252D]/70 leading-[1.3]">{benefit.desc}</p>}
                 </div>
               </div>
             ))}
