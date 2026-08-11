@@ -108,7 +108,7 @@ export function Hero() {
             <div className="h-1.5 w-1.5 rounded-full bg-[#22E38A]" />
             <div className="flex flex-col">
               <p className="text-[17px] md:text-[19px] font-bold text-[#1D252D] leading-[1.2]">
-                Não deixe a concorrência sair na sua frente.
+                Não deixe a concorrência sair na frente.
               </p>
               <p className="text-[13px] md:text-[15px] font-normal text-[#1D252D]/60 leading-[1.3]">
                 Tenha mais inteligência e agilidade na sua loja.
