@@ -1,5 +1,5 @@
 import { ArrowRight, AlertTriangle, TrendingDown, Clock } from "lucide-react";
-import dealershipStock from "@/assets/dealership-stock-v4.jpg";
+import dealershipStock from "@/assets/dealership-stock-v5.jpg";
 
 export function PainSection() {
   const painPoints = [
