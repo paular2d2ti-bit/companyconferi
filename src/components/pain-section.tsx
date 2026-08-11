@@ -71,7 +71,7 @@ export function PainSection() {
                 </div>
                 <div className="flex flex-col">
                   <h3 className="text-[14px] font-bold text-[#031426] mb-1">{benefit.title}</h3>
-                  <p className="text-[12px] text-[#1D252D]/70 leading-[1.3]">{benefit.desc}</p>
+                  {benefit.desc && <p className="text-[12px] text-[#1D252D]/70 leading-[1.3]">{benefit.desc}</p>}
                 </div>
               </div>
             ))}
