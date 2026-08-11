@@ -78,7 +78,7 @@ export function PainSection() {
           {/* Lado Direito: Imagem Comercial Ocupando Tudo */}
           <div className="relative min-h-[600px] md:min-h-full overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?q=80&w=2064&auto=format&fit=crop" 
+              src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070&auto=format&fit=crop" 
               alt="Vários carros seminovos alinhados em pátio de loja" 
               className="absolute inset-0 w-full h-full object-cover object-center"
               loading="eager"
