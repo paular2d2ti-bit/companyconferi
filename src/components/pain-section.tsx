@@ -1,5 +1,5 @@
 import { ArrowRight, AlertTriangle, TrendingDown, Clock } from "lucide-react";
-import inventoryStockCars from "@/assets/inventory-stock-cars.jpg";
+import dealershipInventory from "@/assets/dealership-inventory.jpg";
 
 export function PainSection() {
   const painPoints = [
@@ -79,8 +79,8 @@ export function PainSection() {
           {/* Lado Direito: Imagem Comercial Ocupando Tudo */}
           <div className="relative min-h-[600px] md:min-h-full overflow-hidden">
             <img 
-              src={inventoryStockCars} 
-              alt="Estoque de veículos seminovos alinhados em pátio comercial" 
+              src={dealershipInventory} 
+              alt="Estoque amplo de veículos alinhados em pátio de concessionária" 
               className="absolute inset-0 w-full h-full object-cover object-center"
               loading="eager"
             />
