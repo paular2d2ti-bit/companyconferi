@@ -50,15 +50,15 @@ export function PainSection() {
         </div>
 
         {/* Lado Direito: Imagem com Degradê */}
-        <div className="relative min-h-[300px] md:min-h-full overflow-hidden">
+        <div className="relative min-h-[400px] md:min-h-full overflow-hidden bg-gray-100">
           {/* Degradê suave que avança sobre a borda esquerda da imagem */}
-          <div className="absolute inset-y-0 left-0 z-10 w-32 bg-gradient-to-r from-white via-white/60 to-transparent hidden md:block" />
+          <div className="absolute inset-y-0 left-0 z-10 w-32 bg-gradient-to-r from-white via-white/80 to-transparent hidden md:block" />
           
           <img 
-            src="/src/assets/professionals-analyzing-car.jpg" 
+            src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format&fit=crop" 
             alt="Profissionais analisando veículo em showroom" 
             className="absolute inset-0 h-full w-full object-cover"
-            onError={(e) => (e.currentTarget.style.display = 'none')}
+            loading="eager"
           />
         </div>
       </div>
