@@ -20,12 +20,12 @@ export function PainSection() {
   ];
 
   return (
-    <div className="bg-[#F8F9FA] pt-0">
+    <div className="bg-[#F8F9FA] relative">
       <section id="problema" className="mx-auto max-w-[1440px] overflow-hidden bg-[#F8F9FA]">
         <div className="w-full grid grid-cols-1 md:grid-cols-[46%_54%] md:min-h-[850px] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-center px-8 pt-24 pb-24 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
+          <div className="relative flex flex-col justify-center px-8 pt-40 pb-24 md:px-12 lg:px-16 lg:pl-[80px] bg-[#F8F9FA] z-20">
             <div className="max-w-[540px]">
               <div className="inline-flex items-center gap-2 mb-6">
                 <span className="text-[#00A99D] text-[12px] font-bold tracking-[0.1em] uppercase">
@@ -76,20 +76,23 @@ export function PainSection() {
           </div>
 
           {/* Lado Direito: Imagem Comercial Ocupando Tudo */}
-          <div className="relative min-h-[600px] md:min-h-full overflow-hidden bg-gray-100">
+          <div className="relative min-h-[600px] md:min-h-full overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?q=80&w=2070&auto=format&fit=crop" 
-              alt="Estoque de veículos seminovos em pátio comercial" 
-              className="absolute inset-0 w-full h-full object-cover brightness-[0.98]"
+              src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop" 
+              alt="Estoque de veículos seminovos alinhados em pátio comercial" 
+              className="absolute inset-0 w-full h-full object-cover brightness-[0.98] grayscale-[0.1]"
               loading="eager"
             />
             {/* Overlay sutil para integração visual */}
-            <div className="absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r from-[#F8F9FA] via-[#F8F9FA]/20 to-transparent z-10 hidden md:block" />
-            <div className="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-[#F8F9FA]/40 to-transparent z-10" />
-            <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-[#F8F9FA]/40 to-transparent z-10" />
+            <div className="absolute inset-y-0 left-0 w-1/3 bg-gradient-to-r from-[#F8F9FA] via-[#F8F9FA]/60 to-transparent z-10 hidden md:block" />
+            <div className="absolute inset-x-0 top-0 h-40 bg-gradient-to-b from-[#F8F9FA] via-[#F8F9FA]/40 to-transparent z-10" />
+            <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-[#F8F9FA] via-[#F8F9FA]/40 to-transparent z-10" />
           </div>
         </div>
       </section>
+      
+      {/* Transição Suave para o Bloco 3 (#FFFFFF) */}
+      <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-white to-transparent pointer-events-none" />
     </div>
 
   );

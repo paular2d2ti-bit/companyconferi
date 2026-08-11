@@ -92,7 +92,7 @@ export function Hero() {
       </div>
 
       {/* Transição gradual do Navy (#031426) para o fundo do Bloco 2 (#F8F9FA) */}
-      <div className="absolute bottom-0 left-0 w-full h-[140px] bg-gradient-to-t from-[#F8F9FA] via-[#031426] to-transparent z-30" />
+      <div className="absolute bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#F8F9FA] via-[#031426] to-transparent z-30" />
     </section>
   );
 }
