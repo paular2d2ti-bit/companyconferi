@@ -33,19 +33,19 @@ export function Hero() {
               Descubra informações que podem mudar sua decisão antes de comprar, aceitar uma troca ou negociar um veículo.
             </p>
             
-            <div className="mt-10 flex flex-col items-start gap-12">
+            <div className="mt-10 flex flex-col items-start gap-16">
               <button className="h-[60px] w-full md:w-auto rounded-[12px] bg-[#22E38A] px-[40px] text-[16px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] shadow-xl shadow-[#22E38A]/20 flex items-center justify-center gap-3 group">
                 Quero conhecer a Gold
                 <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
               </button>
               
-              <div className="flex items-center gap-4 text-white text-[14px] font-extrabold tracking-[0.2em] uppercase px-1 z-20">
+              <div className="flex items-center gap-4 text-white text-[14px] font-black tracking-[0.25em] uppercase px-1 z-20">
                 <span>Compra</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_8px_#22E38A]"></span>
+                <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
                 <span>Troca</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_8px_#22E38A]"></span>
+                <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
                 <span>Avaliação</span>
-                <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_8px_#22E38A]"></span>
+                <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
                 <span>Estoque</span>
               </div>
             </div>
