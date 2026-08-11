@@ -55,7 +55,7 @@ export function PainSection() {
           <div className="absolute inset-y-0 left-0 z-10 w-32 bg-gradient-to-r from-white via-white/80 to-transparent hidden md:block" />
           
           <img 
-            src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?q=80&w=2073&auto=format&fit=crop" 
+            src="https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=2072&auto=format&fit=crop" 
             alt="Profissionais analisando veículo em showroom" 
             className="absolute inset-0 h-full w-full object-cover"
             loading="eager"
