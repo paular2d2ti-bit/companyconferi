@@ -1,4 +1,4 @@
-import { CheckCircle2, ShieldCheck, BarChart3, Users } from "lucide-react";
+import { CheckCircle2, ShieldCheck, BarChart3, Users, Calendar, Network, Search, Car, FileText, Gavel, DollarSign, Database, ArrowRight } from "lucide-react";
 import heroCar from "@/assets/hero-car-dealership-dark-v2.jpg";
 
 export function Hero() {
@@ -30,28 +30,33 @@ export function Hero() {
                   Comece grátis e domine o mercado
                 </button>
                 
-                <div className="flex items-center gap-3">
-                  <span className="text-[12px] md:text-[13px] font-semibold text-white/50 leading-[1.3]">
+                <div className="flex items-center gap-3 px-4 py-3 rounded-[12px] border border-white/10 bg-white/5 backdrop-blur-sm">
+                  <span className="text-[12px] md:text-[13px] font-semibold text-white/90 leading-[1.3]">
                     + 3.597 lojas aproximadamente
                   </span>
                 </div>
               </div>
 
               {/* Metrics Row */}
-              <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:items-start md:grid-cols-[repeat(4,1fr)] lg:gap-x-[32px]">
+              <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-8 border-t border-white/5 pt-8 sm:grid-cols-4 sm:items-start md:grid-cols-[repeat(4,1fr)] lg:gap-x-[24px]">
                 {[
-                  { value: "+10 anos", label: "de mercado automotivo" },
-                  { value: "+2,1 mil", label: "usuários ativos" },
-                  { value: "Dados de 2019+", label: "atualizados" },
-                  { value: "4,4 bi+", label: "de dados consultados" },
+                  { value: "+10 anos", label: "de mercado automotivo", icon: BarChart3 },
+                  { value: "+2,1 mil", label: "usuários ativos", icon: Users },
+                  { value: "Dados de 2019+", label: "atualizados", icon: Calendar },
+                  { value: "4,4 bi+", label: "de dados consultados", icon: Network },
                 ].map((item, idx) => (
-                  <div key={idx} className="flex flex-col items-start gap-1">
-                    <span className="text-[18px] font-bold text-white leading-tight">
-                      {item.value}
-                    </span>
-                    <span className="text-[12px] font-normal leading-[1.3] text-white/40">
-                      {item.label}
-                    </span>
+                  <div key={idx} className="flex items-start gap-3 group">
+                    <div className="mt-1 flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-[#22E38A]/10 text-[#22E38A] transition-colors group-hover:bg-[#22E38A]/20">
+                      <item.icon className="h-4 w-4" />
+                    </div>
+                    <div className="flex flex-col items-start gap-0.5">
+                      <span className="text-[18px] font-bold text-white leading-tight">
+                        {item.value}
+                      </span>
+                      <span className="text-[12px] font-normal leading-[1.3] text-white/40">
+                        {item.label}
+                      </span>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -71,54 +76,106 @@ export function Hero() {
 
             {/* Floating Glassmorphism Cards */}
             <div className="absolute inset-0 z-20 hidden lg:block pointer-events-none">
-              <div 
-                className="absolute right-[8%] top-20 w-52 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Status</span>
-                  <span className="h-1.5 w-1.5 rounded-full bg-[#22E38A]" />
-                </div>
-                <div className="text-lg font-bold text-[#22E38A]">Aprovado</div>
-                <div className="mt-1 text-[10px] text-white/50">Vistoria cautelar 100%</div>
-              </div>
-
-              <div 
-                className="absolute right-[12%] bottom-24 w-56 rounded-[10px] border border-white/10 bg-[#031426]/60 p-4 shadow-xl backdrop-blur-[8px]"
-              >
-                <div className="flex items-center gap-3 mb-2">
-                  <div className="flex h-7 w-7 items-center justify-center rounded-full bg-[#22E38A]/10 text-[#22E38A]">
-                    <ShieldCheck className="h-3.5 w-3.5" />
+              {/* Card 1: Histórico veicular */}
+              <div className="absolute left-[10%] top-[15%] w-44 rounded-[12px] border border-white/10 bg-[#031426]/70 p-3 shadow-2xl backdrop-blur-[10px]">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#22E38A]/20 text-[#22E38A]">
+                    <Search className="h-4 w-4" />
                   </div>
                   <div>
-                    <div className="text-[9px] font-semibold uppercase tracking-widest text-white/40">Garantia</div>
-                    <div className="text-sm font-bold text-white">Certificado Gold</div>
+                    <div className="text-[11px] font-bold text-white">Histórico veicular</div>
+                    <div className="text-[10px] text-[#22E38A] font-medium">Completo</div>
                   </div>
                 </div>
-                <div className="h-1 w-full rounded-full bg-white/10">
-                  <div className="h-full w-[98%] rounded-full bg-[#22E38A]" />
+              </div>
+
+              {/* Card 2: Leilões */}
+              <div className="absolute right-[12%] top-[10%] w-48 rounded-[12px] border border-white/10 bg-[#031426]/70 p-3 shadow-2xl backdrop-blur-[10px]">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#22E38A]/20 text-[#22E38A]">
+                    <Gavel className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <div className="text-[11px] font-bold text-white">Leilões</div>
+                    <div className="text-[10px] text-[#22E38A] font-medium">Nacionais e regionais</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 3: Fipe Online */}
+              <div className="absolute left-[35%] top-[25%] w-40 rounded-[12px] border border-white/10 bg-[#031426]/70 p-3 shadow-2xl backdrop-blur-[10px]">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#22E38A]/20 text-[#22E38A]">
+                    <DollarSign className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <div className="text-[11px] font-bold text-white">Fipe Online</div>
+                    <div className="text-[10px] text-[#22E38A] font-medium">Atualizado</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 4: Leilão */}
+              <div className="absolute right-[15%] bottom-[35%] w-44 rounded-[12px] border border-white/10 bg-[#031426]/70 p-3 shadow-2xl backdrop-blur-[10px]">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#22E38A]/20 text-[#22E38A]">
+                    <Search className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <div className="text-[11px] font-bold text-white">Leilão</div>
+                    <div className="text-[10px] text-[#22E38A] font-medium">Simulados e reais</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 5: Revenda & FIPE */}
+              <div className="absolute left-[15%] bottom-[15%] w-48 rounded-[12px] border border-white/10 bg-[#031426]/70 p-3 shadow-2xl backdrop-blur-[10px]">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#22E38A]/20 text-[#22E38A]">
+                    <FileText className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <div className="text-[11px] font-bold text-white">Revenda & FIPE</div>
+                    <div className="text-[10px] text-[#22E38A] font-medium">Precificação assertiva</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Card 6: Dívida ativa (Sefaz) */}
+              <div className="absolute right-[30%] bottom-[10%] w-48 rounded-[12px] border border-white/10 bg-[#031426]/70 p-3 shadow-2xl backdrop-blur-[10px]">
+                <div className="flex items-center gap-3">
+                  <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-[#22E38A]/20 text-[#22E38A]">
+                    <Database className="h-4 w-4" />
+                  </div>
+                  <div>
+                    <div className="text-[11px] font-bold text-white">Dívida ativa (Sefaz)</div>
+                    <div className="text-[10px] text-[#22E38A] font-medium">Todas as UF's</div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Integrated Bottom CTA Bar - Horizontal internal block */}
-        <div className="mx-auto border-t border-white/5 bg-[#020d18] px-8 py-8 md:px-16 md:py-10">
+        {/* Integrated Bottom CTA Bar */}
+        <div className="mx-auto border-t border-white/5 bg-[#010912] px-8 py-8 md:px-16 md:py-8">
           <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
-            <div className="flex items-center gap-4">
-              <div className="h-2 w-2 rounded-full bg-[#22E38A] shrink-0" />
+            <div className="flex items-center gap-5">
+              <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-[12px] bg-[#22E38A]/10 text-[#22E38A] border border-[#22E38A]/20">
+                <CheckCircle2 className="h-6 w-6" />
+              </div>
               <div className="flex flex-col">
                 <p className="text-[17px] md:text-[19px] font-bold text-white leading-[1.2]">
                   Não deixe a concorrência sair na frente.
                 </p>
-                <p className="text-[13px] md:text-[15px] font-normal text-white/50 leading-[1.3]">
+                <p className="text-[13px] md:text-[15px] font-normal text-white/40 leading-[1.3] mt-1">
                   Tenha mais inteligência e agilidade na sua loja.
                 </p>
               </div>
             </div>
-            <button className="flex items-center gap-2 text-[14px] md:text-[15px] font-bold text-[#22E38A] leading-[1.2] transition-colors hover:text-white group">
+            <button className="flex items-center gap-3 rounded-[10px] bg-[#22E38A] px-8 py-4 text-[14px] md:text-[15px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] shadow-lg shadow-[#22E38A]/10">
               Quero testar agora
-              <svg className="w-4 h-4 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14m-7-7 7 7-7 7"/></svg>
+              <ArrowRight className="h-4 w-4" />
             </button>
           </div>
         </div>
