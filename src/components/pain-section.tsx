@@ -4,28 +4,28 @@ export function PainSection() {
   const benefits = [
     {
       icon: Search,
-      title: "Busca Inteligente",
-      desc: "Localize veículos em segundos."
+      title: "Histórico de roubos e furtos atualizado",
+      desc: ""
     },
     {
       icon: History,
-      title: "Histórico Completo",
-      desc: "Dados reais de cada carro."
+      title: "Débitos e multas em tempo real",
+      desc: ""
     },
     {
       icon: BarChart2,
-      title: "Margem Real",
-      desc: "Lucratividade sob controle."
+      title: "Venda com mais segurança e agilidade",
+      desc: ""
     },
     {
       icon: ShieldCheck,
-      title: "Decisão Segura",
-      desc: "Menos risco na compra."
+      title: "Problemas estruturais e sinistros",
+      desc: ""
     },
     {
       icon: Database,
-      title: "Dados em Dia",
-      desc: "Informação 2019+ sempre online."
+      title: "Consulte com certeza informações que impactam a tomada de decisão",
+      desc: ""
     }
   ];
 
