@@ -60,7 +60,7 @@ export function Hero() {
               alt="SUV seminovo em showroom"
               className="absolute inset-0 h-full w-full object-cover object-[65%_center]"
             />
-            {/* Transition overlay */}
+            {/* Transition overlay - Lateral apenas, não no fundo */}
             <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />
             <div className="absolute inset-0 bg-[#031426]/20" />
 
@@ -91,11 +91,13 @@ export function Hero() {
             </div>
           </div>
         </div>
+        
+        {/* Espaço de respiro sólido abaixo do conteúdo antes da transição */}
+        <div className="h-[80px] w-full bg-[#031426]" />
       </div>
 
-      {/* A transição agora é uma faixa independente abaixo do conteúdo do Hero */}
-      <div className="w-full bg-[#031426] h-[50px]" />
-      <div className="w-full h-[120px] bg-gradient-to-b from-[#031426] to-[#F8F9FA]" />
+      {/* Faixa de transição independente - Fora do min-h-screen do Hero */}
+      <div className="w-full h-[120px] bg-gradient-to-b from-[#031426] to-[#F8F9FA] relative z-10" />
     </section>
   );
 }
