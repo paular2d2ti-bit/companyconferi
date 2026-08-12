@@ -21,13 +21,13 @@ export function IntroSection() {
   ];
 
   return (
-    <div className="bg-white px-4 pt-16 pb-3 md:px-8 lg:px-12 relative overflow-hidden">
-      <section id="solucoes" className="mx-auto max-w-[1440px] overflow-hidden rounded-[36px] bg-[#F5F7F8] border border-gray-100 shadow-sm relative z-10">
+    <div className="bg-white px-4 pt-4 pb-2 md:px-8 lg:px-12 relative overflow-hidden">
+      <section id="solucoes" className="mx-auto max-w-[1440px] overflow-hidden rounded-[24px] bg-[#F5F7F8] border border-gray-100 shadow-sm relative z-10">
         {/* Bloco Superior: Texto e Imagem Lado a Lado */}
         <div className="w-full grid grid-cols-1 md:grid-cols-[42%_58%] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-center px-8 py-10 md:px-12 lg:px-16 lg:pl-[64px] z-20">
+          <div className="relative flex flex-col justify-center px-8 py-8 md:px-12 lg:px-16 lg:pl-[64px] z-20">
             <div className="max-w-[480px]">
               <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-3">
                 VÁ ALÉM DA CONSULTA BÁSICA
