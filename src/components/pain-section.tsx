@@ -97,7 +97,7 @@ export function PainSection() {
       </section>
       
       {/* Transição Suave para o Bloco 3 (#FFFFFF) - Reduzida para aproximar blocos */}
-      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-white to-transparent pointer-events-none" />
 
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes fade-in {
