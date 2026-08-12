@@ -91,8 +91,9 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Transição gradual do Navy (#031426) para o fundo do Bloco 2 (#F8F9FA) */}
-      <div className="absolute bottom-0 left-0 w-full h-[180px] bg-gradient-to-t from-[#F8F9FA] via-[#031426]/80 to-transparent z-10 pointer-events-none" />
+      {/* A transição agora é uma faixa independente abaixo do conteúdo do Hero */}
+      <div className="w-full bg-[#031426] h-[50px]" />
+      <div className="w-full h-[120px] bg-gradient-to-b from-[#031426] to-[#F8F9FA]" />
     </section>
   );
 }
