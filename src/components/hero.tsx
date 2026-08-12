@@ -93,11 +93,11 @@ export function Hero() {
         </div>
         
         {/* Espaço de respiro sólido abaixo do conteúdo antes da transição */}
-        <div className="h-[80px] w-full bg-[#031426]" />
+        <div className="h-[40px] w-full bg-[#031426]" />
       </div>
 
       {/* Faixa de transição independente - Fora do min-h-screen do Hero */}
-      <div className="w-full h-[120px] bg-gradient-to-b from-[#031426] to-[#F8F9FA] relative z-10" />
+      <div className="w-full h-[80px] bg-gradient-to-b from-[#031426] to-[#F8F9FA] relative z-10" />
     </section>
   );
 }
