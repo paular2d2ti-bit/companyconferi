@@ -3,20 +3,20 @@ import { CheckCircle2, Monitor } from "lucide-react";
 export function IntroSection() {
   const benefits = [
     {
-      title: "Consulte mais informações",
-      desc: "Em segundos e tenha tudo que mais precisa para analisar um veículo."
+      title: "Histórico e gravames",
+      desc: "Consulte registros que podem impactar a negociação."
     },
     {
-      title: "Compare com outros veículos",
-      desc: "Do mercado e negocie com embasamento."
+      title: "Débitos, multas e recall",
+      desc: "Identifique pendências antes de fechar o negócio."
     },
     {
-      title: "Valide melhor e reduza os riscos",
-      desc: "De prejuízos com dados que realmente importam."
+      title: "PRF, RENAINF e comunicado de venda",
+      desc: "Aprofunde a análise antes de decidir pelo veículo."
     },
     {
-      title: "Agilize seu processo de venda",
-      desc: "E aumente o giro do seu estoque."
+      title: "Chassi e histórico de sinistro",
+      desc: "Tenha mais elementos para validar o veículo antes da negociação."
     }
   ];
 
@@ -30,13 +30,15 @@ export function IntroSection() {
           <div className="relative flex flex-col justify-center px-8 py-10 md:px-12 lg:px-16 lg:pl-[64px] z-20">
             <div className="max-w-[480px]">
               <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-3">
-                TODA A INFORMAÇÃO CERTA PARA A ESCOLHA CERTA.
+                VÁ ALÉM DA CONSULTA BÁSICA
               </p>
               <h2 className="text-[#031426] text-[28px] leading-[1.1] font-bold sm:text-[34px] mb-4">
-                Não é só consultar. É cruzar, analisar e entender o que os dados estão dizendo.
+                Sua loja já consulta veículos.
+                <br />
+                Mas consulta o suficiente para decidir?
               </h2>
               <p className="text-[#1D252D]/80 text-[16px] leading-relaxed mb-6">
-                Acesse informações completas de veículos, com cruzamento de dados de diversas fontes para negociar com segurança, precificar com precisão e vender com mais rapidez.
+                A Gold aprofunda a análise com informações que ajudam sua equipe a entender melhor o veículo antes de comprar, aceitar uma troca ou colocar no estoque.
               </p>
 
               {/* Lista de benefícios */}
@@ -74,7 +76,7 @@ export function IntroSection() {
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-left">
             <CheckCircle2 className="text-[#00A99D] h-6 w-6 shrink-0" />
             <p className="text-[#031426] text-[19px] font-medium">
-              Tenha dados para decidir. Venda com mais segurança e destaque-se da concorrência!
+              Não é consultar mais. É saber mais antes de fechar.
             </p>
           </div>
         </div>
