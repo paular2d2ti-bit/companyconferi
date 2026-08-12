@@ -13,8 +13,9 @@ export function Hero() {
   ];
 
   return (
-    <section className="relative w-full min-h-screen bg-[#031426] overflow-hidden flex flex-col">
-      <div className="flex-grow grid grid-cols-1 lg:grid-cols-[46%_54%] items-stretch w-full">
+    <section className="relative w-full bg-[#031426] overflow-hidden flex flex-col">
+      <div className="min-h-screen flex flex-col">
+        <div className="flex-grow grid grid-cols-1 lg:grid-cols-[46%_54%] items-stretch w-full">
         {/* COLUNA ESQUERDA — 46% */}
         <div className="relative z-10 flex w-full flex-col justify-center px-8 py-20 lg:py-0 lg:px-16 lg:pl-[80px]">
           <div className="max-w-[540px]">
