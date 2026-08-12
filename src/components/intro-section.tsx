@@ -21,13 +21,13 @@ export function IntroSection() {
   ];
 
   return (
-    <div className="bg-white px-4 pt-4 pb-2 md:px-8 lg:px-12 relative overflow-hidden">
-      <section id="solucoes" className="mx-auto max-w-[1440px] overflow-hidden rounded-[24px] bg-[#F5F7F8] border border-gray-100 shadow-sm relative z-10">
+    <div className="bg-white px-4 md:px-8 lg:px-12 relative overflow-hidden">
+      <section id="solucoes" className="mx-auto max-w-[1440px] overflow-hidden bg-white relative z-10">
         {/* Bloco Superior: Texto e Imagem Lado a Lado */}
         <div className="w-full grid grid-cols-1 md:grid-cols-[42%_58%] items-stretch">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
-          <div className="relative flex flex-col justify-center px-8 py-8 md:px-12 lg:px-16 lg:pl-[64px] z-20">
+          <div className="relative flex flex-col justify-center px-8 py-16 md:px-12 lg:px-16 lg:pl-[64px] z-20">
             <div className="max-w-[480px]">
               <p className="text-[#00A99D] text-[12px] font-bold tracking-[0.08em] uppercase mb-3">
                 VÁ ALÉM DA CONSULTA BÁSICA
@@ -72,7 +72,7 @@ export function IntroSection() {
         </div>
 
         {/* Bloco Inferior: Callout */}
-        <div className="bg-white/50 border-t border-gray-200 px-8 py-5 lg:px-16">
+        <div className="bg-[#F5F7F8] border-t border-gray-100 px-8 py-10 lg:px-16">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-center md:text-left">
             <CheckCircle2 className="text-[#00A99D] h-6 w-6 shrink-0" />
             <p className="text-[#031426] text-[19px] font-medium">
