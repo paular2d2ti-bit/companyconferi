@@ -20,11 +20,9 @@ export function SiteHeader() {
 
   return (
     <header
-      className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
-        scrolled ? "glass" : "bg-transparent"
-      }`}
+      className={`absolute inset-x-0 top-0 z-50 transition-all duration-500`}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
+      <div className="mx-auto flex h-20 lg:h-24 max-w-full items-center justify-between px-6 lg:px-[80px]">
         <a href="/" className="flex items-center gap-2 group">
           <div className="flex flex-col">
             <span className="text-xl font-bold tracking-tighter text-white sm:text-2xl leading-none">
