@@ -14,14 +14,14 @@ export function Hero() {
 
   return (
     <section className="relative w-full bg-[#031426] overflow-hidden flex flex-col">
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen lg:min-h-screen flex flex-col">
         <div className="flex-grow grid grid-cols-1 lg:grid-cols-[46%_54%] items-stretch w-full">
           {/* COLUNA ESQUERDA — 46% */}
-          <div className="relative z-10 flex w-full flex-col justify-center px-8 py-20 lg:py-0 lg:px-16 lg:pl-[80px]">
+          <div className="relative z-10 flex w-full flex-col justify-center px-6 py-28 lg:py-0 lg:px-16 lg:pl-[80px]">
             <div className="max-w-[540px]">
               
-              <h1 className="text-[42px] md:text-[52px] font-bold leading-[1.05] tracking-[-0.03em] text-white">
-                Vai colocar esse carro no estoque?<br />
+              <h1 className="text-[34px] sm:text-[42px] md:text-[52px] font-bold leading-[1.1] md:leading-[1.05] tracking-[-0.03em] text-white">
+                Vai colocar esse carro no estoque?<br className="hidden sm:block" />
                 Consulte antes de comprar.
               </h1>
 
@@ -29,13 +29,13 @@ export function Hero() {
                 Descubra informações que podem mudar sua decisão antes de comprar, aceitar uma troca ou negociar um veículo.
               </p>
               
-              <div className="mt-10 flex flex-col items-start gap-16">
-                <button className="h-[60px] w-full md:w-auto rounded-[12px] bg-[#22E38A] px-[40px] text-[16px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] shadow-xl shadow-[#22E38A]/20 flex items-center justify-center gap-3 group">
+              <div className="mt-8 md:mt-10 flex flex-col items-start gap-10 md:gap-16">
+                <button className="h-[56px] md:h-[60px] w-full md:w-auto rounded-[12px] bg-[#22E38A] px-[32px] md:px-[40px] text-[15px] md:text-[16px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] shadow-xl shadow-[#22E38A]/20 flex items-center justify-center gap-3 group">
                   Quero conhecer a Auto Perícia Gold
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
                 </button>
                 
-                <div className="flex items-center gap-4 text-white text-[14px] font-black tracking-[0.25em] uppercase px-1 z-20">
+                <div className="flex flex-wrap items-center gap-y-3 gap-x-4 text-white text-[12px] md:text-[14px] font-black tracking-[0.2em] md:tracking-[0.25em] uppercase px-1 z-20">
                   <span>Compra</span>
                   <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
                   <span>Troca</span>
@@ -49,11 +49,11 @@ export function Hero() {
           </div>
 
           {/* COLUNA DIREITA — 54% */}
-          <div className="relative overflow-hidden">
+          <div className="relative overflow-hidden min-h-[400px] lg:min-h-0">
             <img
               src={heroCar}
               alt="SUV seminovo em showroom"
-              className="absolute inset-0 h-full w-full object-cover object-[65%_center]"
+              className="absolute inset-0 h-full w-full object-cover object-[65%_center] lg:object-cover"
             />
             {/* Transition overlay - Lateral apenas, não no fundo */}
             <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />

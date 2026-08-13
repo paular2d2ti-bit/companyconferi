@@ -21,11 +21,11 @@ export function FinalCtaSection() {
           </div>
         </div>
 
-        <h2 className="mx-auto max-w-4xl text-3xl font-bold leading-tight tracking-tight text-white sm:text-4xl lg:text-5xl">
+        <h2 className="mx-auto max-w-4xl text-[28px] sm:text-4xl lg:text-5xl font-bold leading-[1.2] sm:leading-tight tracking-tight text-white px-2">
           Antes do próximo carro entrar no estoque, tenha mais informação para decidir.
         </h2>
         
-        <p className="mx-auto mt-8 max-w-2xl text-lg leading-relaxed text-white/70">
+        <p className="mx-auto mt-6 md:mt-8 max-w-2xl text-[17px] sm:text-lg leading-relaxed text-white/70 px-4">
           Leve a Auto Perícia Gold, da Company Conferi, para sua operação e consulte antes de comprar, aceitar uma troca, avaliar ou colocar um veículo no estoque.
         </p>
 

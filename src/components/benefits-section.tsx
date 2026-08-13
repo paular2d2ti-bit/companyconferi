@@ -40,15 +40,15 @@ export function BenefitsSection() {
       </div>
 
       <div className="container relative z-10 mx-auto px-6">
-        <div className="max-w-2xl">
-          <p className="text-teal text-[12px] font-bold tracking-[0.2em] uppercase flex items-center gap-2">
+        <div className="max-w-2xl text-center sm:text-left">
+          <p className="text-teal text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase flex items-center justify-center sm:justify-start gap-2">
             <ShieldCheck className="h-4 w-4 text-[#FFB800]" />
             RESULTADOS QUE DÃO SEGURANÇA
           </p>
-          <h2 className="mt-4 text-[38px] font-bold leading-[1.1] text-white tracking-tight">
+          <h2 className="mt-4 text-[30px] sm:text-[38px] font-bold leading-[1.2] sm:leading-[1.1] text-white tracking-tight">
             Números que reforçam a decisão.
           </h2>
-          <p className="mt-4 text-[18px] text-white/70">
+          <p className="mt-4 text-[17px] sm:text-[18px] text-white/70">
             A Company Conferi, com a Auto Perícia Gold, apoia operações que precisam decidir com mais segurança.
           </p>
         </div>
@@ -77,12 +77,12 @@ export function BenefitsSection() {
           ))}
         </div>
 
-        <div className="mt-20 flex flex-col items-start gap-8 border-t border-white/10 pt-12 sm:flex-row sm:items-center sm:justify-between">
-          <p className="max-w-md text-[18px] font-medium leading-relaxed text-white/80">
+        <div className="mt-16 sm:mt-20 flex flex-col items-center sm:items-center gap-8 border-t border-white/10 pt-12 sm:flex-row sm:justify-between text-center sm:text-left">
+          <p className="max-w-md text-[17px] sm:text-[18px] font-medium leading-relaxed text-white/80">
             Quando a decisão vale dinheiro, consultar antes faz diferença.
           </p>
           
-          <button className="group relative flex items-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10 overflow-hidden">
+          <button className="group relative flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10 overflow-hidden">
             <span className="relative z-10 flex items-center gap-3">
               Quero ver como funciona na minha loja
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
