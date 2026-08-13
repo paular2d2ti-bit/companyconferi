@@ -1,29 +1,27 @@
-# Stage 1: Build base
 FROM node:20-slim AS base
-ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME:$PATH"
-RUN corepack enable
-COPY . /app
 WORKDIR /app
+# Instalar o Bun
+RUN apt-get update && apt-get install -y curl unzip && \
+    curl -fsSL https://bun.sh/install | bash
+ENV PATH="/root/.bun/bin:$PATH"
 
 # Stage 2: Install dependencies
-FROM base AS prod-deps
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --prod --frozen-lockfile
+FROM base AS deps
+COPY package.json bun.lock ./
+RUN bun install --frozen-lockfile
 
 # Stage 3: Build the application
 FROM base AS build
-RUN --mount=type=cache,id=pnpm,target=/pnpm/store pnpm install --frozen-lockfile
-RUN pnpm run build
+COPY --from=deps /app/node_modules /app/node_modules
+COPY . .
+RUN bun run build
 
 # Stage 4: Production runner
 FROM base
-COPY --from=prod-deps /app/node_modules /app/node_modules
 COPY --from=build /app/.output /app/.output
 
-# Exposed port (TanStack Start default for node output is often 3000)
 ENV PORT=3000
 EXPOSE 3000
 
-# Command to run the server
-# Nitro output for node preset is usually at .output/server/index.mjs
 CMD ["node", ".output/server/index.mjs"]
+
