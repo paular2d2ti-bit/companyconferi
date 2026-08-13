@@ -26,24 +26,24 @@ export function IntroSection() {
 
   return (
     <div className="bg-white relative overflow-hidden">
-      <section id="solucoes" className="mx-auto max-w-[1440px] px-8 md:px-12 lg:px-24 py-16 lg:py-24 relative z-10">
+      <section id="solucoes" className="mx-auto max-w-[1440px] px-6 md:px-12 lg:px-24 py-16 lg:py-24 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-[46%_54%] gap-12 lg:gap-24 items-center">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
           <div className="relative z-20">
             <div className="inline-flex items-center gap-2 mb-6">
-              <span className="text-[#00A99D] text-[12px] font-bold tracking-[0.2em] uppercase bg-[#00A99D]/5 px-3 py-1.5 rounded-full">
+              <span className="text-[#00A99D] text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase bg-[#00A99D]/5 px-3 py-1.5 rounded-full">
                 VÁ ALÉM DA CONSULTA BÁSICA
               </span>
             </div>
             
-            <h2 className="text-[#031426] text-[40px] leading-[1.05] font-bold sm:text-[48px] lg:text-[56px] tracking-[-0.04em] mb-8">
+            <h2 className="text-[#031426] text-[32px] sm:text-[40px] leading-[1.1] md:leading-[1.05] font-bold sm:text-[48px] lg:text-[56px] tracking-[-0.04em] mb-6 md:mb-8">
               Sua loja já consulta veículos.
               <br className="hidden md:block" />
               Mas consulta o suficiente para decidir?
             </h2>
             
-            <p className="text-[#1D252D]/80 text-[18px] md:text-[20px] leading-relaxed mb-12 font-medium max-w-[540px]">
+            <p className="text-[#1D252D]/80 text-[17px] md:text-[20px] leading-relaxed mb-10 md:mb-12 font-medium max-w-[540px]">
               A Auto Perícia Gold, da Company Conferi, aprofunda a consulta com informações que podem mudar sua decisão antes de fechar o negócio.
             </p>
 
@@ -68,12 +68,12 @@ export function IntroSection() {
             <div className="flex flex-col gap-8">
               <div className="flex items-start gap-3 py-6 border-y border-[#F5F7F8]">
                 <ShieldCheck className="w-6 h-6 text-[#00A99D] shrink-0 mt-0.5" />
-                <p className="text-[#031426] text-[20px] font-bold leading-tight tracking-tight">
+                <p className="text-[#031426] text-[18px] md:text-[20px] font-bold leading-tight tracking-tight">
                   Não é consultar mais. <span className="text-[#00A99D]">É saber mais antes de fechar.</span>
                 </p>
               </div>
               
-              <button className="h-[64px] px-10 rounded-full bg-[#031426] text-white font-bold text-[18px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group w-fit shadow-lg shadow-[#031426]/10">
+              <button className="h-[60px] md:h-[64px] px-8 md:px-10 rounded-full bg-[#031426] text-white font-bold text-[16px] md:text-[18px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group w-full sm:w-fit justify-center shadow-lg shadow-[#031426]/10">
                 Quero levar a Auto Perícia Gold para minha loja
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </button>

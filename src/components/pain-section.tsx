@@ -34,20 +34,20 @@ export function PainSection() {
 
   return (
     <div className="bg-[#F8F9FA] relative w-full overflow-hidden">
-      <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-12 pb-16 px-8 md:px-12 lg:px-24">
+      <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-12 pb-16 px-6 md:px-12 lg:px-24">
         {/* Selo e Headline Principal */}
-        <div className="max-w-4xl mx-auto text-center mb-12">
+        <div className="max-w-4xl mx-auto text-center mb-8 md:mb-12">
           <div className="inline-flex items-center gap-2 mb-4 animate-fade-in">
-            <span className="text-[#00A99D] text-[12px] font-bold tracking-[0.2em] uppercase">
+            <span className="text-[#00A99D] text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase">
               EM CADA ETAPA, UMA DECISÃO
             </span>
           </div>
           
-          <h2 className="text-[#031426] text-[40px] leading-[1.1] font-bold sm:text-[56px] lg:text-[68px] tracking-[-0.04em] mb-6">
+          <h2 className="text-[#031426] text-[32px] sm:text-[40px] md:text-[56px] lg:text-[68px] leading-[1.1] font-bold tracking-[-0.04em] mb-6 px-2">
             Da avaliação à entrada no estoque,<br className="hidden md:block" /> informação muda a decisão.
           </h2>
           
-          <p className="text-[#1D252D]/70 text-[19px] md:text-[21px] leading-relaxed max-w-3xl mx-auto font-medium">
+          <p className="text-[#1D252D]/70 text-[17px] md:text-[21px] leading-relaxed max-w-3xl mx-auto font-medium px-4">
             A Auto Perícia Gold, da Company Conferi, entra nos momentos em que sua loja precisa decidir se vale a pena comprar, aceitar, avaliar ou colocar um veículo no estoque.
           </p>
         </div>
@@ -82,14 +82,14 @@ export function PainSection() {
 
         {/* Fechamento em destaque e CTA */}
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
-          <div className="mb-10">
-            <h3 className="text-[#031426] text-[40px] md:text-[52px] lg:text-[62px] font-bold tracking-tighter animate-fade-in flex flex-col leading-[1.1]">
+          <div className="mb-8 md:mb-10">
+            <h3 className="text-[#031426] text-[32px] sm:text-[40px] md:text-[52px] lg:text-[62px] font-bold tracking-tighter animate-fade-in flex flex-col leading-[1.1]">
               <span>Mais informação antes.</span>
               <span className="text-[#00A99D]">Decisões melhores depois.</span>
             </h3>
           </div>
           
-          <button className="h-[72px] px-14 rounded-full bg-[#031426] text-white font-bold text-[20px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group shadow-xl shadow-[#031426]/10 hover:shadow-2xl hover:shadow-[#00A99D]/30 hover:-translate-y-1">
+          <button className="h-[64px] md:h-[72px] px-8 md:px-14 rounded-full bg-[#031426] text-white font-bold text-[18px] md:text-[20px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group shadow-xl shadow-[#031426]/10 hover:shadow-2xl hover:shadow-[#00A99D]/30 hover:-translate-y-1 w-full sm:w-auto justify-center">
             Quero decidir com mais segurança
             <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
           </button>
