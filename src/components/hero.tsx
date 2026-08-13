@@ -14,11 +14,11 @@ export function Hero() {
 
   return (
     <section className="relative w-full bg-[#031426] overflow-hidden flex flex-col">
-      <div className="min-h-screen lg:min-h-screen flex flex-col">
+      <div className="min-h-screen lg:min-h-screen flex flex-col pt-16 lg:pt-20">
         <div className="flex-grow grid grid-cols-1 lg:grid-cols-[46%_54%] items-stretch w-full">
           {/* COLUNA ESQUERDA — 46% */}
-          <div className="relative z-10 flex w-full flex-col justify-center px-6 py-28 lg:py-0 lg:px-16 lg:pl-[80px]">
-            <div className="max-w-[540px]">
+          <div className="relative z-10 flex w-full flex-col justify-center px-6 py-20 lg:py-0 lg:px-16 lg:pl-[80px]">
+            <div className="max-w-[540px] w-full">
               
               <h1 className="text-[34px] sm:text-[42px] md:text-[52px] font-bold leading-[1.1] md:leading-[1.05] tracking-[-0.03em] text-white">
                 Vai colocar esse carro no estoque?<br className="hidden sm:block" />
