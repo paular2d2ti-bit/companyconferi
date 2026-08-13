@@ -107,12 +107,12 @@ export function IntroSection() {
                     </div>
                   </div>
                   <div className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-white/40 text-[10px] font-mono">
-                    ID: #8392-AX
+                    CONSULTA ATIVA
                   </div>
                 </div>
 
                 {/* Grid de Informações Reais */}
-                <div className="grid grid-cols-2 gap-4 h-full content-start overflow-hidden">
+                <div className="grid grid-cols-2 gap-4 h-full content-start overflow-hidden pt-2">
                   {/* Módulo Gravames */}
                   <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
                     <div className="flex items-center justify-between mb-3">
@@ -142,8 +142,8 @@ export function IntroSection() {
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center text-[10px] text-white/30">
-                        <span>Multas</span>
-                        <span className="text-amber-500/60">R$ 482,10</span>
+                        <span>Multas em aberto</span>
+                        <span className="text-amber-500/60">ANALISAR</span>
                       </div>
                       <div className="w-full h-1 bg-white/5 rounded-full"></div>
                     </div>
