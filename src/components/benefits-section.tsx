@@ -59,6 +59,10 @@ export function BenefitsSection() {
               {/* Amber accent bar */}
               <div className="absolute top-0 left-0 h-[2px] w-0 bg-[#FFB800] transition-all duration-500 group-hover:w-12" />
               
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 text-white/40 transition-colors group-hover:bg-[#FFB800]/10 group-hover:text-[#FFB800]">
+                <stat.icon className="h-5 w-5" />
+              </div>
+
               <div className="text-[34px] font-bold text-teal tracking-tight flex items-baseline gap-1">
                 {stat.value}
                 <span className="h-1.5 w-1.5 rounded-full bg-[#FFB800] opacity-0 group-hover:opacity-100 transition-opacity" />
