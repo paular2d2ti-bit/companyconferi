@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-center gap-5 text-center group">
           <div className="flex flex-col items-center">
             <img 
-              src={logo.url} 
+              src={logoUrl} 
               alt="Company Conferi" 
               className="h-10 lg:h-14 w-auto brightness-0 invert"
             />

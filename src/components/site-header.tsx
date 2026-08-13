@@ -25,7 +25,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-24 lg:h-32 max-w-full items-center justify-center px-6">
         <a href="/" className="flex items-center group">
           <img 
-            src={logo.url} 
+            src={logoUrl} 
             alt="Company Conferi" 
             className="h-10 lg:h-14 w-auto brightness-0 invert"
           />
