@@ -11,17 +11,17 @@ import { Footer } from "@/components/footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Conferi | Gestão para revendas e lojas de veículos" },
+      { title: "Auto Perícia Gold | Inteligência Veicular para Lojistas" },
       {
         name: "description",
         content:
           "Plataforma Conferi para agências, revendas e lojas de veículos: mais controle, agilidade e segurança. Solicite uma demonstração.",
       },
-      { property: "og:title", content: "Conferi | Gestão para o mercado automotivo" },
+      { property: "og:title", content: "Auto Perícia Gold | Inteligência Veicular" },
       {
         property: "og:description",
         content:
-          "Controle, agilidade e segurança para agências, revendas e lojas de veículos. Peça uma demonstração.",
+          "Consulte antes de comprar. Inteligência veicular para decisões seguras e lucros maiores no mercado automotivo.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
