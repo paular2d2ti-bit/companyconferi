@@ -24,8 +24,8 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
-        <a href="/" className="text-white text-[20px] font-black tracking-tighter">
-          Conferi
+        <a href="/" className="flex items-center">
+          {/* Logo removed as per request */}
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
