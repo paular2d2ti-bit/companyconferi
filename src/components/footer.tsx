@@ -1,4 +1,4 @@
-import logo from "@/assets/company-conferi-logo.png.asset.json";
+const logoUrl = "/logo.png";
 
 export function Footer() {
   return (
