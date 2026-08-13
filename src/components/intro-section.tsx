@@ -26,7 +26,7 @@ export function IntroSection() {
 
   return (
     <div className="bg-white relative overflow-hidden">
-      <section id="solucoes" className="mx-auto max-w-[1440px] px-8 md:px-12 lg:px-24 py-24 lg:py-32 relative z-10">
+      <section id="solucoes" className="mx-auto max-w-[1440px] px-8 md:px-12 lg:px-24 py-16 lg:py-24 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-[46%_54%] gap-12 lg:gap-24 items-center">
           
           {/* Lado Esquerdo: Conteúdo Textual */}
