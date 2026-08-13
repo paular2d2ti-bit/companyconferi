@@ -25,24 +25,24 @@ export function BenefitsSection() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&q=80&w=2000" 
+          src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=2000" 
           alt="Premium Car" 
-          className="h-full w-full object-cover opacity-40 grayscale-0 brightness-75"
+          className="h-full w-full object-cover opacity-60 grayscale-0 brightness-100"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#031426] via-transparent to-[#031426]/50" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-[#031426]/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#031426] via-transparent to-[#031426]/60" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-2xl">
           <p className="text-teal text-[12px] font-bold tracking-[0.2em] uppercase">
-            PROVA SOCIAL
+            RESULTADOS QUE DÃO SEGURANÇA
           </p>
           <h2 className="mt-4 text-[38px] font-bold leading-[1.1] text-white tracking-tight">
             Números que reforçam a decisão.
           </h2>
           <p className="mt-4 text-[18px] text-white/70">
-            A Gold já apoia operações que precisam decidir com mais segurança.
+            A Company Conferi, com a Auto Perícia Gold, apoia operações que precisam decidir com mais segurança.
           </p>
         </div>
 
@@ -67,7 +67,7 @@ export function BenefitsSection() {
           </p>
           
           <button className="group flex items-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10">
-            Quero ver a Gold em ação →
+            Quero ver como funciona na minha loja →
           </button>
         </div>
       </div>
