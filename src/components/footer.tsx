@@ -1,4 +1,4 @@
-import logo from "@/assets/company-conferi-logo.png.asset.json";
+const logoUrl = "/logo.png";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
         <div className="flex flex-col items-center justify-center gap-5 text-center group">
           <div className="flex flex-col items-center">
             <img 
-              src={logo.url} 
+              src={logoUrl} 
               alt="Company Conferi" 
               className="h-10 lg:h-14 w-auto brightness-0 invert"
             />
