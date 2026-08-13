@@ -15,7 +15,7 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Plataforma Conferi para agências, revendas e lojas de veículos: mais controle, agilidade e segurança. Solicite uma demonstração.",
+          "Auto Perícia Gold: Inteligência veicular para lojas e agências. Consulte antes de comprar e garanta lucros maiores.",
       },
       { property: "og:title", content: "Auto Perícia Gold | Inteligência Veicular" },
       {
