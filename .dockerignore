@@ -1,0 +1,8 @@
+node_modules
+.output
+.vinxi
+dist
+.cache
+.env
+.lovable
+*.log
