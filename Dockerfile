@@ -1,6 +1,5 @@
 FROM node:20-slim AS base
 WORKDIR /app
-# Instalar o Bun
 RUN apt-get update && apt-get install -y curl unzip && \
     curl -fsSL https://bun.sh/install | bash
 ENV PATH="/root/.bun/bin:$PATH"
@@ -21,7 +20,10 @@ FROM base
 COPY --from=build /app/.output /app/.output
 
 ENV PORT=3000
+ENV HOST=0.0.0.0
+ENV NODE_ENV=production
 EXPOSE 3000
 
 CMD ["node", ".output/server/index.mjs"]
+
 
