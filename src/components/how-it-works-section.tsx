@@ -83,8 +83,8 @@ export function HowItWorksSection() {
                 >
                   <div className="h-full bg-white/40 backdrop-blur-sm border border-[#031426]/5 rounded-3xl p-8 flex flex-col transition-all hover:bg-white/60 hover:shadow-xl hover:shadow-[#031426]/5">
                     <div className="flex gap-1 mb-6">
-                      {[...Array(item.rating)].map((_, i) => (
-                        <Star key={i} className="h-4 w-4 fill-amber text-amber" />
+                      {[...Array(5)].map((_, i) => (
+                        <Star key={i} className="h-4 w-4 fill-[#FFB800] text-[#FFB800]" />
                       ))}
                     </div>
                     
