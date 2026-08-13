@@ -25,12 +25,15 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
-        <a href="/" className="flex items-center">
-          <img
-            src={logo.url}
-            alt="Company Conferi"
-            className="h-7 w-auto sm:h-8"
-          />
+        <a href="/" className="flex items-center gap-2 group">
+          <div className="flex flex-col">
+            <span className="text-xl font-bold tracking-tighter text-white sm:text-2xl leading-none">
+              COMPANY <span className="text-[#22E38A]">CONFERI</span>
+            </span>
+            <span className="text-[8px] sm:text-[10px] font-medium tracking-widest text-[#22E38A] uppercase leading-none mt-1 opacity-90 group-hover:opacity-100 transition-opacity">
+              Informação certa, bons negócios
+            </span>
+          </div>
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
