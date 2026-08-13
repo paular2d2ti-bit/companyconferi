@@ -1,22 +1,26 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShieldCheck, Calendar, Users, BarChart3, SearchCheck } from "lucide-react";
 
 export function BenefitsSection() {
   const stats = [
     {
       value: "+10 anos",
-      label: "mercado automotivo"
+      label: "mercado automotivo",
+      icon: Calendar
     },
     {
       value: "+2,1 mil",
-      label: "usuários ativos"
+      label: "usuários ativos",
+      icon: Users
     },
     {
       value: "Desde 2019",
-      label: "atualização contínua"
+      label: "atualização contínua",
+      icon: SearchCheck
     },
     {
       value: "4,4 bi+",
-      label: "dados consultados"
+      label: "dados consultados",
+      icon: BarChart3
     }
   ];
 
