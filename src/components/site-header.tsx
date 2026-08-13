@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import logo from "@/assets/company-conferi-logo.png.asset.json";
 
 const links = [
   { label: "Problema", href: "#problema" },
@@ -25,7 +26,13 @@ export function SiteHeader() {
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
         <a href="/" className="flex items-center">
-          {/* Logo removed as per request */}
+          <span className="inline-flex items-center rounded-xl bg-white px-3 py-2 shadow-sm">
+            <img
+              src={logo.url}
+              alt="Company Conferi"
+              className="h-7 w-auto sm:h-8"
+            />
+          </span>
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
