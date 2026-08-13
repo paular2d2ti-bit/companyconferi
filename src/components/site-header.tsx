@@ -22,12 +22,12 @@ export function SiteHeader() {
     <header
       className={`absolute inset-x-0 top-0 z-50 transition-all duration-500`}
     >
-      <div className="mx-auto flex h-20 lg:h-24 max-w-full items-center justify-between px-6 lg:px-[80px]">
+      <div className="mx-auto flex h-24 lg:h-32 max-w-full items-center justify-center px-6">
         <a href="/" className="flex items-center group">
           <img 
             src={logo.url} 
             alt="Company Conferi" 
-            className="h-8 lg:h-10 w-auto brightness-0 invert"
+            className="h-10 lg:h-14 w-auto brightness-0 invert"
           />
         </a>
 

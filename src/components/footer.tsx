@@ -9,7 +9,7 @@ export function Footer() {
             <img 
               src={logo.url} 
               alt="Company Conferi" 
-              className="h-10 w-auto"
+              className="h-12 lg:h-16 w-auto"
             />
           </div>
 
