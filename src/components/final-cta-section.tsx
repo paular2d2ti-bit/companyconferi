@@ -14,7 +14,7 @@ export function FinalCtaSection() {
         <div className="mt-16 flex flex-wrap justify-center gap-6">
           <a
             href="#"
-            className="bg-teal text-accent-foreground hover:bg-teal/90 rounded-full px-10 py-5 text-lg font-medium transition-colors"
+            className="bg-[#22E38A] text-[#031426] hover:brightness-110 rounded-full px-10 py-5 text-lg font-bold transition-all shadow-xl shadow-[#22E38A]/20"
           >
             Solicitar demonstração grátis
           </a>

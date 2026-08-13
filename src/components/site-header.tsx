@@ -24,7 +24,7 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
-        <a href="#" className="text-primary-foreground text-lg font-semibold tracking-tight">
+        <a href="/" className="text-white text-[20px] font-black tracking-tighter">
           Conferi
         </a>
 
@@ -40,8 +40,8 @@ export function SiteHeader() {
             Acessar plataforma
           </a>
           <a
-            href="#contato"
-            className="bg-teal text-accent-foreground hover:bg-teal/90 rounded-full px-5 py-2.5 text-sm font-medium transition-colors"
+            href="#rotina"
+            className="bg-[#22E38A] text-[#031426] hover:brightness-110 rounded-full px-6 py-2.5 text-sm font-bold transition-all shadow-lg shadow-[#22E38A]/20"
           >
             Solicitar demonstração
           </a>

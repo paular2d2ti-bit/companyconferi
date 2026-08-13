@@ -19,7 +19,7 @@ export function HowItWorksSection() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-start justify-between gap-12 lg:flex-row lg:items-end">
           <div className="max-w-2xl">
-            <p className="text-teal text-xs font-medium tracking-widest uppercase">Fluxo</p>
+            <p className="text-[#00A99D] text-xs font-bold tracking-[0.2em] uppercase">Fluxo</p>
             <h2 className="text-foreground mt-8 text-4xl leading-tight font-semibold sm:text-5xl">
               Simples, direto e inteligente.
             </h2>
@@ -32,7 +32,7 @@ export function HowItWorksSection() {
         <div className="mt-32 grid gap-12 lg:grid-cols-3">
           {steps.map((step, i) => (
             <div key={i} className="bg-white p-12 rounded-2xl shadow-sm border border-border/50">
-              <div className="bg-navy text-primary-foreground flex h-12 w-12 items-center justify-center rounded-full text-lg font-semibold">
+              <div className="bg-[#031426] text-white flex h-12 w-12 items-center justify-center rounded-full text-lg font-bold shadow-lg shadow-[#031426]/10">
                 {i + 1}
               </div>
               <h3 className="mt-8 text-2xl font-semibold">{step.title}</h3>
