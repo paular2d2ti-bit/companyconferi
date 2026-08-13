@@ -107,7 +107,7 @@ export function IntroSection() {
                     </div>
                   </div>
                   <div className="px-3 py-1 rounded-md bg-white/5 border border-white/10 text-white/40 text-[10px] font-mono">
-                    ID: #8392-AX
+                    CONSULTA ATIVA
                   </div>
                 </div>
 
