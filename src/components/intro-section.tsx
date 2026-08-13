@@ -5,7 +5,7 @@ export function IntroSection() {
     {
       icon: <History className="w-6 h-6" />,
       title: "Histórico e gravames",
-      desc: "Consulte registros que podem impactar a negociação."
+      desc: "Registros que podem impactar a negociação."
     },
     {
       icon: <AlertTriangle className="w-6 h-6" />,
@@ -74,7 +74,7 @@ export function IntroSection() {
               </div>
               
               <button className="h-[64px] px-10 rounded-full bg-[#031426] text-white font-bold text-[18px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group w-fit shadow-lg shadow-[#031426]/10">
-                Quero levar a Gold para minha loja
+                Quero levar a Auto Perícia Gold para minha loja
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </button>
             </div>
