@@ -34,16 +34,10 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#"
-            className="text-primary-foreground/70 hover:text-primary-foreground hidden text-sm font-medium transition-colors sm:block"
-          >
-            Acessar plataforma
-          </a>
-          <a
-            href="#rotina"
+            href="#contato"
             className="bg-[#22E38A] text-[#031426] hover:brightness-110 rounded-full px-6 py-2.5 text-sm font-bold transition-all shadow-lg shadow-[#22E38A]/20"
           >
-            Solicitar demonstração
+            Quero contratar a Gold
           </a>
         </div>
       </div>
