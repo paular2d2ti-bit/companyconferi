@@ -24,8 +24,8 @@ export function SiteHeader() {
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6 sm:h-20">
-        <a href="/" className="text-white text-[20px] font-black tracking-tighter">
-          Conferi
+        <a href="/" className="flex items-center">
+          {/* Logo removed as per request */}
         </a>
 
         <nav className="hidden items-center gap-10 md:flex">
@@ -34,16 +34,10 @@ export function SiteHeader() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#"
-            className="text-primary-foreground/70 hover:text-primary-foreground hidden text-sm font-medium transition-colors sm:block"
-          >
-            Acessar plataforma
-          </a>
-          <a
-            href="#rotina"
+            href="#contato"
             className="bg-[#22E38A] text-[#031426] hover:brightness-110 rounded-full px-6 py-2.5 text-sm font-bold transition-all shadow-lg shadow-[#22E38A]/20"
           >
-            Solicitar demonstração
+            Quero contratar a Gold
           </a>
         </div>
       </div>

@@ -33,7 +33,7 @@ export const Route = createFileRoute("/")({
 function Index() {
   return (
     <div className="flex min-h-screen flex-col">
-      {/* <SiteHeader /> REMOVED as per Hero request */}
+      <SiteHeader />
       <main className="flex-grow">
         <Hero />
         <PainSection />
