@@ -112,7 +112,7 @@ export function IntroSection() {
                 </div>
 
                 {/* Grid de Informações Reais */}
-                <div className="grid grid-cols-2 gap-4 h-full content-start overflow-hidden">
+                <div className="grid grid-cols-2 gap-4 h-full content-start overflow-hidden pt-2">
                   {/* Módulo Gravames */}
                   <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
                     <div className="flex items-center justify-between mb-3">
