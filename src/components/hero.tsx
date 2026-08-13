@@ -19,11 +19,6 @@ export function Hero() {
           {/* COLUNA ESQUERDA — 46% */}
           <div className="relative z-10 flex w-full flex-col justify-center px-8 py-20 lg:py-0 lg:px-16 lg:pl-[80px]">
             <div className="max-w-[540px]">
-              <div className="inline-flex items-center gap-2 mb-8">
-                <span className="text-[#22E38A] text-[12px] font-bold uppercase tracking-[0.1em]">
-                  AUTO PERÍCIA GOLD • UMA SOLUÇÃO COMPANY CONFERI
-                </span>
-              </div>
               
               <h1 className="text-[42px] md:text-[52px] font-bold leading-[1.05] tracking-[-0.03em] text-white">
                 Vai colocar esse carro no estoque?<br />
