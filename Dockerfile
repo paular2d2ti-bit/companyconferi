@@ -22,8 +22,12 @@ COPY --from=build /app/.output /app/.output
 ENV PORT=3000
 ENV HOST=0.0.0.0
 ENV NODE_ENV=production
+# Disable Vite/HMR behavior in production and prevent WebSocket issues
+ENV VITE_HMR=false 
 EXPOSE 3000
 
+# Start with a direct node call to the entry point
 CMD ["node", ".output/server/index.mjs"]
+
 
 
