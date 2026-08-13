@@ -21,7 +21,7 @@ export function Hero() {
             <div className="max-w-[540px]">
               <div className="inline-flex items-center gap-2 mb-8">
                 <span className="text-[#22E38A] text-[12px] font-bold uppercase tracking-[0.1em]">
-                  AUTO PERÍCIA GOLD • PARA LOJAS DE VEÍCULOS
+                  AUTO PERÍCIA GOLD • UMA SOLUÇÃO COMPANY CONFERI
                 </span>
               </div>
               
