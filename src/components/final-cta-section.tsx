@@ -50,12 +50,6 @@ export function FinalCtaSection() {
           </a>
         </div>
 
-        <div className="mt-20 border-t border-white/10 pt-10">
-          <div className="flex items-center justify-center gap-2 opacity-50 transition-opacity hover:opacity-100">
-            <span className="text-xs font-bold tracking-[0.2em] text-white uppercase">Uma solução</span>
-            <span className="text-lg font-black italic tracking-tighter text-white">COMPANY CONFERI</span>
-          </div>
-        </div>
       </div>
     </section>
   );
