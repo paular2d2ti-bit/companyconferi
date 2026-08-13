@@ -48,7 +48,7 @@ export function PainSection() {
           </h2>
           
           <p className="text-[#1D252D]/70 text-[19px] md:text-[21px] leading-relaxed max-w-3xl mx-auto font-medium">
-            A Gold entra nos momentos em que sua loja precisa decidir se vale a pena comprar, aceitar, avaliar ou colocar um veículo no estoque.
+            A Auto Perícia Gold, da Company Conferi, entra nos momentos em que sua loja precisa decidir se vale a pena comprar, aceitar, avaliar ou colocar um veículo no estoque.
           </p>
         </div>
 
