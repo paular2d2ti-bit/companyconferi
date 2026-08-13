@@ -35,7 +35,8 @@ export function BenefitsSection() {
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-2xl">
-          <p className="text-teal text-[12px] font-bold tracking-[0.2em] uppercase">
+          <p className="text-teal text-[12px] font-bold tracking-[0.2em] uppercase flex items-center gap-2">
+            <span className="h-1 w-4 bg-[#FFB800] rounded-full" />
             RESULTADOS QUE DÃO SEGURANÇA
           </p>
           <h2 className="mt-4 text-[38px] font-bold leading-[1.1] text-white tracking-tight">
@@ -49,14 +50,19 @@ export function BenefitsSection() {
         <div className="mt-16 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {stats.map((stat, i) => (
             <div key={i} className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-md transition-all hover:bg-white/10 hover:border-teal/30">
-              <div className="text-[34px] font-bold text-teal tracking-tight">
+              {/* Amber accent bar */}
+              <div className="absolute top-0 left-0 h-[2px] w-0 bg-[#FFB800] transition-all duration-500 group-hover:w-12" />
+              
+              <div className="text-[34px] font-bold text-teal tracking-tight flex items-baseline gap-1">
                 {stat.value}
+                <span className="h-1.5 w-1.5 rounded-full bg-[#FFB800] opacity-0 group-hover:opacity-100 transition-opacity" />
               </div>
               <div className="mt-1 text-sm font-medium text-white/60 group-hover:text-white/90 transition-colors uppercase tracking-wider">
                 {stat.label}
               </div>
-              {/* Sutil glow effect on hover */}
-              <div className="absolute -right-4 -top-4 h-16 w-16 rounded-full bg-teal/10 blur-2xl transition-opacity opacity-0 group-hover:opacity-100" />
+              {/* Sutil glow effect on hover with mixed teal/amber */}
+              <div className="absolute -right-4 -top-4 h-16 w-16 rounded-full bg-teal/5 blur-2xl transition-opacity opacity-0 group-hover:opacity-100" />
+              <div className="absolute -left-4 -bottom-4 h-16 w-16 rounded-full bg-[#FFB800]/5 blur-2xl transition-opacity opacity-0 group-hover:opacity-100" />
             </div>
           ))}
         </div>
@@ -66,8 +72,13 @@ export function BenefitsSection() {
             Quando a decisão vale dinheiro, consultar antes faz diferença.
           </p>
           
-          <button className="group flex items-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10">
-            Quero ver como funciona na minha loja →
+          <button className="group relative flex items-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10 overflow-hidden">
+            <span className="relative z-10 flex items-center gap-3">
+              Quero ver como funciona na minha loja
+              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </span>
+            {/* Amber accent on button hover */}
+            <div className="absolute bottom-0 left-0 h-1 w-full bg-[#FFB800] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
           </button>
         </div>
       </div>
