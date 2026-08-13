@@ -31,16 +31,18 @@ export function BenefitsSection() {
         <img 
           src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=2000" 
           alt="Premium Car" 
-          className="h-full w-full object-cover opacity-60 grayscale-0 brightness-100"
+          className="h-full w-full object-cover opacity-70 grayscale-0 brightness-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-[#031426]/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-[#031426]/75 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#031426] via-transparent to-[#031426]/60" />
+        {/* Persistent Amber Graphical Element */}
+        <div className="absolute bottom-0 right-0 h-1/2 w-1/3 bg-[#FFB800]/5 blur-[120px] pointer-events-none" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-2xl">
           <p className="text-teal text-[12px] font-bold tracking-[0.2em] uppercase flex items-center gap-2">
-            <span className="h-1 w-4 bg-[#FFB800] rounded-full" />
+            <ShieldCheck className="h-4 w-4 text-[#FFB800]" />
             RESULTADOS QUE DÃO SEGURANÇA
           </p>
           <h2 className="mt-4 text-[38px] font-bold leading-[1.1] text-white tracking-tight">
