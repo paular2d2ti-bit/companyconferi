@@ -10,17 +10,17 @@ export function IntroSection() {
     {
       icon: <AlertTriangle className="w-6 h-6" />,
       title: "Débitos, multas e recall",
-      desc: "Identifique pendências antes de fechar o negócio."
+      desc: "Pendências que podem mudar o negócio."
     },
     {
       icon: <Scale className="w-6 h-6" />,
       title: "PRF, RENAINF e comunicado de venda",
-      desc: "Aprofunde a análise antes de decidir pelo veículo."
+      desc: "Mais informações antes de decidir."
     },
     {
       icon: <ClipboardCheck className="w-6 h-6" />,
       title: "Chassi e histórico de sinistro",
-      desc: "Tenha mais elementos para validar o veículo antes da negociação."
+      desc: "Mais segurança para validar o veículo."
     }
   ];
 
@@ -44,7 +44,7 @@ export function IntroSection() {
             </h2>
             
             <p className="text-[#1D252D]/80 text-[18px] md:text-[20px] leading-relaxed mb-12 font-medium max-w-[540px]">
-              A Gold aprofunda a análise com informações que ajudam sua equipe a entender melhor o veículo antes de comprar, aceitar uma troca ou colocar no estoque.
+              A Gold aprofunda a consulta com informações que podem mudar sua decisão antes de fechar o negócio.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 mb-16">
@@ -74,7 +74,7 @@ export function IntroSection() {
               </div>
               
               <button className="h-[64px] px-10 rounded-full bg-[#031426] text-white font-bold text-[18px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group w-fit shadow-lg shadow-[#031426]/10">
-                Quero conhecer a Gold
+                Quero levar a Gold para minha loja
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </button>
             </div>

@@ -44,7 +44,7 @@ export function PainSection() {
           </div>
           
           <h2 className="text-[#031426] text-[40px] leading-[1.1] font-bold sm:text-[56px] lg:text-[68px] tracking-[-0.04em] mb-6">
-            Da avaliação à entrada no estoque,<br className="hidden md:block" /> informação muda o negócio.
+            Da avaliação à entrada no estoque,<br className="hidden md:block" /> informação muda a decisão.
           </h2>
           
           <p className="text-[#1D252D]/70 text-[19px] md:text-[21px] leading-relaxed max-w-3xl mx-auto font-medium">
@@ -90,7 +90,7 @@ export function PainSection() {
           </div>
           
           <button className="h-[72px] px-14 rounded-full bg-[#031426] text-white font-bold text-[20px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group shadow-xl shadow-[#031426]/10 hover:shadow-2xl hover:shadow-[#00A99D]/30 hover:-translate-y-1">
-            Quero conhecer a Gold
+            Quero decidir com mais segurança
             <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
           </button>
         </div>
@@ -100,7 +100,7 @@ export function PainSection() {
       <div className="w-full bg-white py-12 border-y border-[#F5F7F8]">
         <div className="mx-auto max-w-[1440px] px-8 md:px-12 lg:px-24">
           <p className="text-[#031426]/20 text-[32px] md:text-[48px] lg:text-[64px] font-black tracking-[-0.04em] text-center leading-none uppercase select-none">
-            CONSULTA MAIS PROFUNDA. <span className="text-[#00A99D]/20">DECISÃO MAIS SEGURA.</span>
+            O QUE VOCÊ PRECISA SABER ANTES?
           </p>
         </div>
       </div>

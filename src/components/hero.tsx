@@ -27,7 +27,7 @@ export function Hero() {
               
               <h1 className="text-[42px] md:text-[52px] font-bold leading-[1.05] tracking-[-0.03em] text-white">
                 Vai colocar esse carro no estoque?<br />
-                <span className="text-white/90">Consulte antes de comprar.</span>
+                Consulte antes de comprar.
               </h1>
 
               <p className="mt-8 text-[16px] md:text-[18px] text-white/70 leading-[1.6] max-w-[480px]">
