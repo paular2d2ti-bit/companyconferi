@@ -44,7 +44,7 @@ export function SiteHeader() {
             href="#contato"
             className="bg-[#22E38A] text-[#031426] hover:brightness-110 rounded-full px-6 py-2.5 text-sm font-bold transition-all shadow-lg shadow-[#22E38A]/20"
           >
-            Quero contratar a Gold
+            Quero conhecer a Auto Perícia Gold
           </a>
         </div>
       </div>
