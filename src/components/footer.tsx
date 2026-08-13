@@ -1,6 +1,6 @@
 export function Footer() {
   return (
-    <footer className="bg-navy-deep py-20">
+    <footer className="bg-[#031426] py-20 border-t border-white/5">
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center justify-between gap-12 border-b border-white/10 pb-12 sm:flex-row">
           <div className="text-primary-foreground text-2xl font-semibold tracking-tighter">
