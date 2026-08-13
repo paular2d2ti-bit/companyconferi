@@ -27,7 +27,7 @@ export function SiteHeader() {
           <img 
             src={logo.url} 
             alt="Company Conferi" 
-            className="h-8 lg:h-10 w-auto invert brightness-0"
+            className="h-8 lg:h-10 w-auto brightness-0 invert"
           />
         </a>
 
