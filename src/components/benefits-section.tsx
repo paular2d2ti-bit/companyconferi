@@ -1,22 +1,26 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ShieldCheck, Calendar, Users, BarChart3, SearchCheck } from "lucide-react";
 
 export function BenefitsSection() {
   const stats = [
     {
       value: "+10 anos",
-      label: "mercado automotivo"
+      label: "mercado automotivo",
+      icon: Calendar
     },
     {
       value: "+2,1 mil",
-      label: "usuários ativos"
+      label: "usuários ativos",
+      icon: Users
     },
     {
       value: "Desde 2019",
-      label: "atualização contínua"
+      label: "atualização contínua",
+      icon: SearchCheck
     },
     {
       value: "4,4 bi+",
-      label: "dados consultados"
+      label: "dados consultados",
+      icon: BarChart3
     }
   ];
 
@@ -27,16 +31,18 @@ export function BenefitsSection() {
         <img 
           src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&q=80&w=2000" 
           alt="Premium Car" 
-          className="h-full w-full object-cover opacity-60 grayscale-0 brightness-100"
+          className="h-full w-full object-cover opacity-70 grayscale-0 brightness-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-[#031426]/70 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#031426] via-[#031426]/75 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#031426] via-transparent to-[#031426]/60" />
+        {/* Persistent Amber Graphical Element */}
+        <div className="absolute bottom-0 right-0 h-1/2 w-1/3 bg-[#FFB800]/5 blur-[120px] pointer-events-none" />
       </div>
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="max-w-2xl">
           <p className="text-teal text-[12px] font-bold tracking-[0.2em] uppercase flex items-center gap-2">
-            <span className="h-1 w-4 bg-[#FFB800] rounded-full" />
+            <ShieldCheck className="h-4 w-4 text-[#FFB800]" />
             RESULTADOS QUE DÃO SEGURANÇA
           </p>
           <h2 className="mt-4 text-[38px] font-bold leading-[1.1] text-white tracking-tight">
@@ -53,6 +59,10 @@ export function BenefitsSection() {
               {/* Amber accent bar */}
               <div className="absolute top-0 left-0 h-[2px] w-0 bg-[#FFB800] transition-all duration-500 group-hover:w-12" />
               
+              <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-lg bg-white/5 text-white/40 transition-colors group-hover:bg-[#FFB800]/10 group-hover:text-[#FFB800]">
+                <stat.icon className="h-5 w-5" />
+              </div>
+
               <div className="text-[34px] font-bold text-teal tracking-tight flex items-baseline gap-1">
                 {stat.value}
                 <span className="h-1.5 w-1.5 rounded-full bg-[#FFB800] opacity-0 group-hover:opacity-100 transition-opacity" />
