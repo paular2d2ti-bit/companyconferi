@@ -82,14 +82,14 @@ export function BenefitsSection() {
             Quando a decisão vale dinheiro, consultar antes faz diferença.
           </p>
           
-          <button className="group relative flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10 overflow-hidden">
+          <a href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="group relative flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10 overflow-hidden">
             <span className="relative z-10 flex items-center gap-3">
               Quero ver como funciona na minha loja
               <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
             </span>
             {/* Amber accent on button hover */}
             <div className="absolute bottom-0 left-0 h-1 w-full bg-[#FFB800] scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
-          </button>
+          </a>
         </div>
       </div>
     </section>
