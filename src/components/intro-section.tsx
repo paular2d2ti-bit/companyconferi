@@ -44,7 +44,7 @@ export function IntroSection() {
             </h2>
             
             <p className="text-[#1D252D]/80 text-[18px] md:text-[20px] leading-relaxed mb-12 font-medium max-w-[540px]">
-              A Gold aprofunda a consulta com informações que podem mudar sua decisão antes de fechar o negócio.
+              A Auto Perícia Gold, da Company Conferi, aprofunda a consulta com informações que podem mudar sua decisão antes de fechar o negócio.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 mb-16">
@@ -99,7 +99,7 @@ export function IntroSection() {
                   <div className="flex items-center gap-3">
                     <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#00A99D] to-[#22E38A] flex items-center justify-center font-black text-white text-[18px] shadow-lg shadow-[#00A99D]/20">G</div>
                     <div className="space-y-1">
-                      <div className="text-white/80 text-[12px] font-bold tracking-tight">RELATÓRIO GOLD</div>
+                      <div className="text-white/80 text-[12px] font-bold tracking-tight">AUTO PERÍCIA GOLD</div>
                       <div className="flex gap-1">
                         <div className="w-2 h-2 rounded-full bg-[#00A99D]"></div>
                         <div className="w-12 h-2 bg-white/10 rounded-full"></div>
