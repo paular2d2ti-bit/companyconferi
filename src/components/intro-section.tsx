@@ -142,8 +142,8 @@ export function IntroSection() {
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center text-[10px] text-white/30">
-                        <span>Multas</span>
-                        <span className="text-amber-500/60">R$ 482,10</span>
+                        <span>Multas em aberto</span>
+                        <span className="text-amber-500/60">ANALISAR</span>
                       </div>
                       <div className="w-full h-1 bg-white/5 rounded-full"></div>
                     </div>
