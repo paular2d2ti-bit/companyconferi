@@ -37,13 +37,17 @@ export function FinalCtaSection() {
         
         <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-6">
           <a
-            href="#"
+            href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-full bg-[#22E38A] px-10 py-5 text-lg font-bold text-[#031426] transition-all hover:scale-105 active:scale-95 sm:w-auto"
           >
             Quero contratar a Auto Perícia Gold →
           </a>
           <a
-            href="#"
+            href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex w-full items-center justify-center rounded-full border border-white/20 bg-white/5 px-10 py-5 text-lg font-semibold text-white transition-all hover:bg-white/10 sm:w-auto"
           >
             Falar com a Company Conferi

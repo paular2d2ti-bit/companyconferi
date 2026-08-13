@@ -30,10 +30,10 @@ export function Hero() {
               </p>
               
               <div className="mt-8 md:mt-10 flex flex-col items-start gap-10 md:gap-16">
-                <button className="h-[56px] md:h-[60px] w-full md:w-auto rounded-[12px] bg-[#22E38A] px-[32px] md:px-[40px] text-[15px] md:text-[16px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] shadow-xl shadow-[#22E38A]/20 flex items-center justify-center gap-3 group">
+                <a href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="h-[56px] md:h-[60px] w-full md:w-auto rounded-[12px] bg-[#22E38A] px-[32px] md:px-[40px] text-[15px] md:text-[16px] font-bold text-[#031426] transition-all hover:brightness-110 active:scale-[0.98] shadow-xl shadow-[#22E38A]/20 flex items-center justify-center gap-3 group">
                   Quero conhecer a Auto Perícia Gold
                   <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-                </button>
+                </a>
                 
                 <div className="flex flex-wrap items-center gap-y-3 gap-x-4 text-white text-[12px] md:text-[14px] font-black tracking-[0.2em] md:tracking-[0.25em] uppercase px-1 z-20">
                   <span>Compra</span>

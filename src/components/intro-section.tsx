@@ -73,10 +73,10 @@ export function IntroSection() {
                 </p>
               </div>
               
-              <button className="h-[60px] md:h-[64px] px-8 md:px-10 rounded-full bg-[#031426] text-white font-bold text-[16px] md:text-[18px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group w-full sm:w-fit justify-center shadow-lg shadow-[#031426]/10">
+              <a href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="h-[60px] md:h-[64px] px-8 md:px-10 rounded-full bg-[#031426] text-white font-bold text-[16px] md:text-[18px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group w-full sm:w-fit justify-center shadow-lg shadow-[#031426]/10">
                 Quero levar a Auto Perícia Gold para minha loja
                 <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
-              </button>
+              </a>
             </div>
           </div>
 

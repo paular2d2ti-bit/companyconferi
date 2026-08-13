@@ -121,13 +121,13 @@ export function HowItWorksSection() {
         </div>
 
         <div className="flex justify-center">
-          <button className="group relative flex items-center gap-3 rounded-full bg-[#031426] px-12 py-6 font-bold text-white transition-all hover:bg-teal hover:text-[#031426] hover:scale-105 active:scale-95 shadow-2xl shadow-[#031426]/10 overflow-hidden">
+          <a href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="group relative flex items-center gap-3 rounded-full bg-[#031426] px-12 py-6 font-bold text-white transition-all hover:bg-teal hover:text-[#031426] hover:scale-105 active:scale-95 shadow-2xl shadow-[#031426]/10 overflow-hidden">
             <span className="relative z-10 flex items-center gap-3 text-lg">
               Quero essa segurança na minha loja
               <ArrowRight className="h-6 w-6 transition-transform group-hover:translate-x-1" />
             </span>
             <div className="absolute bottom-0 left-0 h-1.5 w-full bg-amber scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
-          </button>
+          </a>
         </div>
       </div>
     </section>
