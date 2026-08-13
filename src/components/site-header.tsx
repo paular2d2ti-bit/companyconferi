@@ -28,25 +28,16 @@ export function SiteHeader() {
         <a href="/" className="flex items-center gap-2 group">
           <div className="flex flex-col">
             <span className="text-xl font-bold tracking-tighter text-white sm:text-2xl leading-none">
-              COMPANY <span className="text-[#22E38A]">CONFERI</span>
+              COMPANY <span className="text-white">CONFERI</span>
             </span>
-            <span className="text-[8px] sm:text-[10px] font-medium tracking-widest text-[#22E38A] uppercase leading-none mt-1 opacity-90 group-hover:opacity-100 transition-opacity">
+            <span className="text-[8px] sm:text-[10px] font-medium tracking-widest text-white uppercase leading-none mt-1 opacity-90 group-hover:opacity-100 transition-opacity">
               Informação certa, bons negócios
             </span>
           </div>
         </a>
 
-        <nav className="hidden items-center gap-10 md:flex">
-          {/* Menus removidos conforme solicitação: manter apenas logo e botão */}
-        </nav>
-
         <div className="flex items-center gap-4">
-          <a
-            href="#contato"
-            className="bg-[#22E38A] text-[#031426] hover:brightness-110 rounded-full px-6 py-2.5 text-sm font-bold transition-all shadow-lg shadow-[#22E38A]/20"
-          >
-            Quero conhecer a Auto Perícia Gold
-          </a>
+          {/* Botão removido conforme solicitação */}
         </div>
       </div>
     </header>
