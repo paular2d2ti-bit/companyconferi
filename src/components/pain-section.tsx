@@ -96,8 +96,15 @@ export function PainSection() {
         </div>
       </section>
       
-      {/* Transição Suave para o Bloco 3 (#FFFFFF) - Reduzida para aproximar blocos */}
-      <div className="absolute bottom-0 left-0 w-full h-12 bg-gradient-to-t from-white to-transparent pointer-events-none" />
+      {/* Frase de Transição Editorial entre Bloco 2 e 3 */}
+      <div className="w-full bg-white py-12 border-y border-[#F5F7F8]">
+        <div className="mx-auto max-w-[1440px] px-8 md:px-12 lg:px-24">
+          <p className="text-[#031426]/20 text-[32px] md:text-[48px] lg:text-[64px] font-black tracking-[-0.04em] text-center leading-none uppercase select-none">
+            CONSULTA MAIS PROFUNDA. <span className="text-[#00A99D]/20">DECISÃO MAIS SEGURA.</span>
+          </p>
+        </div>
+      </div>
+
 
       <style dangerouslySetInnerHTML={{ __html: `
         @keyframes fade-in {
