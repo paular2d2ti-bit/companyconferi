@@ -21,8 +21,7 @@ export function Hero() {
             <div className="max-w-[540px] w-full">
               
               <h1 className="text-[34px] sm:text-[42px] md:text-[52px] font-bold leading-[1.1] md:leading-[1.05] tracking-[-0.03em] text-white">
-                Vai colocar esse carro no estoque?<br className="hidden sm:block" />
-                Consulte antes de comprar.
+                Vai colocar esse carro no estoque? Consulte antes de comprar.
               </h1>
 
               <p className="mt-8 text-[16px] md:text-[18px] text-white/70 leading-[1.6] max-w-[480px]">
