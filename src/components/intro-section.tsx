@@ -1,4 +1,4 @@
-import { ArrowRight, ShieldCheck, Database, FileSearch, History, Search, Car, AlertTriangle, Scale, ClipboardCheck, Info } from "lucide-react";
+import { ArrowRight, ShieldCheck, Database, FileSearch, History, Search, Car, AlertTriangle, Scale, ClipboardCheck, Info, Gavel } from "lucide-react";
 
 export function IntroSection() {
   const items = [
@@ -8,9 +8,9 @@ export function IntroSection() {
       desc: "Registros que podem impactar a negociação."
     },
     {
-      icon: <AlertTriangle className="w-6 h-6" />,
-      title: "Débitos, multas e recall",
-      desc: "Pendências que podem mudar o negócio."
+      icon: <Gavel className="w-6 h-6" />,
+      title: "Leilão, roubo e furto",
+      desc: "Ocorrências que podem impactar a compra e o valor do veículo."
     },
     {
       icon: <Scale className="w-6 h-6" />,
@@ -131,18 +131,18 @@ export function IntroSection() {
                     </div>
                   </div>
 
-                  {/* Módulo Débitos */}
+                  {/* Módulo Leilão e Roubo */}
                   <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-2">
-                        <AlertTriangle className="w-4 h-4 text-amber-500" />
-                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Débitos</span>
+                        <Gavel className="w-4 h-4 text-amber-500" />
+                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Restrições</span>
                       </div>
                       <span className="text-[10px] font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded uppercase">Atenção</span>
                     </div>
                     <div className="space-y-2">
                       <div className="flex justify-between items-center text-[10px] text-white/30">
-                        <span>Multas em aberto</span>
+                        <span>Leilão / Roubo</span>
                         <span className="text-amber-500/60">ANALISAR</span>
                       </div>
                       <div className="w-full h-1 bg-white/5 rounded-full"></div>
