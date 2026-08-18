@@ -4,7 +4,7 @@ import heroCar from "@/assets/hero-showroom-suv.jpg";
 export function Hero() {
   const floatingCards = [
     { label: "Gravames", icon: ShieldAlert },
-    { label: "Débitos e multas", icon: DollarSign },
+    { label: "Leilão", icon: ShieldAlert },
     { label: "Recall", icon: Info },
     { label: "PRF / RENAINF", icon: Search },
     { label: "Comunicado de venda", icon: FileText },
@@ -62,13 +62,13 @@ export function Hero() {
             <div className="absolute inset-0 z-20 pointer-events-none">
               {/* We position them strategically around the car area */}
               <div className="absolute top-[20%] right-[35%] animate-float-slow">
-                <FloatingCard label="Gravames" icon={ShieldAlert} />
+                <FloatingCard label="Gravames" icon={Database} />
               </div>
               <div className="absolute top-[12%] right-[10%] animate-float" style={{ animationDelay: '1s' }}>
                 <FloatingCard label="Recall" icon={Info} />
               </div>
               <div className="absolute top-[40%] right-[15%] animate-float-slow" style={{ animationDelay: '0.5s' }}>
-                <FloatingCard label="Débitos e multas" icon={DollarSign} />
+                <FloatingCard label="Leilão" icon={ShieldAlert} />
               </div>
               <div className="absolute bottom-[35%] right-[25%] animate-float" style={{ animationDelay: '1.5s' }}>
                 <FloatingCard label="PRF / RENAINF" icon={Search} />
