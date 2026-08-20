@@ -38,14 +38,14 @@ function VistoriaPlus() {
         <Hero 
           title="VISTORIA PLUS: AGILIDADE E SEGURANÇA EM CADA DETALHE."
           subtitle="Aumente a velocidade das suas negociações com vistorias precisas e laudos que eliminam qualquer dúvida técnica ou documental."
-          ctaText="QUERO CONHECER A VISTORIA PLUS"
+          ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
           supportText="Performance e confiança para o seu negócio!"
         />
         <PainSection />
         <IntroSection />
         <BenefitsSection />
         <HowItWorksSection />
-        <FinalCtaSection />
+        <FinalCtaSection ctaText="Quero conhecer a Auto Perícia Plus →" />
       </main>
       <Footer />
     </div>
