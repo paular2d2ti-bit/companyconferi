@@ -42,13 +42,13 @@ export function Hero({
                   </p>
                 ) : (
                   <div className="flex flex-wrap items-center gap-y-3 gap-x-4 text-white text-[12px] md:text-[14px] font-black tracking-[0.2em] md:tracking-[0.25em] uppercase px-1 z-20">
-                    <span>Compra</span>
+                    <span>Sinistro</span>
                     <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
-                    <span>Troca</span>
+                    <span>Roubo e Furto</span>
                     <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
-                    <span>Avaliação</span>
+                    <span>Leilão</span>
                     <span className="w-1.5 h-1.5 rounded-full bg-[#22E38A] shadow-[0_0_10px_#22E38A]"></span>
-                    <span>Estoque</span>
+                    <span>Laudo com sua marca</span>
                   </div>
                 )}
               </div>
