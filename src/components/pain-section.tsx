@@ -18,9 +18,9 @@ export function PainSection() {
     },
     {
       number: "03",
-      title: "AVALIAÇÃO",
-      question: "Quanto esse veículo realmente vale?",
-      desc: "Use mais informações do histórico para avaliar e negociar com mais critério.",
+      title: "LAUDO PROFISSIONAL",
+      question: "Transforme dados em uma entrega de mais valor.",
+      desc: "Organize as informações em um relatório claro e profissional para o cliente.",
       delay: "0.3s"
     },
     {
