@@ -4,7 +4,7 @@ export function PainSection() {
   const steps = [
     {
       number: "01",
-      title: "COMPRA",
+      title: "ALÉM DO VISUAL",
       question: "Vale a pena comprar esse carro?",
       desc: "Consulte antes de colocar dinheiro no veículo.",
       delay: "0s"
