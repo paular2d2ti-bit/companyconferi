@@ -35,7 +35,12 @@ function VistoriaVeicular() {
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
       <main className="flex-grow">
-        <Hero />
+        <Hero 
+          title="DADOS ALÉM DO VISUAL PARA LAUDOS MAIS COMPLETOS."
+          subtitle="Complemente sua vistoria com informações veiculares e entregue ao cliente um laudo profissional personalizado com a marca da sua empresa."
+          ctaText="CONHEÇA A AUTO PERÍCIA PLUS"
+          supportText="Mais informação para sua vistoria. Mais valor para a sua entrega."
+        />
         <PainSection />
         <IntroSection />
         <BenefitsSection />
