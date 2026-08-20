@@ -2,6 +2,7 @@ import { ArrowRight, Search, Gavel, DollarSign, FileText, Database, ShieldAlert,
 import heroCar from "@/assets/hero-showroom-suv.jpg";
 
 interface HeroProps {
+  eyebrow?: string;
   title?: string;
   subtitle?: string;
   ctaText?: string;
@@ -9,6 +10,7 @@ interface HeroProps {
 }
 
 export function Hero({ 
+  eyebrow = "PARA LOJAS E AGÊNCIAS DE VEÍCULOS",
   title = "Vai colocar esse carro no estoque? Consulte antes de comprar.",
   subtitle = "Descubra informações que podem mudar sua decisão antes de comprar, aceitar uma troca ou negociar um veículo.",
   ctaText = "Quero conhecer a Auto Perícia Gold",
@@ -21,7 +23,9 @@ export function Hero({
           {/* COLUNA ESQUERDA — 46% */}
           <div className="relative z-10 flex w-full flex-col justify-center px-6 py-20 lg:py-0 lg:px-16 lg:pl-[80px]">
             <div className="max-w-[540px] w-full">
-              
+              <span className="mb-4 block text-[12px] font-bold tracking-[0.1em] text-[#22E38A] uppercase">
+                {eyebrow}
+              </span>
               <h1 className="text-[34px] sm:text-[42px] md:text-[52px] font-bold leading-[1.1] md:leading-[1.05] tracking-[-0.03em] text-white">
                 {title}
               </h1>
