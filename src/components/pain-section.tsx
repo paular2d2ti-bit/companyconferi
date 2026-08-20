@@ -5,8 +5,8 @@ export function PainSection() {
     {
       number: "01",
       title: "ALÉM DO VISUAL",
-      question: "Vale a pena comprar esse carro?",
-      desc: "Consulte antes de colocar dinheiro no veículo.",
+      question: "O que a vistoria física não mostra?",
+      desc: "Complemente sua análise com informações veiculares relevantes.",
       delay: "0s"
     },
     {
