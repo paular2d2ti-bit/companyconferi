@@ -11,9 +11,9 @@ export function PainSection() {
     },
     {
       number: "02",
-      title: "TROCA",
-      question: "Vale a pena aceitar esse carro no negócio?",
-      desc: "Tenha mais informação antes de definir a entrada.",
+      title: "MAIS INFORMAÇÃO",
+      question: "Seu cliente pode receber uma análise mais completa.",
+      desc: "Acrescente dados que ajudam a enriquecer a entrega da sua vistoria.",
       delay: "0.15s"
     },
     {
