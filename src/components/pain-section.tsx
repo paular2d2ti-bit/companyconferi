@@ -34,7 +34,7 @@ export function PainSection() {
 
   return (
     <div className="bg-[#F8F9FA] relative w-full overflow-hidden">
-      <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-12 pb-16 px-6 md:px-12 lg:px-24">
+      <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-4 md:pt-6 pb-16 px-6 md:px-12 lg:px-24">
         {/* Selo e Headline Principal */}
         <div className="max-w-4xl mx-auto text-center mb-8 md:mb-12">
           <div className="inline-flex items-center gap-2 mb-4 animate-fade-in">

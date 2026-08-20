@@ -101,7 +101,7 @@ export function Hero({
         <div className="h-[40px] w-full bg-[#031426]" />
       </div>
 
-      <div className="w-full h-[80px] bg-gradient-to-b from-[#031426] to-[#F8F9FA] relative z-10" />
+      <div className="w-full h-[60px] bg-gradient-to-b from-[#031426] to-[#F8F9FA] relative z-10" />
     </section>
   );
 }
