@@ -49,7 +49,7 @@ export function PainSection() {
           </h2>
           
           <p className="text-[#1D252D]/70 text-[17px] md:text-[21px] leading-relaxed max-w-3xl mx-auto font-medium px-4">
-            A Auto Perícia Gold, da Company Conferi, entra nos momentos em que sua loja precisa decidir se vale a pena comprar, aceitar, avaliar ou colocar um veículo no estoque.
+            A Auto Perícia Plus complementa sua vistoria com dados veiculares e um laudo profissional com a sua marca, ajudando sua empresa a entregar mais valor, confiança e percepção de qualidade ao cliente.
           </p>
         </div>
 
