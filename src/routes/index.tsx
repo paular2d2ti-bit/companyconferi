@@ -36,7 +36,7 @@ function Index() {
       <SiteHeader />
       <main className="flex-grow">
         <Hero 
-
+          eyebrow="PARA QUEM EMITE LAUDOS"
           title="DADOS ALÉM DO VISUAL PARA LAUDOS MAIS COMPLETOS." 
           subtitle="Complemente sua vistoria com informações veiculares e entregue ao cliente um laudo profissional personalizado com a marca da sua empresa."
           ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
