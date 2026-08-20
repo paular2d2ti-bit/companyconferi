@@ -1,6 +1,6 @@
 import { ShieldCheck } from "lucide-react";
 
-export function FinalCtaSection() {
+export function FinalCtaSection({ ctaText }: { ctaText?: string }) {
   return (
     <section id="contato" className="relative overflow-hidden bg-[#031426] py-24 sm:py-32">
       {/* Background visual element */}
@@ -42,7 +42,7 @@ export function FinalCtaSection() {
             rel="noopener noreferrer"
             className="group relative flex w-full items-center justify-center gap-2 overflow-hidden rounded-full bg-[#22E38A] px-10 py-5 text-lg font-bold text-[#031426] transition-all hover:scale-105 active:scale-95 sm:w-auto"
           >
-            Quero contratar a Auto Perícia Gold →
+            {ctaText || "Quero contratar a Auto Perícia Gold →"}
           </a>
           <a
             href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0"
