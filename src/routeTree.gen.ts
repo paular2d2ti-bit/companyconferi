@@ -10,11 +10,17 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as VistoriaGoldRouteImport } from './routes/vistoria-gold'
 import { Route as VistoriaVeicularRouteImport } from './routes/vistoria-veicular'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VistoriaGoldRoute = VistoriaGoldRouteImport.update({
+  id: '/vistoria-gold',
+  path: '/vistoria-gold',
   getParentRoute: () => rootRouteImport,
 } as any)
 const VistoriaVeicularRoute = VistoriaVeicularRouteImport.update({
@@ -25,27 +31,31 @@ const VistoriaVeicularRoute = VistoriaVeicularRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/vistoria-gold': typeof VistoriaGoldRoute
   '/vistoria-veicular': typeof VistoriaVeicularRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/vistoria-gold': typeof VistoriaGoldRoute
   '/vistoria-veicular': typeof VistoriaVeicularRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/vistoria-gold': typeof VistoriaGoldRoute
   '/vistoria-veicular': typeof VistoriaVeicularRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/vistoria-veicular'
+  fullPaths: '/' | '/vistoria-gold' | '/vistoria-veicular'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/vistoria-veicular'
-  id: '__root__' | '/' | '/vistoria-veicular'
+  to: '/' | '/vistoria-gold' | '/vistoria-veicular'
+  id: '__root__' | '/' | '/vistoria-gold' | '/vistoria-veicular'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  VistoriaGoldRoute: typeof VistoriaGoldRoute
   VistoriaVeicularRoute: typeof VistoriaVeicularRoute
 }
 
@@ -56,6 +66,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vistoria-gold': {
+      id: '/vistoria-gold'
+      path: '/vistoria-gold'
+      fullPath: '/vistoria-gold'
+      preLoaderRoute: typeof VistoriaGoldRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/vistoria-veicular': {
@@ -70,6 +87,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  VistoriaGoldRoute: VistoriaGoldRoute,
   VistoriaVeicularRoute: VistoriaVeicularRoute,
 }
 export const routeTree = rootRouteImport
