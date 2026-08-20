@@ -65,7 +65,7 @@ export function Hero({
             <img
               src={heroCar}
               alt="Profissional realizando vistoria veicular com tablet e prancheta"
-              className="absolute inset-0 h-full w-full object-cover object-[60%_center]"
+              className="absolute inset-0 h-full w-full object-contain object-center scale-[0.9] lg:scale-[0.95]"
             />
             {/* Transition overlay - Lateral apenas, não no fundo */}
             <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />
