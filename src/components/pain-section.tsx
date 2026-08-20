@@ -25,9 +25,9 @@ export function PainSection() {
     },
     {
       number: "04",
-      title: "ESTOQUE",
-      question: "Vale a pena esse carro entrar na sua loja?",
-      desc: "Conheça melhor o veículo antes de ele virar estoque.",
+      title: "SUA MARCA",
+      question: "Faça o cliente lembrar de quem entregou a vistoria.",
+      desc: "Personalize o laudo com o logo e as cores da sua empresa.",
       delay: "0.45s"
     }
   ];
