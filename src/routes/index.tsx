@@ -35,7 +35,7 @@ function Index() {
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
       <main className="flex-grow">
-        <Hero />
+        <Hero title="DADOS ALÉM DO VISUAL PARA LAUDOS MAIS COMPLETOS." />
         <PainSection />
         <IntroSection />
         <BenefitsSection />
