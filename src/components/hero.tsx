@@ -1,5 +1,6 @@
 import { ArrowRight, Search, Gavel, DollarSign, FileText, Database, ShieldAlert, CheckCircle2, Info } from "lucide-react";
-import heroCar from "@/assets/hero-car-showroom-premium.jpg";
+import heroAsset from "@/assets/vistoria-inspecao.png.asset.json";
+const heroCar = heroAsset.url;
 
 interface HeroProps {
   eyebrow?: string;
@@ -63,8 +64,8 @@ export function Hero({
           <div className="relative overflow-hidden min-h-[400px] lg:min-h-0">
             <img
               src={heroCar}
-              alt="Vistoria veicular em showroom"
-              className="absolute inset-0 h-full w-full object-cover object-[65%_center] lg:object-cover"
+              alt="Profissional realizando vistoria veicular com tablet e prancheta"
+              className="absolute inset-0 h-full w-full object-cover object-[60%_center]"
             />
             {/* Transition overlay - Lateral apenas, não no fundo */}
             <div className="absolute inset-y-0 left-0 w-full lg:w-1/2 bg-gradient-to-r from-[#031426] via-[#031426]/60 to-transparent z-10" />
