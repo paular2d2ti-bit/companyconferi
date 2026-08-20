@@ -1,5 +1,6 @@
 import { ArrowRight, Search, Gavel, DollarSign, FileText, Database, ShieldAlert, CheckCircle2, Info } from "lucide-react";
-import heroCar from "@/assets/hero-car-showroom-premium.jpg";
+import heroAsset from "@/assets/vistoria-inspecao.png.asset.json";
+const heroCar = heroAsset.url;
 
 interface HeroProps {
   eyebrow?: string;
