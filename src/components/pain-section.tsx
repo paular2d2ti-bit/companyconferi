@@ -85,14 +85,13 @@ export function PainSection() {
         <div className="max-w-4xl mx-auto text-center flex flex-col items-center">
           <div className="mb-8 md:mb-10">
             <h3 className="text-[#031426] text-[32px] sm:text-[40px] md:text-[52px] lg:text-[62px] font-bold tracking-tighter animate-fade-in flex flex-col leading-[1.1]">
-              <span>Mais informação antes.</span>
-              <span className="text-[#00A99D]">Decisões melhores depois.</span>
+              <span>Mais informação em cada vistoria.</span>
+              <span className="text-[#00A99D]">Mais valor em cada entrega.</span>
             </h3>
           </div>
           
           <a href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="h-[64px] md:h-[72px] px-8 md:px-14 rounded-full bg-[#031426] text-white font-bold text-[18px] md:text-[20px] hover:bg-[#00A99D] transition-all duration-500 flex items-center gap-3 group shadow-xl shadow-[#031426]/10 hover:shadow-2xl hover:shadow-[#00A99D]/30 hover:-translate-y-1 w-full sm:w-auto justify-center">
-            Quero decidir com mais segurança
-            <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />
+            QUERO CONHECER A AUTO PERÍCIA PLUS →
           </a>
         </div>
       </section>
