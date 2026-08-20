@@ -69,7 +69,7 @@ export function Hero({
             {/* Floating Cards Container */}
             <div className="absolute inset-0 z-20 pointer-events-none">
               <div className="absolute top-[20%] right-[35%] animate-float-slow">
-                <FloatingCard label="Gravames" icon={Database} />
+                <FloatingCard label="Gravame" icon={Database} />
               </div>
               <div className="absolute top-[12%] right-[10%] animate-float" style={{ animationDelay: '1s' }}>
                 <FloatingCard label="Recall" icon={Info} />
@@ -78,7 +78,7 @@ export function Hero({
                 <FloatingCard label="Leilão" icon={ShieldAlert} />
               </div>
               <div className="absolute bottom-[35%] right-[25%] animate-float" style={{ animationDelay: '1.5s' }}>
-                <FloatingCard label="PRF / RENAINF" icon={Search} />
+                <FloatingCard label="Roubo e Furto" icon={Search} />
               </div>
               <div className="absolute bottom-[20%] right-[40%] animate-float-slow" style={{ animationDelay: '2s' }}>
                 <FloatingCard label="Comunicado de venda" icon={FileText} />
@@ -87,7 +87,7 @@ export function Hero({
                 <FloatingCard label="Sinistro" icon={Gavel} />
               </div>
               <div className="absolute top-[60%] right-[45%] animate-float-slow" style={{ animationDelay: '1.2s' }}>
-                <FloatingCard label="Decodificação de chassi" icon={Database} />
+                <FloatingCard label="Laudo com sua marca" icon={Database} />
               </div>
             </div>
           </div>
