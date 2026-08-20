@@ -35,7 +35,10 @@ function Index() {
     <div className="flex min-h-screen flex-col">
       <SiteHeader />
       <main className="flex-grow">
-        <Hero title="DADOS ALÉM DO VISUAL PARA LAUDOS MAIS COMPLETOS." />
+        <Hero 
+          title="DADOS ALÉM DO VISUAL PARA LAUDOS MAIS COMPLETOS." 
+          subtitle="Complemente sua vistoria com informações veiculares e entregue ao cliente um laudo profissional personalizado com a marca da sua empresa."
+        />
         <PainSection />
         <IntroSection />
         <BenefitsSection />
