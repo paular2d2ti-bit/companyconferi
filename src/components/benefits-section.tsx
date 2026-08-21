@@ -43,13 +43,13 @@ export function BenefitsSection() {
         <div className="max-w-2xl text-center sm:text-left">
           <p className="text-teal text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase flex items-center justify-center sm:justify-start gap-2">
             <ShieldCheck className="h-4 w-4 text-[#FFB800]" />
-            RESULTADOS QUE DÃO SEGURANÇA
+            AUTO PERÍCIA PLUS NA PRÁTICA
           </p>
-          <h2 className="mt-4 text-[30px] sm:text-[38px] font-bold leading-[1.2] sm:leading-[1.1] text-white tracking-tight">
-            Números que reforçam a decisão.
+          <h2 className="mt-4 text-[30px] sm:text-[38px] font-bold leading-[1.2] sm:leading-[1.1] text-white tracking-tight uppercase">
+            INFORMAÇÃO ORGANIZADA PARA UMA ENTREGA MAIS PROFISSIONAL.
           </h2>
           <p className="mt-4 text-[17px] sm:text-[18px] text-white/70">
-            A Company Conferi, com a Auto Perícia Gold, apoia operações que precisam decidir com mais segurança.
+            Consulte dados veiculares, complemente sua análise e entregue um laudo profissional com mais informação e valor para o cliente.
           </p>
         </div>
 
