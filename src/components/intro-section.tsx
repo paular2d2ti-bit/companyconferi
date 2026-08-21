@@ -3,23 +3,23 @@ import { ArrowRight, ShieldCheck, Database, FileSearch, History, Search, Car, Al
 export function IntroSection() {
   const items = [
     {
-      icon: <History className="w-6 h-6" />,
-      title: "Histórico e gravames",
-      desc: "Registros que podem impactar a negociação."
+      icon: <AlertTriangle className="w-6 h-6" />,
+      title: "SINISTRO",
+      desc: "Identifique registros importantes no histórico do veículo. Consulte informações sobre sinistro de indenização integral."
     },
     {
       icon: <Gavel className="w-6 h-6" />,
-      title: "Leilão, roubo e furto",
+      title: "LEILÃO, ROUBO E FURTO",
       desc: "Ocorrências que podem impactar a compra e o valor do veículo."
     },
     {
       icon: <Scale className="w-6 h-6" />,
-      title: "PRF, RENAINF e comunicado de venda",
+      title: "PRF, RENAINF E COMUNICADO DE VENDA",
       desc: "Mais informações antes de decidir."
     },
     {
       icon: <ClipboardCheck className="w-6 h-6" />,
-      title: "Chassi e histórico de sinistro",
+      title: "CHASSI E HISTÓRICO",
       desc: "Mais segurança para validar o veículo."
     }
   ];
