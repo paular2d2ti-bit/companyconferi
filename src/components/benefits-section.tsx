@@ -79,7 +79,8 @@ export function BenefitsSection() {
 
         <div className="mt-16 sm:mt-20 flex flex-col items-center sm:items-center gap-8 border-t border-white/10 pt-12 sm:flex-row sm:justify-between text-center sm:text-left">
           <p className="max-w-md text-[17px] sm:text-[18px] font-medium leading-relaxed text-white/80">
-            Quando a decisão vale dinheiro, consultar antes faz diferença.
+            Mais confiança para sua empresa.<br />
+            Mais segurança para o seu cliente.
           </p>
           
           <a href="https://api.whatsapp.com/send/?phone=5511952267192&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="group relative flex w-full sm:w-auto items-center justify-center gap-3 rounded-full bg-teal px-8 py-4 font-bold text-[#031426] transition-all hover:bg-white hover:scale-105 active:scale-95 shadow-lg shadow-teal/10 overflow-hidden">
