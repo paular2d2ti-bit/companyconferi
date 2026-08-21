@@ -18,9 +18,9 @@ export function IntroSection() {
       desc: "Informações que podem fazer diferença no laudo. Verifique oferta em leilão e comunicação de venda em aberto."
     },
     {
-      icon: <ClipboardCheck className="w-6 h-6" />,
-      title: "CHASSI E HISTÓRICO",
-      desc: "Mais segurança para validar o veículo."
+      icon: <Info className="w-6 h-6" />,
+      title: "RECALL E DADOS DO VEÍCULO",
+      desc: "Mais dados para complementar sua análise. Consulte recall e informações adicionais de identificação e histórico do veículo."
     }
   ];
 
