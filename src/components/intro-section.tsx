@@ -13,9 +13,9 @@ export function IntroSection() {
       desc: "Mais segurança na análise do veículo. Consulte registros de roubo e furto em bases oficiais online."
     },
     {
-      icon: <Scale className="w-6 h-6" />,
-      title: "PRF, RENAINF E COMUNICADO DE VENDA",
-      desc: "Mais informações antes de decidir."
+      icon: <Gavel className="w-6 h-6" />,
+      title: "LEILÃO E COMUNICADO DE VENDA",
+      desc: "Informações que podem fazer diferença no laudo. Verifique oferta em leilão e comunicação de venda em aberto."
     },
     {
       icon: <ClipboardCheck className="w-6 h-6" />,
