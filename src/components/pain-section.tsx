@@ -20,7 +20,7 @@ export function PainSection() {
       number: "03",
       title: "LAUDO PROFISSIONAL",
       question: "Transforme dados em uma entrega de mais valor.",
-      desc: "Organize as informações em um relatório claro e profissional para o cliente.",
+      desc: "Entregue um relatório profissional em PDF, claro e organizado para o cliente.",
       delay: "0.3s"
     },
     {
