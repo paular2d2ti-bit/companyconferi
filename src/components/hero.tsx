@@ -74,7 +74,7 @@ export function Hero({
             {/* Floating Cards Container */}
             <div className="absolute inset-0 z-20 pointer-events-none">
               <div className="absolute top-[20%] right-[35%] animate-float-slow">
-                <FloatingCard label="Gravame" icon={Database} />
+                <FloatingCard label="Comparativo de componentes" icon={Database} />
               </div>
               <div className="absolute top-[12%] right-[10%] animate-float" style={{ animationDelay: '1s' }}>
                 <FloatingCard label="Recall" icon={Info} />
