@@ -4,7 +4,7 @@ export function IntroSection() {
   const items = [
     {
       icon: <AlertTriangle className="w-6 h-6" />,
-      title: "SINISTRO",
+      title: "SINISTRO DE INDENIZAÇÃO INTEGRAL",
       desc: "Identifique registros importantes no histórico do veículo. Consulte informações sobre sinistro de indenização integral."
     },
     {
