@@ -37,11 +37,13 @@ export function PainSection() {
       <section id="rotina" className="mx-auto max-w-[1440px] bg-[#F8F9FA] pt-4 md:pt-6 pb-16 px-6 md:px-12 lg:px-24">
         {/* Selo e Headline Principal */}
         <div className="max-w-4xl mx-auto text-center mb-8 md:mb-12">
-          <div className="inline-flex items-center gap-2 mb-4 animate-fade-in">
+          <div className="flex flex-col items-center gap-1 mb-6 animate-fade-in">
             <span className="text-[#00A99D] text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase">
-              MAIS VALOR EM CADA VISTORIA
+              Mais informação em cada vistoria.
             </span>
-
+            <span className="text-[#00A99D] text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase">
+              Mais valor em cada entrega.
+            </span>
           </div>
           
           <h2 className="text-[#031426] text-[32px] sm:text-[40px] md:text-[56px] lg:text-[68px] leading-[1.1] font-bold tracking-[-0.04em] mb-6 px-2">
