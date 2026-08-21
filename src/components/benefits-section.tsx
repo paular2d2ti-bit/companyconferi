@@ -43,7 +43,7 @@ export function BenefitsSection() {
         <div className="max-w-2xl text-center sm:text-left">
           <p className="text-teal text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase flex items-center justify-center sm:justify-start gap-2">
             <ShieldCheck className="h-4 w-4 text-[#FFB800]" />
-            AUTO PERÍCIA PLUS NA PRÁTICA
+            NÚMEROS QUE REFORÇAM A CONFIANÇA
           </p>
           <h2 className="mt-4 text-[30px] sm:text-[38px] font-bold leading-[1.2] sm:leading-[1.1] text-white tracking-tight uppercase">
             INFORMAÇÃO ORGANIZADA PARA UMA ENTREGA MAIS PROFISSIONAL.
