@@ -15,7 +15,7 @@ export function IntroSection() {
     {
       icon: <Gavel className="w-6 h-6" />,
       title: "LEILÃO E COMUNICADO DE VENDA",
-      desc: "Informações que podem fazer diferença no laudo. Verifique oferta em leilão e comunicação de venda em aberto."
+      desc: "Saiba se o veículo já foi ofertado em leilão ou possui comunicação de venda em aberto."
     },
     {
       icon: <Info className="w-6 h-6" />,
