@@ -67,7 +67,7 @@ export function IntroSection() {
               <div className="flex items-start gap-3 py-6 border-y border-[#F5F7F8]">
                 <ShieldCheck className="w-6 h-6 text-[#00A99D] shrink-0 mt-0.5" />
                 <p className="text-[#031426] text-[18px] md:text-[20px] font-bold leading-tight tracking-tight">
-                  Não é consultar mais. <span className="text-[#00A99D]">É entregar mais valor em cada vistoria.</span>
+                  Não é só consultar. <span className="text-[#00A99D]">É entregar mais valor em cada vistoria.</span>
                 </p>
               </div>
               
