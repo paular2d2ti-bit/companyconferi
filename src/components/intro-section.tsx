@@ -33,7 +33,7 @@ export function IntroSection() {
           <div className="relative z-20">
             <div className="inline-flex items-center gap-2 mb-6">
               <span className="text-[#00A99D] text-[10px] sm:text-[12px] font-bold tracking-[0.2em] uppercase bg-[#00A99D]/5 px-3 py-1.5 rounded-full">
-                VÁ ALÉM DA CONSULTA BÁSICA
+                O QUE A AUTO PERÍCIA PLUS ENTREGA
               </span>
             </div>
             
