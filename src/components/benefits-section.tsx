@@ -4,12 +4,12 @@ export function BenefitsSection() {
   const stats = [
     {
       value: "+10 anos",
-      label: "mercado automotivo",
+      label: "MERCADO AUTOMOTIVO",
       icon: Calendar
     },
     {
       value: "+2,1 mil",
-      label: "usuários ativos",
+      label: "USUÁRIOS ATIVOS",
       icon: Users
     },
     {
