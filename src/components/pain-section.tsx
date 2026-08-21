@@ -6,7 +6,7 @@ export function PainSection() {
       number: "01",
       title: "ALÉM DO VISUAL",
       question: "O que a vistoria física não mostra?",
-      desc: "Complemente sua análise com informações veiculares relevantes.",
+      desc: "Complemente a análise da sua equipe com dados que vão além da inspeção visual",
       delay: "0s"
     },
     {
