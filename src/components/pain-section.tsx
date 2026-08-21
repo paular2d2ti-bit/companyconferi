@@ -26,7 +26,7 @@ export function PainSection() {
     {
       number: "04",
       title: "SUA MARCA",
-      question: "Faça o cliente lembrar de quem entregou a vistoria.",
+      question: "Seu laudo. Sua identidade visual.",
       desc: "Personalize o laudo com o logo e as cores da sua empresa.",
       delay: "0.45s"
     }
