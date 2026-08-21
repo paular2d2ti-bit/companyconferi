@@ -13,7 +13,7 @@ export function PainSection() {
       number: "02",
       title: "MAIS INFORMAÇÃO",
       question: "Seu cliente pode receber uma análise mais completa.",
-      desc: "Acrescente dados que ajudam a enriquecer a entrega da sua vistoria.",
+      desc: "Reúna informações relevantes para entregar ao cliente uma análise mais completa.",
       delay: "0.15s"
     },
     {
