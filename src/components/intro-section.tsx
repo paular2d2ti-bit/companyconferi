@@ -20,7 +20,7 @@ export function IntroSection() {
     {
       icon: <Info className="w-6 h-6" />,
       title: "RECALL E DADOS DO VEÍCULO",
-      desc: "Mais dados para complementar sua análise. Consulte recall e informações adicionais de identificação e histórico do veículo."
+      desc: "Consulte recall, dados de fabricação, Base BIN Nacional e comparativo de componentes."
     }
   ];
 
