@@ -10,7 +10,7 @@ export function IntroSection() {
     {
       icon: <Gavel className="w-6 h-6" />,
       title: "ROUBO E FURTO",
-      desc: "Mais segurança na análise do veículo. Consulte registros de roubo e furto em bases oficiais online."
+      desc: "Consulte registros de roubo e furto em bases oficiais online."
     },
     {
       icon: <Gavel className="w-6 h-6" />,
