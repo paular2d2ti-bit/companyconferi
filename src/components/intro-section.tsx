@@ -42,7 +42,7 @@ export function IntroSection() {
             </h2>
             
             <p className="text-[#1D252D]/80 text-[17px] md:text-[20px] leading-relaxed mb-10 md:mb-12 font-medium max-w-[540px]">
-              A Auto Perícia Gold, da Company Conferi, aprofunda a consulta com informações que podem mudar sua decisão antes de fechar o negócio.
+              Consulte informações veiculares relevantes e amplie o nível de informação entregue ao seu cliente.
             </p>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10 mb-16">
