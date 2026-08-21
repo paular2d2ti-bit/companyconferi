@@ -46,10 +46,10 @@ export function BenefitsSection() {
             NÚMEROS QUE REFORÇAM A CONFIANÇA
           </p>
           <h2 className="mt-4 text-[30px] sm:text-[38px] font-bold leading-[1.2] sm:leading-[1.1] text-white tracking-tight uppercase">
-            INFORMAÇÃO ORGANIZADA PARA UMA ENTREGA MAIS PROFISSIONAL.
+            Números que reforçam a confiança.
           </h2>
           <p className="mt-4 text-[17px] sm:text-[18px] text-white/70">
-            Consulte dados veiculares, complemente sua análise e entregue um laudo profissional com mais informação e valor para o cliente.
+            A Company Conferi, com a Auto Perícia Plus, apoia empresas de vistoria com mais informação, tecnologia e segurança na entrega ao cliente.
           </p>
         </div>
 
