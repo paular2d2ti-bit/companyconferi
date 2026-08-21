@@ -9,8 +9,8 @@ export function IntroSection() {
     },
     {
       icon: <Gavel className="w-6 h-6" />,
-      title: "LEILÃO, ROUBO E FURTO",
-      desc: "Ocorrências que podem impactar a compra e o valor do veículo."
+      title: "ROUBO E FURTO",
+      desc: "Mais segurança na análise do veículo. Consulte registros de roubo e furto em bases oficiais online."
     },
     {
       icon: <Scale className="w-6 h-6" />,
