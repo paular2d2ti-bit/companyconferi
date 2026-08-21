@@ -5,7 +5,7 @@ export function IntroSection() {
     {
       icon: <AlertTriangle className="w-6 h-6" />,
       title: "SINISTRO DE INDENIZAÇÃO INTEGRAL",
-      desc: "Identifique registros importantes no histórico do veículo. Consulte informações sobre sinistro de indenização integral."
+      desc: "Saiba se o veículo possui registro de sinistro com indenização integral."
     },
     {
       icon: <Gavel className="w-6 h-6" />,
