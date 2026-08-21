@@ -37,10 +37,8 @@ export function IntroSection() {
               </span>
             </div>
             
-            <h2 className="text-[#031426] text-[32px] sm:text-[40px] leading-[1.1] md:leading-[1.05] font-bold sm:text-[48px] lg:text-[56px] tracking-[-0.04em] mb-6 md:mb-8">
-              Sua loja já consulta veículos.
-              <br className="hidden md:block" />
-              Mas consulta o suficiente para decidir?
+            <h2 className="text-[#031426] text-[32px] sm:text-[40px] leading-[1.1] md:leading-[1.05] font-bold sm:text-[48px] lg:text-[56px] tracking-[-0.04em] mb-6 md:mb-8 uppercase">
+              DADOS QUE COMPLEMENTAM A SUA VISTORIA.
             </h2>
             
             <p className="text-[#1D252D]/80 text-[17px] md:text-[20px] leading-relaxed mb-10 md:mb-12 font-medium max-w-[540px]">
