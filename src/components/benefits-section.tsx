@@ -50,7 +50,7 @@ export function BenefitsSection() {
               Números que reforçam a confiança.
             </h2>
             <p className="mt-4 text-[17px] sm:text-[18px] text-white/70">
-              A Company Conferi, com a Auto Perícia Plus, apoia empresas de vistoria com mais informação, tecnologia e segurança na entrega ao cliente.
+              Tecnologia, experiência e mais de 100 fontes oficiais apoiando análises veiculares mais seguras.
             </p>
 
             <div className="mt-12 grid grid-cols-1 gap-4 sm:grid-cols-2">
