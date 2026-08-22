@@ -4,9 +4,9 @@ import { useCallback, useEffect, useState } from "react";
 
 const testimonials = [
   {
-    content: "Antes da Gold, a gente comprava baseado no 'feeling' e no que o vendedor dizia. Já perdemos dinheiro com carro que tinha sinistro oculto. Hoje, nenhum carro entra no estoque sem passar pela consulta completa.",
-    store: "Prime Motors",
-    location: "São Paulo/SP",
+    content: "Relatório em PDF personalizado com o logo e as cores da sua empresa.",
+    store: "LAUDO COM SUA MARCA",
+    location: "Sua Identidade",
     rating: 5,
   },
   {
