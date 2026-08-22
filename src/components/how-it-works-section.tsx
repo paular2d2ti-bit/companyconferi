@@ -10,9 +10,9 @@ const testimonials = [
     rating: 5,
   },
   {
-    content: "O que mais me impressionou foi a agilidade e a profundidade dos dados. Conseguimos identificar um bloqueio judicial em uma caminhonete que parecia perfeita. Evitamos um prejuízo de mais de 150 mil reais.",
-    store: "Elite Veículos",
-    location: "Curitiba/PR",
+    content: "Informações veiculares que complementam a análise realizada pela sua equipe.",
+    store: "DADOS ALÉM DO VISUAL",
+    location: "Dados Profissionais",
     rating: 5,
   },
   {
