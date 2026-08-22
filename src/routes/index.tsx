@@ -15,13 +15,16 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Complemente sua vistoria com informações veiculares e entregue ao cliente um laudo profissional personalizado com a marca da sua empresa.",
+          "Complemente suas vistorias com dados veiculares e entregue laudos profissionais personalizados com a marca da sua empresa. Conheça a Auto Perícia Plus.",
       },
-      { property: "og:title", content: "Auto Perícia Plus para Empresas de Vistoria | Company Conferi" },
+      {
+        property: "og:title",
+        content: "Auto Perícia Plus para Empresas de Vistoria | Company Conferi",
+      },
       {
         property: "og:description",
         content:
-          "Inteligência veicular para laudos mais completos. Mais informação e valor para sua vistoria veicular.",
+          "Complemente suas vistorias com dados veiculares e entregue laudos profissionais personalizados com a marca da sua empresa. Conheça a Auto Perícia Plus.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
