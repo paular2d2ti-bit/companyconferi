@@ -13,9 +13,9 @@ export function BenefitsSection() {
       icon: Users
     },
     {
-      value: "Desde 2019",
-      label: "atualização contínua",
-      icon: SearchCheck
+      value: "+15 ANOS",
+      label: "DE KNOW-HOW",
+      icon: Calendar
     },
     {
       value: "4,4 bi+",
