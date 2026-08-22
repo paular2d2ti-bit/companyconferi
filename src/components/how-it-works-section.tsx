@@ -89,7 +89,7 @@ export function HowItWorksSection() {
                     </div>
                     
                     <p className="text-[#031426] text-lg leading-[1.6] mb-8 flex-grow">
-                      "{item.content}"
+                      {item.content}
                     </p>
                     
                     <div className="mt-auto pt-6 border-t border-[#031426]/5">
