@@ -8,8 +8,8 @@ export function BenefitsSection() {
       icon: SearchCheck
     },
     {
-      value: "+2,1 mil",
-      label: "USUÁRIOS ATIVOS",
+      value: "+2.000",
+      label: "CLIENTES ATIVOS",
       icon: Users
     },
     {
