@@ -16,15 +16,15 @@ const testimonials = [
     rating: 5,
   },
   {
-    content: "Trabalhamos com revenda há 15 anos e a Auto Perícia Gold se tornou nossa principal ferramenta de avaliação. A segurança que passamos para o cliente final ao mostrar o relatório não tem preço.",
-    store: "Showroom Automóveis",
-    location: "Belo Horizonte/MG",
+    content: "Acesse a Auto Perícia Plus online e tenha as informações organizadas para sua operação.",
+    store: "PLATAFORMA WEB",
+    location: "Acesso Rápido",
     rating: 5,
   },
   {
-    content: "A interface é muito limpa e os alertas são claros. Não precisa ser especialista para entender se o carro é bom ou não. Facilitou muito o dia a dia dos nossos avaliadores.",
-    store: "Global Cars",
-    location: "Goiânia/GO",
+    content: "Trabalhamos com revenda há 15 anos e a Auto Perícia Gold se tornou nossa principal ferramenta de avaliação. A segurança que passamos para o cliente final ao mostrar o relatório não tem preço.",
+    store: "Showroom Automóveis",
+    location: "Belo Horizonte/MG",
     rating: 5,
   },
 ];
