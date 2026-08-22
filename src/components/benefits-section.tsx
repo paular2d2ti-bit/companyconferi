@@ -18,9 +18,9 @@ export function BenefitsSection() {
       icon: Calendar
     },
     {
-      value: "4,4 bi+",
-      label: "dados consultados",
-      icon: BarChart3
+      value: "4,9/5",
+      label: "SATISFAÇÃO TOTAL",
+      icon: ShieldCheck
     }
   ];
 
