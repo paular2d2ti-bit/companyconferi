@@ -61,15 +61,15 @@ export function HowItWorksSection() {
 
       <div className="container relative z-10 mx-auto px-6">
         <div className="flex flex-col items-center text-center max-w-4xl mx-auto mb-16">
-          <div className="flex items-center gap-2 mb-4">
+          <div className="flex flex-col items-center gap-2 mb-4">
             <ShieldCheck className="h-5 w-5 text-teal" />
             <p className="text-[#031426] text-[12px] font-bold tracking-[0.2em] uppercase">
-              QUEM USA, CONFIRMA
+              FEITA PARA QUEM EMITE LAUDOS
             </p>
           </div>
           
           <h2 className="text-[32px] sm:text-[48px] font-bold leading-[1.1] text-[#031426] tracking-tight">
-            Quem vive a negociação no dia a dia sente a diferença de descobrir antes.
+            Tudo o que sua empresa precisa para entregar um laudo mais profissional.
           </h2>
         </div>
 
