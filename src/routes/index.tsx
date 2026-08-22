@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Consulte antes de comprar. Inteligência veicular para decisões seguras e lucros maiores no mercado automotivo.",
+          "Consulte antes de comprar. Inteligência veicular para decisões seguras and lucros maiores no mercado automotivo.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -46,9 +46,9 @@ function Index() {
         <BenefitsSection />
         <HowItWorksSection />
         <FinalCtaSection 
-49:           eyebrow="PRONTO PARA ENTREGAR MAIS EM CADA VISTORIA?"
-50:           ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
-51:         />
+          eyebrow="PRONTO PARA ENTREGAR MAIS EM CADA VISTORIA?"
+          ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
+        />
       </main>
       <Footer />
     </div>
