@@ -11,17 +11,17 @@ import { Footer } from "@/components/footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Auto Perícia Gold | Inteligência Veicular para Lojistas" },
+      { title: "Auto Perícia Plus para Empresas de Vistoria | Company Conferi" },
       {
         name: "description",
         content:
-          "Auto Perícia Gold: Inteligência veicular para lojas e agências. Consulte antes de comprar e garanta lucros maiores.",
+          "Complemente sua vistoria com informações veiculares e entregue ao cliente um laudo profissional personalizado com a marca da sua empresa.",
       },
-      { property: "og:title", content: "Auto Perícia Gold | Inteligência Veicular" },
+      { property: "og:title", content: "Auto Perícia Plus para Empresas de Vistoria | Company Conferi" },
       {
         property: "og:description",
         content:
-          "Consulte antes de comprar. Inteligência veicular para decisões seguras and lucros maiores no mercado automotivo.",
+          "Inteligência veicular para laudos mais completos. Mais informação e valor para sua vistoria veicular.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
