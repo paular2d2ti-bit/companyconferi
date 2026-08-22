@@ -202,7 +202,6 @@ export function IntroSection() {
                 </div>
               </div>
             </div>
-          </div>
             
             {/* Decoração de fundo aprimorada */}
             <div className="absolute -top-16 -right-16 w-80 h-80 bg-[#00A99D]/10 rounded-full blur-[120px] -z-10 animate-pulse"></div>
