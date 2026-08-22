@@ -1,6 +1,6 @@
 import { ShieldCheck } from "lucide-react";
 
-export function FinalCtaSection({ eyebrow, title, ctaText }: { eyebrow?: string; title?: string; ctaText?: string }) {
+export function FinalCtaSection({ eyebrow, title, description, ctaText }: { eyebrow?: string; title?: string; description?: string; ctaText?: string }) {
   return (
     <section id="contato" className="relative overflow-hidden bg-[#031426] py-24 sm:py-32">
       {/* Background visual element */}
@@ -26,7 +26,7 @@ export function FinalCtaSection({ eyebrow, title, ctaText }: { eyebrow?: string;
         </h2>
         
         <p className="mx-auto mt-6 md:mt-8 max-w-2xl text-[17px] sm:text-lg leading-relaxed text-white/70 px-4">
-          Leve a Auto Perícia Gold, da Company Conferi, para sua operação e consulte antes de comprar, aceitar uma troca, avaliar ou colocar um veículo no estoque.
+          {description || "Leve a Auto Perícia Gold, da Company Conferi, para sua operação e consulte antes de comprar, aceitar uma troca, avaliar ou colocar um veículo no estoque."}
         </p>
 
         <div className="mt-8 mb-12">
