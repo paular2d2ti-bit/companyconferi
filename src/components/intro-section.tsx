@@ -91,13 +91,13 @@ export function IntroSection() {
 
             <div className="relative rounded-[32px] overflow-hidden border-[8px] border-[#F5F7F8] shadow-[0_32px_80px_-16px_rgba(0,0,0,0.1)] bg-[#031426]">
               {/* Mockup do Sistema - Interface de Consulta Veicular */}
-              <div className="aspect-[1.3/1] bg-[#031426] p-6 md:p-8 flex flex-col gap-5 relative overflow-hidden">
+              <div className="aspect-[1.3/1] bg-[#031426] p-6 md:p-8 flex flex-col gap-6 relative overflow-hidden">
                 {/* Header Mockup */}
                 <div className="flex items-center justify-between border-b border-white/5 pb-4">
                   <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#00A99D] to-[#22E38A] flex items-center justify-center font-black text-white text-[18px] shadow-lg shadow-[#00A99D]/20">G</div>
+                    <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#00A99D] to-[#22E38A] flex items-center justify-center font-black text-white text-[18px] shadow-lg shadow-[#00A99D]/20">P</div>
                     <div className="space-y-1">
-                      <div className="text-white/80 text-[12px] font-bold tracking-tight">AUTO PERÍCIA GOLD</div>
+                      <div className="text-white/80 text-[12px] font-bold tracking-tight">AUTO PERÍCIA PLUS</div>
                       <div className="flex gap-1">
                         <div className="w-2 h-2 rounded-full bg-[#00A99D]"></div>
                         <div className="w-12 h-2 bg-white/10 rounded-full"></div>
@@ -109,80 +109,70 @@ export function IntroSection() {
                   </div>
                 </div>
 
-                {/* Grid de Informações Reais */}
+                {/* Grid de Informações */}
                 <div className="grid grid-cols-2 gap-4 h-full content-start overflow-hidden pt-2">
-                  {/* Módulo Gravames */}
+                  {/* Roubo e Furto */}
                   <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-2">
-                        <History className="w-4 h-4 text-[#00A99D]" />
-                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Gravames</span>
+                        <ShieldCheck className="w-4 h-4 text-[#00A99D]" />
+                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Roubo e Furto</span>
                       </div>
                       <span className="text-[10px] font-bold text-[#00A99D] bg-[#00A99D]/10 px-2 py-0.5 rounded uppercase">OK</span>
                     </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <div className="w-16 h-1.5 bg-white/10 rounded-full"></div>
-                        <div className="w-8 h-1.5 bg-white/5 rounded-full"></div>
-                      </div>
-                      <div className="w-full h-1.5 bg-white/5 rounded-full"></div>
+                    <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
+                      <div className="w-full h-full bg-[#00A99D]/40"></div>
                     </div>
                   </div>
 
-                  {/* Módulo Leilão e Roubo */}
+                  {/* Oferta em Leilão */}
                   <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-2">
                         <Gavel className="w-4 h-4 text-amber-500" />
-                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Restrições</span>
+                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Oferta em Leilão</span>
                       </div>
-                      <span className="text-[10px] font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded uppercase">Atenção</span>
+                      <span className="text-[10px] font-bold text-amber-500 bg-amber-500/10 px-2 py-0.5 rounded uppercase">Analisado</span>
                     </div>
-                    <div className="space-y-2">
-                      <div className="flex justify-between items-center text-[10px] text-white/30">
-                        <span>Leilão / Roubo</span>
-                        <span className="text-amber-500/60">ANALISAR</span>
-                      </div>
-                      <div className="w-full h-1 bg-white/5 rounded-full"></div>
+                    <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
+                      <div className="w-1/2 h-full bg-amber-500/40"></div>
                     </div>
                   </div>
 
-                  {/* Módulo PRF / RENAINF */}
+                  {/* Comunicado de Venda */}
                   <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-2">
-                        <Scale className="w-4 h-4 text-[#00A99D]" />
-                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">PRF / RENAINF</span>
-                      </div>
-                      <span className="text-[10px] font-bold text-[#00A99D] bg-[#00A99D]/10 px-2 py-0.5 rounded uppercase">Verificado</span>
-                    </div>
-                    <div className="space-y-2">
-                      <div className="w-20 h-1.5 bg-white/10 rounded-full"></div>
-                      <div className="w-12 h-1.5 bg-white/5 rounded-full"></div>
-                    </div>
-                  </div>
-
-                  {/* Módulo Recall */}
-                  <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="flex items-center gap-2">
-                        <Info className="w-4 h-4 text-[#00A99D]" />
-                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Recall</span>
+                        <FileSearch className="w-4 h-4 text-[#00A99D]" />
+                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider">Comunicado de Venda</span>
                       </div>
                       <span className="text-[10px] font-bold text-[#00A99D] bg-[#00A99D]/10 px-2 py-0.5 rounded uppercase">OK</span>
                     </div>
-                    <div className="space-y-2">
-                      <div className="w-full h-1.5 bg-white/5 rounded-full"></div>
-                      <div className="w-16 h-1.5 bg-white/10 rounded-full"></div>
+                    <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
+                      <div className="w-full h-full bg-[#00A99D]/40"></div>
                     </div>
                   </div>
 
-                  {/* Chassi (Módulo Maior) */}
+                  {/* Sinistro / Indenização Integral */}
+                  <div className="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md relative overflow-hidden group">
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center gap-2">
+                        <AlertTriangle className="w-4 h-4 text-red-500" />
+                        <span className="text-white/60 text-[11px] font-bold uppercase tracking-wider text-red-500">Sinistro</span>
+                      </div>
+                      <span className="text-[10px] font-bold text-red-500 bg-red-500/10 px-2 py-0.5 rounded uppercase">Verificado</span>
+                    </div>
+                    <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
+                      <div className="w-full h-full bg-red-500/40"></div>
+                    </div>
+                  </div>
+
+                  {/* Dados do Veículo */}
                   <div className="col-span-2 p-5 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md">
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center gap-3">
-                        <ClipboardCheck className="w-5 h-5 text-[#00A99D]" />
-                        <span className="text-white text-[13px] font-bold uppercase tracking-widest">Chassi e Estrutura</span>
+                        <Car className="w-5 h-5 text-[#00A99D]" />
+                        <span className="text-white text-[13px] font-bold uppercase tracking-widest">Dados do Veículo</span>
                       </div>
                       <div className="flex gap-2">
                         <div className="w-2 h-2 rounded-full bg-[#00A99D] animate-pulse"></div>
@@ -191,41 +181,25 @@ export function IntroSection() {
                     </div>
                     <div className="grid grid-cols-3 gap-4">
                       <div className="space-y-2">
-                        <div className="text-[9px] text-white/30 uppercase font-bold tracking-wider">Motor</div>
+                        <div className="text-[9px] text-white/30 uppercase font-bold tracking-wider">Fabricação</div>
                         <div className="h-1 bg-[#00A99D]/40 rounded-full"></div>
                       </div>
                       <div className="space-y-2">
-                        <div className="text-[9px] text-white/30 uppercase font-bold tracking-wider">Câmbio</div>
+                        <div className="text-[9px] text-white/30 uppercase font-bold tracking-wider">Base BIN</div>
                         <div className="h-1 bg-[#00A99D]/40 rounded-full"></div>
                       </div>
                       <div className="space-y-2">
-                        <div className="text-[9px] text-white/30 uppercase font-bold tracking-wider">Vidros</div>
+                        <div className="text-[9px] text-white/30 uppercase font-bold tracking-wider">Componentes</div>
                         <div className="h-1 bg-[#00A99D]/40 rounded-full"></div>
                       </div>
                     </div>
                   </div>
                 </div>
 
-                {/* Card Flutuante de Alerta de Sinistro */}
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[240px] p-5 rounded-2xl bg-[#031426]/80 backdrop-blur-2xl border border-white/10 shadow-[0_40px_100px_rgba(0,0,0,0.5)] animate-float-slow z-20">
-                   <div className="flex items-center gap-3 mb-4">
-                     <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-red-500 to-red-700 flex items-center justify-center text-white shadow-lg shadow-red-600/20">
-                       <ShieldCheck className="w-6 h-6" />
-                     </div>
-                     <div>
-                       <div className="text-white text-[14px] font-bold">SINISTRO</div>
-                       <div className="text-red-400 text-[10px] font-bold uppercase tracking-wider">Risco Identificado</div>
-                     </div>
-                   </div>
-                   <div className="p-3 rounded-lg bg-red-500/5 border border-red-500/20 space-y-2">
-                     <div className="flex justify-between items-center">
-                       <span className="text-[10px] text-white/40">Base Nacional</span>
-                       <span className="text-[10px] font-bold text-red-500">CONSTA</span>
-                     </div>
-                     <div className="w-full h-1 bg-white/5 rounded-full overflow-hidden">
-                       <div className="w-full h-full bg-red-500/40"></div>
-                     </div>
-                   </div>
+                {/* Badge Flutuante Final */}
+                <div className="absolute bottom-6 right-6 p-3 px-6 rounded-full bg-[#00A99D] text-white text-[12px] font-black uppercase tracking-widest shadow-xl shadow-[#00A99D]/40 animate-bounce">
+                  Laudo com sua marca
+                </div>
               </div>
             </div>
           </div>
