@@ -3,9 +3,9 @@ import { ArrowRight, ShieldCheck, Calendar, Users, BarChart3, SearchCheck } from
 export function BenefitsSection() {
   const stats = [
     {
-      value: "+10 anos",
-      label: "MERCADO AUTOMOTIVO",
-      icon: Calendar
+      value: "+10M",
+      label: "CONSULTAS REALIZADAS",
+      icon: SearchCheck
     },
     {
       value: "+2,1 mil",
