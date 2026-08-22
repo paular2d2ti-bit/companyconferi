@@ -1,58 +1,30 @@
-import { ArrowRight, ShieldCheck, Star } from "lucide-react";
-import useEmblaCarousel from "embla-carousel-react";
+import { ArrowRight, ShieldCheck, FileText, Search, Layout, Headset } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 
-const testimonials = [
+const benefits = [
   {
-    content: "Relatório em PDF personalizado com o logo e as cores da sua empresa.",
-    store: "LAUDO COM SUA MARCA",
-    location: "Sua Identidade",
-    rating: 5,
+    icon: FileText,
+    title: "LAUDO COM SUA MARCA",
+    description: "Relatório em PDF personalizado com o logo e as cores da sua empresa.",
   },
   {
-    content: "Informações veiculares que complementam a análise realizada pela sua equipe.",
-    store: "DADOS ALÉM DO VISUAL",
-    location: "Dados Profissionais",
-    rating: 5,
+    icon: Search,
+    title: "DADOS ALÉM DO VISUAL",
+    description: "Informações veiculares que complementam a análise realizada pela sua equipe.",
   },
   {
-    content: "Acesse a Auto Perícia Plus online e tenha as informações organizadas para sua operação.",
-    store: "PLATAFORMA WEB",
-    location: "Acesso Rápido",
-    rating: 5,
+    icon: Layout,
+    title: "PLATAFORMA WEB",
+    description: "Acesse a Auto Perícia Plus online e tenha as informações organizadas para sua operação.",
   },
   {
-    content: "Conte com suporte dedicado para apoiar sua empresa no uso da solução.",
-    store: "SUPORTE TÉCNICO",
-    location: "Atendimento",
-    rating: 5,
+    icon: Headset,
+    title: "SUPORTE TÉCNICO",
+    description: "Conte com suporte dedicado para apoiar sua empresa no uso da solução.",
   },
 ];
 
 export function HowItWorksSection() {
-  const [emblaRef, emblaApi] = useEmblaCarousel({
-    align: "start",
-    loop: true,
-    slidesToScroll: 1,
-    breakpoints: {
-      "(min-width: 1024px)": { slidesToScroll: 1 },
-    },
-  });
-
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const onSelect = useCallback(() => {
-    if (!emblaApi) return;
-    setSelectedIndex(emblaApi.selectedScrollSnap());
-  }, [emblaApi]);
-
-  useEffect(() => {
-    if (!emblaApi) return;
-    onSelect();
-    emblaApi.on("select", onSelect);
-    emblaApi.on("reInit", onSelect);
-  }, [emblaApi, onSelect]);
-
   return (
     <section id="como-funciona" className="relative w-full overflow-hidden bg-[#F2EDE4] py-24 sm:py-32">
       {/* Elementos gráficos de fundo sutis */}
@@ -74,48 +46,24 @@ export function HowItWorksSection() {
         </div>
 
         <div className="max-w-7xl mx-auto mb-16">
-          <div className="overflow-hidden" ref={emblaRef}>
-            <div className="flex">
-              {testimonials.map((item, index) => (
-                <div 
-                  key={index} 
-                  className="flex-[0_0_100%] min-w-0 px-4 md:flex-[0_0_50%] lg:flex-[0_0_33.333%]"
-                >
-                  <div className="h-full bg-white/40 backdrop-blur-sm border border-[#031426]/5 rounded-3xl p-8 flex flex-col transition-all hover:bg-white/60 hover:shadow-xl hover:shadow-[#031426]/5">
-                    <div className="flex gap-1 mb-6">
-                      {[...Array(5)].map((_, i) => (
-                        <Star key={i} className="h-4 w-4 fill-[#FFB800] text-[#FFB800]" />
-                      ))}
-                    </div>
-                    
-                    <p className="text-[#031426] text-lg leading-[1.6] mb-8 flex-grow">
-                      {item.content}
-                    </p>
-                    
-                    <div className="mt-auto pt-6 border-t border-[#031426]/5">
-                      <div className="font-bold text-[#031426] text-lg mb-1">
-                        {item.store}
-                      </div>
-                      <div className="text-slate-500 text-xs tracking-wide uppercase">
-                        Empresa de Vistoria • {item.location}
-                      </div>
-                    </div>
-                  </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {benefits.map((item, index) => (
+              <div 
+                key={index} 
+                className="group h-full bg-white/40 backdrop-blur-sm border border-[#031426]/5 rounded-3xl p-8 flex flex-col transition-all hover:bg-white/60 hover:shadow-xl hover:shadow-[#031426]/5"
+              >
+                <div className="mb-6 p-3 rounded-2xl bg-[#031426]/5 w-fit group-hover:bg-teal/10 transition-colors">
+                  <item.icon className="h-6 w-6 text-teal" />
                 </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="flex justify-center gap-2 mt-10">
-            {testimonials.map((_, index) => (
-              <button
-                key={index}
-                className={`h-1.5 rounded-full transition-all duration-300 ${
-                  selectedIndex === index ? "w-8 bg-[#031426]" : "w-2 bg-[#031426]/20"
-                }`}
-                onClick={() => emblaApi?.scrollTo(index)}
-                aria-label={`Ir para depoimento ${index + 1}`}
-              />
+                
+                <h3 className="font-bold text-[#031426] text-xl mb-3 tracking-tight">
+                  {item.title}
+                </h3>
+                
+                <p className="text-[#031426]/70 text-base leading-[1.6]">
+                  {item.description}
+                </p>
+              </div>
             ))}
           </div>
         </div>
