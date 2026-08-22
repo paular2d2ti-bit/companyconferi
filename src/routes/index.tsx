@@ -48,6 +48,7 @@ function Index() {
         <FinalCtaSection 
           eyebrow="PRONTO PARA ENTREGAR MAIS EM CADA VISTORIA?"
           title="LEVE MAIS INFORMAÇÃO E PROFISSIONALISMO PARA CADA LAUDO."
+          description="Com a Auto Perícia Plus, sua empresa complementa a vistoria com dados veiculares e entrega ao cliente um relatório profissional personalizado com a sua marca."
           ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
         />
       </main>
