@@ -45,7 +45,10 @@ function Index() {
         <IntroSection />
         <BenefitsSection />
         <HowItWorksSection />
-        <FinalCtaSection />
+        <FinalCtaSection 
+49:           eyebrow="PRONTO PARA ENTREGAR MAIS EM CADA VISTORIA?"
+50:           ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
+51:         />
       </main>
       <Footer />
     </div>
