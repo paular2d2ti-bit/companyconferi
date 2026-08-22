@@ -47,6 +47,7 @@ function Index() {
         <HowItWorksSection />
         <FinalCtaSection 
           eyebrow="PRONTO PARA ENTREGAR MAIS EM CADA VISTORIA?"
+          title="LEVE MAIS INFORMAÇÃO E PROFISSIONALISMO PARA CADA LAUDO."
           ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
         />
       </main>
