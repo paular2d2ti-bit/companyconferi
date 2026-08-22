@@ -97,7 +97,7 @@ export function HowItWorksSection() {
                         {item.store}
                       </div>
                       <div className="text-slate-500 text-xs tracking-wide uppercase">
-                        Loja de veículos • {item.location}
+                        Empresa de Vistoria • {item.location}
                       </div>
                     </div>
                   </div>
