@@ -49,6 +49,7 @@ function Index() {
           eyebrow="PRONTO PARA ENTREGAR MAIS EM CADA VISTORIA?"
           title="LEVE MAIS INFORMAÇÃO E PROFISSIONALISMO PARA CADA LAUDO."
           description="Com a Auto Perícia Plus, sua empresa complementa a vistoria com dados veiculares e entrega ao cliente um relatório profissional personalizado com a sua marca."
+          badgeText="Mais informação. Mais valor na entrega. Sua marca em cada laudo."
           ctaText="QUERO CONHECER A AUTO PERÍCIA PLUS"
         />
       </main>
