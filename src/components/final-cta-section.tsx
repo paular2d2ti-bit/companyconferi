@@ -1,6 +1,6 @@
 import { ShieldCheck } from "lucide-react";
 
-export function FinalCtaSection({ ctaText }: { ctaText?: string }) {
+export function FinalCtaSection({ eyebrow, ctaText }: { eyebrow?: string; ctaText?: string }) {
   return (
     <section id="contato" className="relative overflow-hidden bg-[#031426] py-24 sm:py-32">
       {/* Background visual element */}
@@ -17,7 +17,7 @@ export function FinalCtaSection({ ctaText }: { ctaText?: string }) {
         <div className="mb-8 flex justify-center">
           <div className="flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-4 py-1.5 text-[10px] font-bold tracking-widest text-[#22E38A] uppercase sm:text-xs">
             <ShieldCheck size={14} />
-            PRONTO PARA LEVAR ISSO PARA SUA LOJA?
+            {eyebrow || "PRONTO PARA LEVAR ISSO PARA SUA LOJA?"}
           </div>
         </div>
 
