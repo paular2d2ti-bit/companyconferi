@@ -1,6 +1,6 @@
 import { ShieldCheck } from "lucide-react";
 
-export function FinalCtaSection({ eyebrow, title, description, ctaText }: { eyebrow?: string; title?: string; description?: string; ctaText?: string }) {
+export function FinalCtaSection({ eyebrow, title, description, badgeText, ctaText }: { eyebrow?: string; title?: string; description?: string; badgeText?: string; ctaText?: string }) {
   return (
     <section id="contato" className="relative overflow-hidden bg-[#031426] py-24 sm:py-32">
       {/* Background visual element */}
@@ -31,7 +31,7 @@ export function FinalCtaSection({ eyebrow, title, description, ctaText }: { eyeb
 
         <div className="mt-8 mb-12">
           <span className="inline-block rounded-lg bg-[#FFB800]/10 px-4 py-2 text-sm font-semibold text-[#FFB800]">
-            Menos risco na entrada. Mais segurança para fechar negócio.
+            {badgeText || "Menos risco na entrada. Mais segurança para fechar negócio."}
           </span>
         </div>
         
